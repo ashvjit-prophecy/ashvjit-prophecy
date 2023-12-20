@@ -1,0 +1,1 @@
+{"initCode":"# Comments for the sake of them","code":"def power(x: int, y: int, z: int):\n    return pow(x,y,z)"}

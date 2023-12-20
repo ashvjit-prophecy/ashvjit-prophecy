@@ -1,0 +1,78 @@
+{
+  "metainfo" : {
+    "type" : "MWAA",
+    "fabricId" : "17",
+    "jobId" : "jobs/DependentJob",
+    "name" : "DependentJob",
+    "dagName" : "ashk3s_ashvjit_DependentProject_DependentJob",
+    "schedule" : "None",
+    "enabled" : false,
+    "alerting" : {
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "ignore_first_depends_on_past" : true,
+      "do_xcom_push" : true
+    },
+    "availableFabrics" : [ {
+      "id" : "17",
+      "name" : "mwaa"
+    } ],
+    "catchup" : true,
+    "scheduleTimeZone" : "UTC",
+    "dagParams" : {
+      "instances" : {
+        "default" : { }
+      },
+      "params" : { },
+      "selected" : "default"
+    },
+    "airflowFunctions" : [ {
+      "name" : "empower_me",
+      "code" : "def power(a: float, x: int):\n    return pow(a, x)"
+    }, {
+      "name" : "empower_me_more",
+      "code" : "def power(x: int, y: int, z: int):\n    return pow(x,y,z)",
+      "initCode" : "# Comments for the sake of them"
+    } ]
+  },
+  "processes" : {
+    "XL3El9-cblGTXxnDWPDqW$$GFGlY-Gp339YVSqte3D8s" : {
+      "id" : "XL3El9-cblGTXxnDWPDqW$$GFGlY-Gp339YVSqte3D8s",
+      "component" : "Python",
+      "metadata" : {
+        "label" : "Python_0",
+        "slug" : "Python_0",
+        "x" : -380,
+        "y" : -120
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "GEsFb4-THTtu254y0bS7V$$DhUILJCD4Z42cKA85ck0X",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "EslejstzPBbIDBcwf8We6$$h3ydcrWOJezC5TGINJNIf",
+          "slug" : ""
+        } ]
+      },
+      "settings" : { },
+      "properties" : {
+        "templatesExts" : null,
+        "code" : "print(\"Bass itna hi tha\")",
+        "valueInLogs" : true,
+        "opArgs" : null,
+        "templatesDict" : null,
+        "taskId" : null,
+        "opKwargs" : null
+      },
+      "connections" : [ ],
+      "processes" : { }
+    }
+  },
+  "connections" : [ ]
+}

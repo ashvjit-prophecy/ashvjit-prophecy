@@ -1,0 +1,1 @@
+{"initCode":"","code":"def power(a: float, x: int):\n    return pow(a, x)"}
