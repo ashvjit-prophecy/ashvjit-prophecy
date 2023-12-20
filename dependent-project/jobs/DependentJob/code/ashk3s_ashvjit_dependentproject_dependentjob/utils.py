@@ -1,3 +1,5 @@
+
+
 def power(a: float, x: int):
     return pow(a, x)
 
