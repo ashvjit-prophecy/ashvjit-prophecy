@@ -6,7 +6,7 @@
     "name" : "DependentJob",
     "dagName" : "ashk3s_ashvjit_DependentProject_DependentJob",
     "schedule" : "None",
-    "enabled" : false,
+    "enabled" : true,
     "alerting" : {
       "emails" : "",
       "onStart" : false,
@@ -38,7 +38,7 @@
       "initCode" : "",
       "projectId" : "26",
       "projectName" : "DependentProject",
-      "version" : "0.0.1"
+      "version" : "1.0.1"
     }, {
       "id" : "26/functions/airflowFunctions/empower_me_more",
       "name" : "empower_me_more",
@@ -46,7 +46,7 @@
       "initCode" : "# Comments for the sake of them",
       "projectId" : "26",
       "projectName" : "DependentProject",
-      "version" : "0.0.1"
+      "version" : "1.0.1"
     } ]
   },
   "processes" : {
