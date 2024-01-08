@@ -37,16 +37,14 @@
       "code" : "def power(a: float, x: int):\n    return pow(a, x)",
       "initCode" : "",
       "projectId" : "26",
-      "projectName" : "DependentProject",
-      "version" : "1.0.1"
+      "projectName" : "DependentProject"
     }, {
       "id" : "26/functions/airflowFunctions/empower_me_more",
       "name" : "empower_me_more",
       "code" : "def power(x: int, y: int, z: int):\n    return pow(x,y,z)",
       "initCode" : "# Comments for the sake of them",
       "projectId" : "26",
-      "projectName" : "DependentProject",
-      "version" : "1.0.1"
+      "projectName" : "DependentProject"
     } ]
   },
   "processes" : {
