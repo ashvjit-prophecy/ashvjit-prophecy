@@ -266,8 +266,8 @@
       "metadata" : {
         "label" : "Reformat_2_1",
         "slug" : "Reformat_2_1",
-        "x" : -815.2,
-        "y" : -261.58570895724847,
+        "x" : -820,
+        "y" : -260,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -287,7 +287,7 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
-        "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##year", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##variable", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##value", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##unit" ],
+        "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##year", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##variable", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##value", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##unit" ],
         "expressions" : [ {
           "_row_id" : "1239632698",
           "target" : "year",
@@ -361,8 +361,8 @@
       "metadata" : {
         "label" : "Filter_2",
         "slug" : "Filter_2",
-        "x" : -615.2,
-        "y" : -241.58570895724847,
+        "x" : -620,
+        "y" : -240,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -395,8 +395,8 @@
       "metadata" : {
         "label" : "OrderBy_2",
         "slug" : "OrderBy_2",
-        "x" : -455.20000000000005,
-        "y" : -241.58570895724847,
+        "x" : -460,
+        "y" : -240,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -416,7 +416,7 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
-        "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$g7KuN_kx0nK4z8O4xCu_S##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$g7KuN_kx0nK4z8O4xCu_S##variable" ],
+        "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##variable" ],
         "orders" : [ {
           "expression" : {
             "format" : "sql",
@@ -438,8 +438,8 @@
       "metadata" : {
         "label" : "Limit_2",
         "slug" : "Limit_2",
-        "x" : -295.20000000000005,
-        "y" : -241.58570895724847,
+        "x" : -300,
+        "y" : -240,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,

@@ -64,4 +64,10 @@ object UDFs extends Serializable {
 
 }
 
-object PipelineInitCode extends Serializable
+object PipelineInitCode extends Serializable {
+  var test_init_int1 = 10
+
+  def suma(a: Integer, b: Integer): Integer =
+    a + b + test_init_int1
+
+}
