@@ -11,9 +11,10 @@ import org.apache.spark.sql.types._
 import org.apache.spark.sql.expressions._
 import java.time._
 
-object Reformat_1_1_8 {
+object ConfigUdfLookup {
 
-  def apply(context: Context, in: DataFrame): DataFrame =
+  def apply(context: Context, in: DataFrame): DataFrame = {
+    val Config = context.config
     in.select(
       col("year"),
       col("industry_code_ANZSIC"),
@@ -29,7 +30,16 @@ object Reformat_1_1_8 {
         .as("c_udf_call"),
       (udf_multiply(lit(2)) * udf_string_length(
         col("rme_size_grp")
-      ) * udf_divide_total(lit(2))).as("c_udf_call1")
+      ) * udf_divide_total(lit(2))).as("c_udf_call1"),
+      concat(
+        lit(Config.c_string),
+        lit(Config.c_int),
+        lit(Config.c_long),
+        lit(Config.c_array(0).car_string),
+        lit(Config.c_record.cr_array_string(0)),
+        lit(Config.c_record.cr_boolean)
+      ).as("c_configs")
     )
+  }
 
 }

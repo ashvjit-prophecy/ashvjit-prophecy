@@ -626,6 +626,12 @@
     "sourcePort" : "bAmqFigRxtdAaKXrlApQL$$Nj6CMERRAMM3zMlJuQGau",
     "target" : "5jG77N8ph-jDxcCqLj9vQ$$OalcXQxgKXbiYljLauhm3",
     "targetPort" : "1boj-CW01nzzfLR4TOKib$$lp-r_rTiKSod8XKeiOMG8"
+  }, {
+    "id" : "kNkRvxQueG3l8H3HVdvi4",
+    "source" : "QqCKr1CaLemK7o0rGIQUz$$4tWReUHPfle-gPtEmk8V-",
+    "sourcePort" : "Ak2a-AmQBIvLsA1hJHbun$$PX-0EHtIMqkaJ1EbK6PbL",
+    "target" : "oAKK0fMy07YcSeBWBc0iM$$WyuDNCSdGVbqYkGQzu9jw",
+    "targetPort" : "GtjeHC3BaJTTgQGzyMLHJ$$QNrDwyHkYzOgAFr5Is6Ow"
   } ],
   "processes" : {
     "ILLMcDXuyq1DmoIZxqrxx$$ex8Qr_7TyFyiB8TD5iony" : {
@@ -1551,8 +1557,8 @@
       "id" : "Bo5QTazAr3o7oFWao6Iqa$$zSBvDMP0yBpIPEuHN_uGq",
       "component" : "Reformat",
       "metadata" : {
-        "label" : "Reformat_1_1_8",
-        "slug" : "Reformat_1_1_8",
+        "label" : "ConfigUdfLookup",
+        "slug" : "ConfigUdfLookup",
         "x" : -640,
         "y" : -600,
         "phase" : 0,
@@ -1711,6 +1717,13 @@
           "expression" : {
             "format" : "sql",
             "expression" : "udf_multiply(2)*udf_string_length(rme_size_grp)*udf_divide_total(2)"
+          },
+          "description" : ""
+        }, {
+          "target" : "c_configs",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "concat('$c_string', '$c_int', '$c_long', '$c_array[0].car_string', '$c_record.cr_array_string[0]', '$c_record.cr_boolean')"
           },
           "description" : ""
         } ]
@@ -4254,6 +4267,101 @@
         "inputPortNames" : [ "in0", "in1" ]
       }
     },
+    "oAKK0fMy07YcSeBWBc0iM$$WyuDNCSdGVbqYkGQzu9jw" : {
+      "id" : "oAKK0fMy07YcSeBWBc0iM$$WyuDNCSdGVbqYkGQzu9jw",
+      "component" : "Target",
+      "metadata" : {
+        "label" : "dest_livytest",
+        "slug" : "dest_livytest",
+        "x" : 840,
+        "y" : -180,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "GtjeHC3BaJTTgQGzyMLHJ$$QNrDwyHkYzOgAFr5Is6Ow",
+          "slug" : "in",
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ {
+              "name" : "year",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "industry_code_ANZSIC",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "industry_name_ANZSIC",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "rme_size_grp",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "variable",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "value",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "unit",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            } ]
+          },
+          "isStreaming" : false
+        } ],
+        "outputs" : [ ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "datasetId" : "datasets/dest_livytest"
+      }
+    },
     "r33mFa_y1FkLdUBbGkuba$$tBu6OCqQpkicc9Cn0YAQx" : {
       "id" : "r33mFa_y1FkLdUBbGkuba$$tBu6OCqQpkicc9Cn0YAQx",
       "component" : "Reformat",
@@ -4970,6 +5078,15 @@
             }, {
               "name" : "c_udf_call1",
               "type" : "double",
+              "nullable" : false,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "c_configs",
+              "type" : "string",
               "nullable" : false,
               "metadata" : {
                 "description" : "",
