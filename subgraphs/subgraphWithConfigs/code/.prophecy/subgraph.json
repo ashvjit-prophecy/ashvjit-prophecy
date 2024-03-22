@@ -1,0 +1,466 @@
+{
+  "id" : "5jG77N8ph-jDxcCqLj9vQ",
+  "component" : "Subgraph",
+  "metadata" : {
+    "label" : "",
+    "slug" : "",
+    "x" : 0,
+    "y" : 0,
+    "phase" : 0,
+    "cache" : false,
+    "detailedStats" : false,
+    "isImported" : false,
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ {
+          "name" : "c_sg_string",
+          "kind" : {
+            "type" : "string",
+            "value" : "sdasdasdsad"
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : false
+        }, {
+          "name" : "c_sg_array",
+          "kind" : {
+            "type" : "array",
+            "elementType" : {
+              "type" : "string",
+              "value" : null
+            },
+            "value" : [ "22", "323", "0", "-2123" ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : false
+        }, {
+          "name" : "c_sg_record",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "csgr_boolean",
+              "kind" : {
+                "type" : "boolean",
+                "value" : true
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : false,
+              "isReferenced" : false
+            }, {
+              "name" : "csgr_int",
+              "kind" : {
+                "type" : "int",
+                "value" : 2312
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : false,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : false
+        }, {
+          "name" : "c_string",
+          "kind" : {
+            "type" : "string",
+            "value" : "test"
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_int",
+          "kind" : {
+            "type" : "int",
+            "value" : 22
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_long",
+          "kind" : {
+            "type" : "long",
+            "value" : 222
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_boolean",
+          "kind" : {
+            "type" : "boolean",
+            "value" : true
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_double",
+          "kind" : {
+            "type" : "double",
+            "value" : 423423
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_float",
+          "kind" : {
+            "type" : "float",
+            "value" : 1021321.123
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_short",
+          "kind" : {
+            "type" : "short",
+            "value" : 22
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_array",
+          "kind" : {
+            "type" : "array",
+            "elementType" : {
+              "type" : "record",
+              "fields" : [ {
+                "name" : "car_string",
+                "kind" : {
+                  "type" : "string",
+                  "value" : null
+                },
+                "optional" : false,
+                "isWorkflowNodeConfiguration" : false,
+                "isReferenced" : false
+              }, {
+                "name" : "car_int",
+                "kind" : {
+                  "type" : "int",
+                  "value" : null
+                },
+                "optional" : false,
+                "isWorkflowNodeConfiguration" : false,
+                "isReferenced" : false
+              } ]
+            },
+            "value" : [ {
+              "car_string" : "asdasd",
+              "car_int" : 44
+            }, {
+              "car_string" : "2312sdfsdfsdf$$^&*()",
+              "car_int" : 55
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        }, {
+          "name" : "c_record",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "cr_boolean",
+              "kind" : {
+                "type" : "boolean",
+                "value" : true
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : false,
+              "isReferenced" : false
+            }, {
+              "name" : "cr_array_string",
+              "kind" : {
+                "type" : "array",
+                "elementType" : {
+                  "type" : "string",
+                  "value" : null
+                },
+                "value" : [ "asdasd", "sdasdasdasd" ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : false,
+              "isReferenced" : false
+            }, {
+              "name" : "cr_array_double",
+              "kind" : {
+                "type" : "array",
+                "elementType" : {
+                  "type" : "double",
+                  "value" : null
+                },
+                "value" : [ 34534, -24, 0 ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : false,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : false,
+          "isReferenced" : true
+        } ]
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ {
+      "id" : "1boj-CW01nzzfLR4TOKib",
+      "slug" : "in0",
+      "isStreaming" : false
+    } ],
+    "outputs" : [ {
+      "id" : "PXFCK_rSSju5LEljn-w7o",
+      "slug" : "out0",
+      "isStreaming" : false
+    } ],
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false,
+    "autoUpdateOnRun" : false
+  },
+  "properties" : {
+    "packageName" : "orgtest.subgraphWithConfigs"
+  },
+  "connections" : [ {
+    "id" : "ZznmT-m3Sn6EnjckNuJC7",
+    "source" : "5jG77N8ph-jDxcCqLj9vQ",
+    "sourcePort" : "1boj-CW01nzzfLR4TOKib",
+    "target" : "jVf0CAOWNWJz7d3xnDgog",
+    "targetPort" : "3sZnoMeN60m2Wvkgq5iqr"
+  }, {
+    "id" : "cn3nn9KhmAEN-vMqzx4j5$$Vfc1s7KNURaDFfjOhQ1hc",
+    "source" : "jVf0CAOWNWJz7d3xnDgog",
+    "sourcePort" : "jJ3QnFONzlg5lxXN_rF72",
+    "target" : "6M9bCOCrVPCiorMgz5DNo",
+    "targetPort" : "xogs0F8LL3xMv1lKt-81b"
+  }, {
+    "id" : "ONJA9Le5_9eB4R0kwyoro$$TMY1U8AcRbK7llRz_wwzy",
+    "source" : "6M9bCOCrVPCiorMgz5DNo",
+    "sourcePort" : "puF3xFTl-C6xx6AAHA9hj",
+    "target" : "MXI5arNjdwDUFhvZzNyTa",
+    "targetPort" : "V9l7b8DoTD3cRddMAG1ul"
+  }, {
+    "id" : "WxJlY9Z9ed5NVFohfKMI3$$05kAH3w6Gt4EiX3PFV4qA",
+    "source" : "MXI5arNjdwDUFhvZzNyTa",
+    "sourcePort" : "TPS-AG50etPIMCvN_mUDm",
+    "target" : "EJUp8Rrw3BcntngQvEI0E",
+    "targetPort" : "hDA9juxfG69jjtb1NvTGX"
+  }, {
+    "id" : "EF6741vB6NstGYgh9KU6x",
+    "source" : "EJUp8Rrw3BcntngQvEI0E",
+    "sourcePort" : "h2OIK5fufmjG1G46JF-2v",
+    "target" : "5jG77N8ph-jDxcCqLj9vQ",
+    "targetPort" : "PXFCK_rSSju5LEljn-w7o"
+  } ],
+  "processes" : {
+    "jVf0CAOWNWJz7d3xnDgog" : {
+      "id" : "jVf0CAOWNWJz7d3xnDgog",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_2",
+        "slug" : "Reformat_2",
+        "x" : -820,
+        "y" : -40,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "3sZnoMeN60m2Wvkgq5iqr",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "jJ3QnFONzlg5lxXN_rF72",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##year", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##variable", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##value", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##unit" ],
+        "expressions" : [ {
+          "_row_id" : "1239632698",
+          "target" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2016137708",
+          "target" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "432454046",
+          "target" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "890418858",
+          "target" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1050398739",
+          "target" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "973847111",
+          "target" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1284920282",
+          "target" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "c_323",
+          "target" : "c_configs",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "concat('$c_int','$c_string','$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "6M9bCOCrVPCiorMgz5DNo" : {
+      "id" : "6M9bCOCrVPCiorMgz5DNo",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Filter_2",
+        "slug" : "Filter_2",
+        "x" : -620,
+        "y" : -20,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "xogs0F8LL3xMv1lKt-81b",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "puF3xFTl-C6xx6AAHA9hj",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "condition" : {
+          "format" : "sql",
+          "expression" : "true"
+        }
+      }
+    },
+    "MXI5arNjdwDUFhvZzNyTa" : {
+      "id" : "MXI5arNjdwDUFhvZzNyTa",
+      "component" : "OrderBy",
+      "metadata" : {
+        "label" : "OrderBy_2",
+        "slug" : "OrderBy_2",
+        "x" : -460,
+        "y" : -20,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "V9l7b8DoTD3cRddMAG1ul",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "TPS-AG50etPIMCvN_mUDm",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##variable" ],
+        "orders" : [ {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "sortType" : "desc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "sortType" : "asc"
+        } ]
+      }
+    },
+    "EJUp8Rrw3BcntngQvEI0E" : {
+      "id" : "EJUp8Rrw3BcntngQvEI0E",
+      "component" : "Limit",
+      "metadata" : {
+        "label" : "Limit_2",
+        "slug" : "Limit_2",
+        "x" : -300,
+        "y" : -20,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "hDA9juxfG69jjtb1NvTGX",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "h2OIK5fufmjG1G46JF-2v",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "limit" : "10"
+      }
+    }
+  }
+}

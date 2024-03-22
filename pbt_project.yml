@@ -52,7 +52,7 @@ pipelines:
       - datasets/livy-annual-enterprise
       outputs: []
     subgraphs:
-    - subgraphs/largeSubgraph1
+    - subgraphs/subgraphWithConfigs
     dependencies: {}
   pipelines/Livy-Benchmark-Pipeline:
     name: Livy-Benchmark-Pipeline
@@ -189,6 +189,14 @@ subgraphs:
     artefactID: ''
     mode: batch
     createdAt: '2024-03-22 12:14:08'
+  subgraphs/subgraphWithConfigs:
+    name: subgraphWithConfigs
+    description: orgtest.subgraphWithConfigs
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-22 12:27:37'
 sqlModels: {}
 sqlMacros: {}
 sqlSeeds: {}
