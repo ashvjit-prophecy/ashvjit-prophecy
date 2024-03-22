@@ -1,0 +1,202 @@
+name: HelloWorld_Scala
+description: ''
+version: 0.0.1
+author: ashvjit@prophecy.io
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: helloworldscala
+  parentArtefactID: ashvjitprophecyioteam
+  buildSystem: maven
+  author: null
+  createdAt: '2023-12-26 14:05:05'
+pipelines:
+  pipelines/no-use-pipeline:
+    name: no-use-pipeline
+    description: ''
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2023-12-26 14:05:05'
+    datasets:
+      inputs:
+      - datasets/scala-customers
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/Livy-Scala-Pipeline-For-Airflow:
+    name: Livy-Scala-Pipeline-For-Airflow
+    description: ''
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-19 15:52:51'
+    datasets:
+      inputs:
+      - datasets/scala-livy-oss-index
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/Livy-Scala-Pipeline:
+    name: Livy-Scala-Pipeline
+    description: ''
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-19 19:40:30'
+    datasets:
+      inputs:
+      - datasets/livy-annual-enterprise
+      outputs: []
+    subgraphs:
+    - subgraphs/largeSubgraph1
+    dependencies: {}
+  pipelines/Livy-Benchmark-Pipeline:
+    name: Livy-Benchmark-Pipeline
+    description: ''
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-20 15:28:19'
+    datasets:
+      inputs:
+      - datasets/livy-annual-enterprise
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/scala-customers:
+    name: scala-customers
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2023-12-26 14:06:58'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 1
+        datasetType: File
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2023-12-26 14:06:58'
+  datasets/scala-livy-customers:
+    name: scala-livy-customers
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2024-01-09 08:00:42'
+    mode: batch
+    physicalDatasets:
+      livy:
+        fabricId: 19
+        datasetType: File
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2024-01-09 08:00:42'
+  datasets/scala-sales:
+    name: scala-sales
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2024-01-12 03:48:35'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 1
+        datasetType: File
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2024-01-12 03:48:35'
+  datasets/scala-livy-oss-index:
+    name: scala-livy-oss-index
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2024-03-19 15:53:42'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 1
+        datasetType: File
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2024-03-19 15:53:42'
+  datasets/livy-annual-enterprise:
+    name: livy-annual-enterprise
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2024-03-19 19:45:10'
+    mode: batch
+    physicalDatasets:
+      livy:
+        fabricId: 19
+        datasetType: File
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2024-03-19 19:45:10'
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.0.4
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2023-12-26 14:05:05'
+  udfs:
+    udfs/udf_string_null_safe:
+      name: udf_string_null_safe
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: ashvjit@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+    udfs/udf_multiply:
+      name: udf_multiply
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: ashvjit@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+    udfs/udf_string_length:
+      name: udf_string_length
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: ashvjit@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+    udfs/udf_divide_total:
+      name: udf_divide_total
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: ashvjit@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+subgraphs:
+  subgraphs/largeSubgraph1:
+    name: largeSubgraph1
+    description: orgtest.largeSubgraph1
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-22 12:14:08'
+sqlModels: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}

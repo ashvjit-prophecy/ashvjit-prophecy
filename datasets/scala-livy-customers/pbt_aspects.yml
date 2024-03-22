@@ -1,0 +1,25 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: fabric_uid
+    type: integer
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: pipeline_uri
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: created_by
+    type: integer
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
