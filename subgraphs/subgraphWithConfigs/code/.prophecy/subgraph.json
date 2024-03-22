@@ -66,7 +66,7 @@
           "name" : "c_string",
           "kind" : {
             "type" : "string",
-            "value" : "test"
+            "value" : "old_value_string_to_check"
           },
           "optional" : false,
           "isWorkflowNodeConfiguration" : false,
@@ -229,31 +229,31 @@
     "packageName" : "orgtest.subgraphWithConfigs"
   },
   "connections" : [ {
-    "id" : "ZznmT-m3Sn6EnjckNuJC7",
+    "id" : "alJwLyDXb2CCkIv0migef",
     "source" : "5jG77N8ph-jDxcCqLj9vQ",
     "sourcePort" : "1boj-CW01nzzfLR4TOKib",
     "target" : "jVf0CAOWNWJz7d3xnDgog",
     "targetPort" : "3sZnoMeN60m2Wvkgq5iqr"
   }, {
-    "id" : "cn3nn9KhmAEN-vMqzx4j5$$Vfc1s7KNURaDFfjOhQ1hc",
+    "id" : "9nT8pdzGuoF5JOEETvwIK",
     "source" : "jVf0CAOWNWJz7d3xnDgog",
     "sourcePort" : "jJ3QnFONzlg5lxXN_rF72",
     "target" : "6M9bCOCrVPCiorMgz5DNo",
     "targetPort" : "xogs0F8LL3xMv1lKt-81b"
   }, {
-    "id" : "ONJA9Le5_9eB4R0kwyoro$$TMY1U8AcRbK7llRz_wwzy",
+    "id" : "54IKtJIn5A46kXCfnghtm",
     "source" : "6M9bCOCrVPCiorMgz5DNo",
     "sourcePort" : "puF3xFTl-C6xx6AAHA9hj",
     "target" : "MXI5arNjdwDUFhvZzNyTa",
     "targetPort" : "V9l7b8DoTD3cRddMAG1ul"
   }, {
-    "id" : "WxJlY9Z9ed5NVFohfKMI3$$05kAH3w6Gt4EiX3PFV4qA",
+    "id" : "h7FXWmvWHVt8jHtvKePE2",
     "source" : "MXI5arNjdwDUFhvZzNyTa",
     "sourcePort" : "TPS-AG50etPIMCvN_mUDm",
     "target" : "EJUp8Rrw3BcntngQvEI0E",
     "targetPort" : "hDA9juxfG69jjtb1NvTGX"
   }, {
-    "id" : "EF6741vB6NstGYgh9KU6x",
+    "id" : "kYGMGAzyNceU9s9HwzIF5",
     "source" : "EJUp8Rrw3BcntngQvEI0E",
     "sourcePort" : "h2OIK5fufmjG1G46JF-2v",
     "target" : "5jG77N8ph-jDxcCqLj9vQ",
@@ -264,10 +264,10 @@
       "id" : "jVf0CAOWNWJz7d3xnDgog",
       "component" : "Reformat",
       "metadata" : {
-        "label" : "Reformat_2",
-        "slug" : "Reformat_2",
-        "x" : -820,
-        "y" : -40,
+        "label" : "Reformat_2_1",
+        "slug" : "Reformat_2_1",
+        "x" : -815.2,
+        "y" : -261.58570895724847,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -287,7 +287,7 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
-        "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##year", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##variable", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##value", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##unit" ],
+        "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##year", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##variable", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##value", "3sZnoMeN60m2Wvkgq5iqr$$epkbbntFraeb2SkUVcTF_##unit" ],
         "expressions" : [ {
           "_row_id" : "1239632698",
           "target" : "year",
@@ -361,8 +361,8 @@
       "metadata" : {
         "label" : "Filter_2",
         "slug" : "Filter_2",
-        "x" : -620,
-        "y" : -20,
+        "x" : -615.2,
+        "y" : -241.58570895724847,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -395,8 +395,8 @@
       "metadata" : {
         "label" : "OrderBy_2",
         "slug" : "OrderBy_2",
-        "x" : -460,
-        "y" : -20,
+        "x" : -455.20000000000005,
+        "y" : -241.58570895724847,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -416,7 +416,7 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
-        "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##variable" ],
+        "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$g7KuN_kx0nK4z8O4xCu_S##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$g7KuN_kx0nK4z8O4xCu_S##variable" ],
         "orders" : [ {
           "expression" : {
             "format" : "sql",
@@ -438,8 +438,8 @@
       "metadata" : {
         "label" : "Limit_2",
         "slug" : "Limit_2",
-        "x" : -300,
-        "y" : -20,
+        "x" : -295.20000000000005,
+        "y" : -241.58570895724847,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,

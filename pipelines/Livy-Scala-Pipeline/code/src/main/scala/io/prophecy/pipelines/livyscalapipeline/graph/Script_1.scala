@@ -16,6 +16,9 @@ object Script_1 {
     val spark = context.spark
     val Config = context.config
     print("hello")
+    assert(Config.c_string=="test_instance_1")
+    assert(Config.c_string_default_value_dont_change=="default_value")
+    Config.c_string="new_updated_string_value"
     val out0=in0
     out0
   }

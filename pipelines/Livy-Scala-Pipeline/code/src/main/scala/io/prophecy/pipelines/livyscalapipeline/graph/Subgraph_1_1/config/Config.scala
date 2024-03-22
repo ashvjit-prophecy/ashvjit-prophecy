@@ -1,4 +1,4 @@
-package io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1.config
+package io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1_1.config
 
 import io.prophecy.libs._
 import pureconfig._

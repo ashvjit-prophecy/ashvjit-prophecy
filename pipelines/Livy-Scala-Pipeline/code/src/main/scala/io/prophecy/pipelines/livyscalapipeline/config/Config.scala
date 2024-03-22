@@ -3,12 +3,18 @@ package io.prophecy.pipelines.livyscalapipeline.config
 import pureconfig._
 import pureconfig.generic.ProductHint
 import io.prophecy.libs._
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1_1.config.{
+  Config => Subgraph_1_1_Config
+}
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1.config.{
   Config => Subgraph_1_Config
 }
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1_2.config.{
+  Config => Subgraph_1_2_Config
+}
 
 case class Config(
-  var c_string:  String = "test",
+  var c_string:  String = "old_value_string_to_check",
   var c_int:     Int = 22,
   var c_long:    Long = 222L,
   var c_boolean: Boolean = true,
@@ -19,8 +25,11 @@ case class Config(
     C_array(car_string = "asdasd",               car_int = 44),
     C_array(car_string = "2312sdfsdfsdf$$^&*()", car_int = 55)
   ),
-  var c_record:   C_record = C_record(),
-  var Subgraph_1: Subgraph_1_Config = Subgraph_1_Config()
+  var c_record:                           C_record = C_record(),
+  var Subgraph_1:                         Subgraph_1_Config = Subgraph_1_Config(),
+  var Subgraph_1_1:                       Subgraph_1_1_Config = Subgraph_1_1_Config(),
+  var Subgraph_1_2:                       Subgraph_1_2_Config = Subgraph_1_2_Config(),
+  var c_string_default_value_dont_change: String = "default_value"
 ) extends ConfigBase
 
 object C_array {

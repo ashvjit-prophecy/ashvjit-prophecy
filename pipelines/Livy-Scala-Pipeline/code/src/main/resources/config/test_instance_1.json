@@ -1,0 +1,16 @@
+{
+  "c_int" : 3243,
+  "c_long" : 213213,
+  "c_boolean" : true,
+  "c_double" : 22,
+  "c_float" : 1232.213213,
+  "c_string" : "test_instance_1",
+  "Subgraph_1" : {
+    "c_sg_string" : "asdasdsad",
+    "c_sg_array" : [ "2", "3" ],
+    "c_sg_record" : {
+      "csgr_boolean" : false,
+      "csgr_int" : 32434
+    }
+  }
+}

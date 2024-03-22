@@ -3,3 +3,4 @@ pipelineVersion:
   version: '2'
 configurations:
 - default
+- test_instance_1
