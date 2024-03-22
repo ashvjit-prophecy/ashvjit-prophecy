@@ -822,6 +822,7 @@
       "value" : 45
     },
     "topLevelPackage" : "io.prophecy.pipelines.livyscalapipeline",
+    "configTopLevelPackage" : "testconfig.thisismyconfig",
     "configurationVersion" : "v2"
   },
   "connections" : [ {

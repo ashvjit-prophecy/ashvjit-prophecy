@@ -19,6 +19,6 @@ object ConfigurationFactoryImpl extends ConfigurationFactory[Config] {
   }
 
   def getConfig(args: Array[String]) =
-    fromCLI(args, "livy_scala_pipeline.conf")
+    fromCLI(args, "livy_scala_pipeline.conf", "testconfig/thisismyconfig")
 
 }
