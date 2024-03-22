@@ -23,7 +23,8 @@ object Reformat_1_1 {
       col("value"),
       col("unit"),
       array(lit(1),       lit(2),       lit(3)).as("c_array_int"),
-      array(lit("test1"), lit("test2"), lit(null)).as("c_array_string")
+      array(lit("test1"), lit("test2"), lit(null)).as("c_array_string"),
+      lit(22).as("c- short")
     )
 
 }

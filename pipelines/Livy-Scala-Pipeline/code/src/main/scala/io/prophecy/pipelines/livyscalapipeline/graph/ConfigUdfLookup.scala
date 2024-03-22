@@ -38,7 +38,8 @@ object ConfigUdfLookup {
         lit(Config.c_array(0).car_string),
         lit(Config.c_record.cr_array_string(0)),
         lit(Config.c_record.cr_boolean)
-      ).as("c_configs")
+      ).as("c_configs"),
+      lit(2).as("c- short")
     )
   }
 

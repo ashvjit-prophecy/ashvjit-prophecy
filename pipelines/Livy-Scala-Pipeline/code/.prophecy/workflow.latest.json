@@ -819,7 +819,7 @@
     "visualCodeInterimMode" : "Disabled",
     "recordsLimit" : {
       "enabled" : false,
-      "value" : 1000
+      "value" : 45
     },
     "topLevelPackage" : "io.prophecy.pipelines.livyscalapipeline",
     "configurationVersion" : "v2"
@@ -1936,14 +1936,14 @@
           "id" : "yqWNJQGN1TJwDaK1YFvhw$$JiwWdvw4WAKvVEhifUbcd",
           "model" : {
             "format" : "sql",
-            "expression" : "value is not null"
+            "expression" : "isnotnull(value)"
           }
         }, {
           "path" : "out1",
           "id" : "ZAYNdXwFsklMcgpG3HqwZ$$w9vY0hli6EC-2VB9Ns82n",
           "model" : {
             "format" : "sql",
-            "expression" : "\nc_array_int > -10 and c_array_string is not null"
+            "expression" : "((c_array_int > (- 10)) AND isnotnull(c_array_string))"
           }
         } ]
       }
@@ -2301,7 +2301,7 @@
           "target" : "c_udf_call1",
           "expression" : {
             "format" : "sql",
-            "expression" : "udf_multiply(2)*udf_string_length(rme_size_grp)*udf_divide_total(2)"
+            "expression" : "((udf_multiply(2) * udf_string_length(rme_size_grp)) * udf_divide_total(2))"
           },
           "description" : ""
         }, {
@@ -2309,6 +2309,13 @@
           "expression" : {
             "format" : "sql",
             "expression" : "concat('$c_string', '$c_int', '$c_long', '$c_array[0].car_string', '$c_record.cr_array_string[0]', '$c_record.cr_boolean')"
+          },
+          "description" : ""
+        }, {
+          "target" : "c- short",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "2"
           },
           "description" : ""
         } ]
@@ -2588,7 +2595,7 @@
         "orders" : [ {
           "expression" : {
             "format" : "sql",
-            "expression" : "`year`"
+            "expression" : "year"
           },
           "sortType" : "Asc"
         } ]
@@ -4013,7 +4020,7 @@
               "target" : "c_configs",
               "expression" : {
                 "format" : "sql",
-                "expression" : "concat('$c_int','$c_string','$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+                "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
               },
               "description" : ""
             } ]
@@ -5406,7 +5413,7 @@
           "alias" : "in1",
           "expression" : {
             "format" : "sql",
-            "expression" : "in0.year=in1.year"
+            "expression" : "(in0.year = in1.year)"
           },
           "joinType" : "inner"
         } ],
@@ -5897,7 +5904,7 @@
               "target" : "c_configs",
               "expression" : {
                 "format" : "sql",
-                "expression" : "concat('$c_int','$c_string','$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+                "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
               },
               "description" : ""
             } ]
@@ -6523,7 +6530,7 @@
               "target" : "c_configs",
               "expression" : {
                 "format" : "sql",
-                "expression" : "concat('$c_int','$c_string','$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+                "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
               },
               "description" : ""
             } ]
@@ -7089,6 +7096,15 @@
                 "mappings" : [ ],
                 "tags" : [ ]
               }
+            }, {
+              "name" : "c- short",
+              "type" : "integer",
+              "nullable" : false,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
             } ]
           },
           "isStreaming" : false
@@ -7263,6 +7279,15 @@
                 "mappings" : [ ],
                 "tags" : [ ]
               }
+            }, {
+              "name" : "c- short",
+              "type" : "integer",
+              "nullable" : false,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
             } ]
           },
           "isStreaming" : false
@@ -7276,7 +7301,15 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
-        "explodedColsNewName" : [ ],
+        "explodedColsNewName" : [ {
+          "originalColToExplode" : "c_array_int",
+          "updatedColToExplode" : "c_array_int",
+          "colNameAfterExplode" : "c_array_int"
+        }, {
+          "originalColToExplode" : "c_array_string",
+          "updatedColToExplode" : "c_array_string",
+          "colNameAfterExplode" : "c_array_string"
+        } ],
         "fsExpressions" : [ {
           "exploded" : "✓",
           "flattenedExpression" : "c_array_int",
@@ -7358,9 +7391,18 @@
           },
           "targetTokens" : [ "unit" ],
           "target" : "unit"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "c- short",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "`c- short`"
+          },
+          "targetTokens" : [ "c- short" ],
+          "target" : "c- short"
         } ],
-        "columnsSelector" : [ ],
-        "explodeColumns" : [ ],
+        "columnsSelector" : [ "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##c_array_int", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##c_array_string", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##year", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##industry_code_ANZSIC", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##industry_name_ANZSIC", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##rme_size_grp", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##variable", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##value", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##unit", "Z49zu8lCFH-G6PzJUKy1Y$$LyAA7zJH6lTTwFPy2W8i8##c- short" ],
+        "explodeColumns" : [ "c_array_int", "c_array_string" ],
         "delimiter" : "-"
       }
     },
@@ -7824,14 +7866,14 @@
           "target" : "c_array_int",
           "expression" : {
             "format" : "sql",
-            "expression" : "ARRAY(1, 2, 3)"
+            "expression" : "array(1, 2, 3)"
           },
           "description" : ""
         }, {
           "target" : "c_array_string",
           "expression" : {
             "format" : "sql",
-            "expression" : "ARRAY('test1', 'test2', null)"
+            "expression" : "array('test1', 'test2', NULL)"
           },
           "description" : ""
         } ]
@@ -8296,7 +8338,7 @@
           "target" : "c_udf_call1",
           "expression" : {
             "format" : "sql",
-            "expression" : "udf_multiply(2)*udf_string_length(rme_size_grp)*udf_divide_total(2)"
+            "expression" : "((udf_multiply(2) * udf_string_length(rme_size_grp)) * udf_divide_total(2))"
           },
           "description" : ""
         }, {
@@ -8467,14 +8509,21 @@
           "target" : "c_array_int",
           "expression" : {
             "format" : "sql",
-            "expression" : "ARRAY(1, 2, 3)"
+            "expression" : "array(1, 2, 3)"
           },
           "description" : ""
         }, {
           "target" : "c_array_string",
           "expression" : {
             "format" : "sql",
-            "expression" : "ARRAY('test1', 'test2', null)"
+            "expression" : "array('test1', 'test2', NULL)"
+          },
+          "description" : ""
+        }, {
+          "target" : "c- short",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "22"
           },
           "description" : ""
         } ]
@@ -8896,7 +8945,7 @@
         "columnsSelector" : [ "9PxxnxYEhdUzb7C_xyd-F##industry_code_ANZSIC", "9PxxnxYEhdUzb7C_xyd-F##year" ],
         "condition" : {
           "format" : "sql",
-          "expression" : "(`industry_code_ANZSIC` != 'A') AND (`year` != '2011')"
+          "expression" : "((NOT (industry_code_ANZSIC = 'A')) AND (NOT (year = '2011')))"
         }
       }
     },

@@ -349,7 +349,7 @@
           "target" : "c_configs",
           "expression" : {
             "format" : "sql",
-            "expression" : "concat('$c_int','$c_string','$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+            "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
           },
           "description" : ""
         } ]
