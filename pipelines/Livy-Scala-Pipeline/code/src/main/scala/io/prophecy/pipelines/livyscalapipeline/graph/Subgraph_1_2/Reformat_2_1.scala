@@ -30,7 +30,10 @@ object Reformat_2_1 {
         lit(Config.c_sg_array(0)),
         lit(Config.c_sg_record.csgr_boolean),
         lit(Config.c_sg_record.csgr_int)
-      ).as("c_configs")
+      ).as("c_configs"),
+      lookup("LookupTest1", col("variable"), col("unit"))
+        .getField("value")
+        .as("c_lookup")
     )
   }
 

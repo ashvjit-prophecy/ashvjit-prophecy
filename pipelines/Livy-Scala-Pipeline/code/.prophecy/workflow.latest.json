@@ -3870,8 +3870,450 @@
         "sourcePort" : "h2OIK5fufmjG1G46JF-2v$$38z8tkAd-KXzawgMm0XXv",
         "target" : "5jG77N8ph-jDxcCqLj9vQ$$OalcXQxgKXbiYljLauhm3",
         "targetPort" : "PXFCK_rSSju5LEljn-w7o$$mVm9tRpAKB2fgVN6rZQ3w"
+      }, {
+        "id" : "RM4YU4YO5CmeMasFabp-J",
+        "source" : "o0yGaGTgCOkwrDoj0Hqq3$$O6XJOI622ms01iQZDKIMs",
+        "sourcePort" : "pPrN2tCIo6vou-Z8AmumI$$XmN77c425Rj1kOR2HDRSV",
+        "target" : "ypezTiRjP-oExNOS4Aiyg$$6w81Xvy9WR6zsYew3ghpN",
+        "targetPort" : "1blNktKja9ZFRIWtSH_VP$$D20m3IdM9uJ6fDlF4xG7r"
       } ],
       "processes" : {
+        "EJUp8Rrw3BcntngQvEI0E$$A19nEsv56FQ3AjoXxEgKR" : {
+          "id" : "EJUp8Rrw3BcntngQvEI0E$$A19nEsv56FQ3AjoXxEgKR",
+          "component" : "Limit",
+          "metadata" : {
+            "label" : "Limit_2",
+            "slug" : "Limit_2",
+            "x" : -300,
+            "y" : -240,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "hDA9juxfG69jjtb1NvTGX$$DsoyvMbKQGSuKX1sr4ce5",
+              "slug" : "in",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_configs",
+                  "type" : "string",
+                  "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "h2OIK5fufmjG1G46JF-2v$$38z8tkAd-KXzawgMm0XXv",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "limit" : "10"
+          }
+        },
+        "MXI5arNjdwDUFhvZzNyTa$$BKnd2Re1pVlM0h3wsryFF" : {
+          "id" : "MXI5arNjdwDUFhvZzNyTa$$BKnd2Re1pVlM0h3wsryFF",
+          "component" : "OrderBy",
+          "metadata" : {
+            "label" : "OrderBy_2",
+            "slug" : "OrderBy_2",
+            "x" : -460,
+            "y" : -240,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc",
+              "slug" : "in",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_configs",
+                  "type" : "string",
+                  "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "TPS-AG50etPIMCvN_mUDm$$jmyF7Ulg6RnzSpQw3pNJS",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##variable" ],
+            "orders" : [ {
+              "expression" : {
+                "format" : "sql",
+                "expression" : "industry_code_ANZSIC"
+              },
+              "sortType" : "desc"
+            }, {
+              "expression" : {
+                "format" : "sql",
+                "expression" : "variable"
+              },
+              "sortType" : "asc"
+            } ]
+          }
+        },
+        "6M9bCOCrVPCiorMgz5DNo$$BcTGU8Y96QRWhT8W2bpXc" : {
+          "id" : "6M9bCOCrVPCiorMgz5DNo$$BcTGU8Y96QRWhT8W2bpXc",
+          "component" : "Filter",
+          "metadata" : {
+            "label" : "Filter_2",
+            "slug" : "Filter_2",
+            "x" : -620,
+            "y" : -240,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "xogs0F8LL3xMv1lKt-81b$$XiAhN8pvQfC0CXK0dMMn8",
+              "slug" : "in",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_configs",
+                  "type" : "string",
+                  "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "puF3xFTl-C6xx6AAHA9hj$$_fobxXcFG8HSZEeK8MBOi",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "columnsSelector" : [ ],
+            "condition" : {
+              "format" : "sql",
+              "expression" : "true"
+            }
+          }
+        },
+        "ypezTiRjP-oExNOS4Aiyg$$6w81Xvy9WR6zsYew3ghpN" : {
+          "id" : "ypezTiRjP-oExNOS4Aiyg$$6w81Xvy9WR6zsYew3ghpN",
+          "component" : "Lookup",
+          "metadata" : {
+            "label" : "Lookup_1",
+            "slug" : "Lookup_1",
+            "x" : -680,
+            "y" : -440,
+            "phase" : -1,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "1blNktKja9ZFRIWtSH_VP$$D20m3IdM9uJ6fDlF4xG7r",
+              "slug" : "in0",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "isRange" : false,
+            "processName" : "LookupTest1",
+            "keyColumns" : [ "variable", "unit" ],
+            "valueColumns" : [ "value" ]
+          }
+        },
         "jVf0CAOWNWJz7d3xnDgog$$8y63EBJJrLChID0Kj90so" : {
           "id" : "jVf0CAOWNWJz7d3xnDgog$$8y63EBJJrLChID0Kj90so",
           "component" : "Reformat",
@@ -4027,103 +4469,23 @@
             } ]
           }
         },
-        "6M9bCOCrVPCiorMgz5DNo$$BcTGU8Y96QRWhT8W2bpXc" : {
-          "id" : "6M9bCOCrVPCiorMgz5DNo$$BcTGU8Y96QRWhT8W2bpXc",
-          "component" : "Filter",
+        "o0yGaGTgCOkwrDoj0Hqq3$$O6XJOI622ms01iQZDKIMs" : {
+          "id" : "o0yGaGTgCOkwrDoj0Hqq3$$O6XJOI622ms01iQZDKIMs",
+          "component" : "Source",
           "metadata" : {
-            "label" : "Filter_2",
-            "slug" : "Filter_2",
-            "x" : -620,
-            "y" : -240,
-            "phase" : 0,
+            "label" : "annual_1",
+            "slug" : "annual_1",
+            "x" : -1020,
+            "y" : -380,
+            "phase" : -1,
             "cache" : false,
             "detailedStats" : false,
             "isImported" : false
           },
           "ports" : {
-            "inputs" : [ {
-              "id" : "xogs0F8LL3xMv1lKt-81b$$XiAhN8pvQfC0CXK0dMMn8",
-              "slug" : "in",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "year",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_code_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_name_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "rme_size_grp",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "variable",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "value",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "unit",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "c_configs",
-                  "type" : "string",
-                  "nullable" : false,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
-            } ],
+            "inputs" : [ ],
             "outputs" : [ {
-              "id" : "puF3xFTl-C6xx6AAHA9hj$$_fobxXcFG8HSZEeK8MBOi",
+              "id" : "pPrN2tCIo6vou-Z8AmumI$$XmN77c425Rj1kOR2HDRSV",
               "slug" : "out"
             } ],
             "selectedInputFields" : [ ],
@@ -4131,238 +4493,7 @@
             "autoUpdateOnRun" : false
           },
           "properties" : {
-            "columnsSelector" : [ ],
-            "condition" : {
-              "format" : "sql",
-              "expression" : "true"
-            }
-          }
-        },
-        "MXI5arNjdwDUFhvZzNyTa$$BKnd2Re1pVlM0h3wsryFF" : {
-          "id" : "MXI5arNjdwDUFhvZzNyTa$$BKnd2Re1pVlM0h3wsryFF",
-          "component" : "OrderBy",
-          "metadata" : {
-            "label" : "OrderBy_2",
-            "slug" : "OrderBy_2",
-            "x" : -460,
-            "y" : -240,
-            "phase" : 0,
-            "cache" : false,
-            "detailedStats" : false,
-            "isImported" : false
-          },
-          "ports" : {
-            "inputs" : [ {
-              "id" : "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc",
-              "slug" : "in",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "year",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_code_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_name_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "rme_size_grp",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "variable",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "value",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "unit",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "c_configs",
-                  "type" : "string",
-                  "nullable" : false,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
-            } ],
-            "outputs" : [ {
-              "id" : "TPS-AG50etPIMCvN_mUDm$$jmyF7Ulg6RnzSpQw3pNJS",
-              "slug" : "out"
-            } ],
-            "selectedInputFields" : [ ],
-            "isCustomOutputSchema" : false,
-            "autoUpdateOnRun" : false
-          },
-          "properties" : {
-            "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##variable" ],
-            "orders" : [ {
-              "expression" : {
-                "format" : "sql",
-                "expression" : "industry_code_ANZSIC"
-              },
-              "sortType" : "desc"
-            }, {
-              "expression" : {
-                "format" : "sql",
-                "expression" : "variable"
-              },
-              "sortType" : "asc"
-            } ]
-          }
-        },
-        "EJUp8Rrw3BcntngQvEI0E$$A19nEsv56FQ3AjoXxEgKR" : {
-          "id" : "EJUp8Rrw3BcntngQvEI0E$$A19nEsv56FQ3AjoXxEgKR",
-          "component" : "Limit",
-          "metadata" : {
-            "label" : "Limit_2",
-            "slug" : "Limit_2",
-            "x" : -300,
-            "y" : -240,
-            "phase" : 0,
-            "cache" : false,
-            "detailedStats" : false,
-            "isImported" : false
-          },
-          "ports" : {
-            "inputs" : [ {
-              "id" : "hDA9juxfG69jjtb1NvTGX$$DsoyvMbKQGSuKX1sr4ce5",
-              "slug" : "in",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "year",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_code_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_name_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "rme_size_grp",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "variable",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "value",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "unit",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "c_configs",
-                  "type" : "string",
-                  "nullable" : false,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
-            } ],
-            "outputs" : [ {
-              "id" : "h2OIK5fufmjG1G46JF-2v$$38z8tkAd-KXzawgMm0XXv",
-              "slug" : "out"
-            } ],
-            "selectedInputFields" : [ ],
-            "isCustomOutputSchema" : false,
-            "autoUpdateOnRun" : false
-          },
-          "properties" : {
-            "limit" : "10"
+            "datasetId" : "datasets/livy-annual-enterprise"
           }
         }
       }
@@ -5754,8 +5885,357 @@
         "sourcePort" : "h2OIK5fufmjG1G46JF-2v$$K3QFrsVipjcBStCJeQUgk",
         "target" : "5jG77N8ph-jDxcCqLj9vQ$$c7KHu0HsiQCH5VaJNFKQa",
         "targetPort" : "PXFCK_rSSju5LEljn-w7o$$axwxtZ_jwSdYW_5FcEv8M"
+      }, {
+        "id" : "RM4YU4YO5CmeMasFabp-J",
+        "source" : "o0yGaGTgCOkwrDoj0Hqq3$$8eW5HiO6cvUAjyq68OuYq",
+        "sourcePort" : "pPrN2tCIo6vou-Z8AmumI$$9VdO130ea781CotLwI0h5",
+        "target" : "ypezTiRjP-oExNOS4Aiyg$$54g0qIjqrgT9s3z6Q9GEx",
+        "targetPort" : "1blNktKja9ZFRIWtSH_VP$$f25iIowJBIRmzRGSdIu2p"
       } ],
       "processes" : {
+        "ypezTiRjP-oExNOS4Aiyg$$54g0qIjqrgT9s3z6Q9GEx" : {
+          "id" : "ypezTiRjP-oExNOS4Aiyg$$54g0qIjqrgT9s3z6Q9GEx",
+          "component" : "Lookup",
+          "metadata" : {
+            "label" : "Lookup_1",
+            "slug" : "Lookup_1",
+            "x" : -680,
+            "y" : -440,
+            "phase" : -1,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "1blNktKja9ZFRIWtSH_VP$$f25iIowJBIRmzRGSdIu2p",
+              "slug" : "in0",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "isRange" : false,
+            "processName" : "LookupTest1",
+            "keyColumns" : [ "variable", "unit" ],
+            "valueColumns" : [ "value" ]
+          }
+        },
+        "EJUp8Rrw3BcntngQvEI0E$$IQf3tfseAn7lpx-ZQE-a_" : {
+          "id" : "EJUp8Rrw3BcntngQvEI0E$$IQf3tfseAn7lpx-ZQE-a_",
+          "component" : "Limit",
+          "metadata" : {
+            "label" : "Limit_2",
+            "slug" : "Limit_2",
+            "x" : -300,
+            "y" : -240,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "hDA9juxfG69jjtb1NvTGX$$poaBulZSropQrIkhOX3Xg",
+              "slug" : "in",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_configs",
+                  "type" : "string",
+                  "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "h2OIK5fufmjG1G46JF-2v$$K3QFrsVipjcBStCJeQUgk",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "limit" : "10"
+          }
+        },
+        "MXI5arNjdwDUFhvZzNyTa$$ybiGR0JmT97uC6ivRngt8" : {
+          "id" : "MXI5arNjdwDUFhvZzNyTa$$ybiGR0JmT97uC6ivRngt8",
+          "component" : "OrderBy",
+          "metadata" : {
+            "label" : "OrderBy_2",
+            "slug" : "OrderBy_2",
+            "x" : -460,
+            "y" : -240,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "V9l7b8DoTD3cRddMAG1ul$$10oyhMcRJPDhOksRqbfr1",
+              "slug" : "in",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_configs",
+                  "type" : "string",
+                  "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "TPS-AG50etPIMCvN_mUDm$$Bgin3O4hVbsZKTqwvAen0",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##variable" ],
+            "orders" : [ {
+              "expression" : {
+                "format" : "sql",
+                "expression" : "industry_code_ANZSIC"
+              },
+              "sortType" : "desc"
+            }, {
+              "expression" : {
+                "format" : "sql",
+                "expression" : "variable"
+              },
+              "sortType" : "asc"
+            } ]
+          }
+        },
         "jVf0CAOWNWJz7d3xnDgog$$r498Ofept5yMkmfW-Yn_d" : {
           "id" : "jVf0CAOWNWJz7d3xnDgog$$r498Ofept5yMkmfW-Yn_d",
           "component" : "Reformat",
@@ -5851,7 +6331,7 @@
             "autoUpdateOnRun" : false
           },
           "properties" : {
-            "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##year", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##variable", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##value", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##unit" ],
+            "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##year", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##variable", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##value", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##unit" ],
             "expressions" : [ {
               "target" : "year",
               "expression" : {
@@ -5906,6 +6386,13 @@
               "expression" : {
                 "format" : "sql",
                 "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+              },
+              "description" : ""
+            }, {
+              "target" : "c_lookup",
+              "expression" : {
+                "format" : "sql",
+                "expression" : "LookupTest1(variable, unit)['value']"
               },
               "description" : ""
             } ]
@@ -6002,6 +6489,15 @@
                     "mappings" : [ ],
                     "tags" : [ ]
                   }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
                 } ]
               },
               "isStreaming" : false
@@ -6022,103 +6518,23 @@
             }
           }
         },
-        "MXI5arNjdwDUFhvZzNyTa$$ybiGR0JmT97uC6ivRngt8" : {
-          "id" : "MXI5arNjdwDUFhvZzNyTa$$ybiGR0JmT97uC6ivRngt8",
-          "component" : "OrderBy",
+        "o0yGaGTgCOkwrDoj0Hqq3$$8eW5HiO6cvUAjyq68OuYq" : {
+          "id" : "o0yGaGTgCOkwrDoj0Hqq3$$8eW5HiO6cvUAjyq68OuYq",
+          "component" : "Source",
           "metadata" : {
-            "label" : "OrderBy_2",
-            "slug" : "OrderBy_2",
-            "x" : -460,
-            "y" : -240,
-            "phase" : 0,
+            "label" : "annual_1",
+            "slug" : "annual_1",
+            "x" : -1020,
+            "y" : -380,
+            "phase" : -1,
             "cache" : false,
             "detailedStats" : false,
             "isImported" : false
           },
           "ports" : {
-            "inputs" : [ {
-              "id" : "V9l7b8DoTD3cRddMAG1ul$$10oyhMcRJPDhOksRqbfr1",
-              "slug" : "in",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "year",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_code_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_name_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "rme_size_grp",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "variable",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "value",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "unit",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "c_configs",
-                  "type" : "string",
-                  "nullable" : false,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
-            } ],
+            "inputs" : [ ],
             "outputs" : [ {
-              "id" : "TPS-AG50etPIMCvN_mUDm$$Bgin3O4hVbsZKTqwvAen0",
+              "id" : "pPrN2tCIo6vou-Z8AmumI$$9VdO130ea781CotLwI0h5",
               "slug" : "out"
             } ],
             "selectedInputFields" : [ ],
@@ -6126,127 +6542,7 @@
             "autoUpdateOnRun" : false
           },
           "properties" : {
-            "columnsSelector" : [ "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##industry_code_ANZSIC", "V9l7b8DoTD3cRddMAG1ul$$KpQYI7L3VgkdyKUC58Epc##variable" ],
-            "orders" : [ {
-              "expression" : {
-                "format" : "sql",
-                "expression" : "industry_code_ANZSIC"
-              },
-              "sortType" : "desc"
-            }, {
-              "expression" : {
-                "format" : "sql",
-                "expression" : "variable"
-              },
-              "sortType" : "asc"
-            } ]
-          }
-        },
-        "EJUp8Rrw3BcntngQvEI0E$$IQf3tfseAn7lpx-ZQE-a_" : {
-          "id" : "EJUp8Rrw3BcntngQvEI0E$$IQf3tfseAn7lpx-ZQE-a_",
-          "component" : "Limit",
-          "metadata" : {
-            "label" : "Limit_2",
-            "slug" : "Limit_2",
-            "x" : -300,
-            "y" : -240,
-            "phase" : 0,
-            "cache" : false,
-            "detailedStats" : false,
-            "isImported" : false
-          },
-          "ports" : {
-            "inputs" : [ {
-              "id" : "hDA9juxfG69jjtb1NvTGX$$poaBulZSropQrIkhOX3Xg",
-              "slug" : "in",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "year",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_code_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_name_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "rme_size_grp",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "variable",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "value",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "unit",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "c_configs",
-                  "type" : "string",
-                  "nullable" : false,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
-            } ],
-            "outputs" : [ {
-              "id" : "h2OIK5fufmjG1G46JF-2v$$K3QFrsVipjcBStCJeQUgk",
-              "slug" : "out"
-            } ],
-            "selectedInputFields" : [ ],
-            "isCustomOutputSchema" : false,
-            "autoUpdateOnRun" : false
-          },
-          "properties" : {
-            "limit" : "10"
+            "datasetId" : "datasets/livy-annual-enterprise"
           }
         }
       }
@@ -6380,8 +6676,357 @@
         "sourcePort" : "h2OIK5fufmjG1G46JF-2v$$4PreHPsreBQUTYIySvmLM",
         "target" : "5jG77N8ph-jDxcCqLj9vQ$$u4grPZAbvuDdpH7h94HWi",
         "targetPort" : "PXFCK_rSSju5LEljn-w7o$$J_oq_AkPQc5AYxuUC1brI"
+      }, {
+        "id" : "RM4YU4YO5CmeMasFabp-J",
+        "source" : "o0yGaGTgCOkwrDoj0Hqq3$$tLSx5y8rTFxNoSC1jOasy",
+        "sourcePort" : "pPrN2tCIo6vou-Z8AmumI$$Ok7pEuHTjV9usP28tKEcR",
+        "target" : "ypezTiRjP-oExNOS4Aiyg$$e5c1xcODSC33C8HFHc1QJ",
+        "targetPort" : "1blNktKja9ZFRIWtSH_VP$$pF_U5JxDMdkwZrajE9Hay"
       } ],
       "processes" : {
+        "6M9bCOCrVPCiorMgz5DNo$$mc1wfArDtupa1GpHkLgo-" : {
+          "id" : "6M9bCOCrVPCiorMgz5DNo$$mc1wfArDtupa1GpHkLgo-",
+          "component" : "Filter",
+          "metadata" : {
+            "label" : "Filter_2",
+            "slug" : "Filter_2",
+            "x" : -620,
+            "y" : -240,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "xogs0F8LL3xMv1lKt-81b$$zfhw5_g5K_9edrWA1KbL_",
+              "slug" : "in",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_configs",
+                  "type" : "string",
+                  "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "puF3xFTl-C6xx6AAHA9hj$$T4f8jNUjlTDJn0x0lsbTN",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "columnsSelector" : [ ],
+            "condition" : {
+              "format" : "sql",
+              "expression" : "true"
+            }
+          }
+        },
+        "o0yGaGTgCOkwrDoj0Hqq3$$tLSx5y8rTFxNoSC1jOasy" : {
+          "id" : "o0yGaGTgCOkwrDoj0Hqq3$$tLSx5y8rTFxNoSC1jOasy",
+          "component" : "Source",
+          "metadata" : {
+            "label" : "annual_1",
+            "slug" : "annual_1",
+            "x" : -1020,
+            "y" : -380,
+            "phase" : -1,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ ],
+            "outputs" : [ {
+              "id" : "pPrN2tCIo6vou-Z8AmumI$$Ok7pEuHTjV9usP28tKEcR",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "datasetId" : "datasets/livy-annual-enterprise"
+          }
+        },
+        "EJUp8Rrw3BcntngQvEI0E$$ADm8lm83uuxppnbECyaDl" : {
+          "id" : "EJUp8Rrw3BcntngQvEI0E$$ADm8lm83uuxppnbECyaDl",
+          "component" : "Limit",
+          "metadata" : {
+            "label" : "Limit_2",
+            "slug" : "Limit_2",
+            "x" : -300,
+            "y" : -240,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "hDA9juxfG69jjtb1NvTGX$$ZzMn9spe0R5TyPToD7FTo",
+              "slug" : "in",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_configs",
+                  "type" : "string",
+                  "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "h2OIK5fufmjG1G46JF-2v$$4PreHPsreBQUTYIySvmLM",
+              "slug" : "out"
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "limit" : "10"
+          }
+        },
+        "ypezTiRjP-oExNOS4Aiyg$$e5c1xcODSC33C8HFHc1QJ" : {
+          "id" : "ypezTiRjP-oExNOS4Aiyg$$e5c1xcODSC33C8HFHc1QJ",
+          "component" : "Lookup",
+          "metadata" : {
+            "label" : "Lookup_1",
+            "slug" : "Lookup_1",
+            "x" : -680,
+            "y" : -440,
+            "phase" : -1,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "1blNktKja9ZFRIWtSH_VP$$pF_U5JxDMdkwZrajE9Hay",
+              "slug" : "in0",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : false,
+            "autoUpdateOnRun" : false
+          },
+          "properties" : {
+            "isRange" : false,
+            "processName" : "LookupTest1",
+            "keyColumns" : [ "variable", "unit" ],
+            "valueColumns" : [ "value" ]
+          }
+        },
         "jVf0CAOWNWJz7d3xnDgog$$njoGfXsLRwH1_BBb7MIem" : {
           "id" : "jVf0CAOWNWJz7d3xnDgog$$njoGfXsLRwH1_BBb7MIem",
           "component" : "Reformat",
@@ -6537,117 +7182,6 @@
             } ]
           }
         },
-        "6M9bCOCrVPCiorMgz5DNo$$mc1wfArDtupa1GpHkLgo-" : {
-          "id" : "6M9bCOCrVPCiorMgz5DNo$$mc1wfArDtupa1GpHkLgo-",
-          "component" : "Filter",
-          "metadata" : {
-            "label" : "Filter_2",
-            "slug" : "Filter_2",
-            "x" : -620,
-            "y" : -240,
-            "phase" : 0,
-            "cache" : false,
-            "detailedStats" : false,
-            "isImported" : false
-          },
-          "ports" : {
-            "inputs" : [ {
-              "id" : "xogs0F8LL3xMv1lKt-81b$$zfhw5_g5K_9edrWA1KbL_",
-              "slug" : "in",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "year",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_code_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_name_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "rme_size_grp",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "variable",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "value",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "unit",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "c_configs",
-                  "type" : "string",
-                  "nullable" : false,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
-            } ],
-            "outputs" : [ {
-              "id" : "puF3xFTl-C6xx6AAHA9hj$$T4f8jNUjlTDJn0x0lsbTN",
-              "slug" : "out"
-            } ],
-            "selectedInputFields" : [ ],
-            "isCustomOutputSchema" : false,
-            "autoUpdateOnRun" : false
-          },
-          "properties" : {
-            "columnsSelector" : [ ],
-            "condition" : {
-              "format" : "sql",
-              "expression" : "true"
-            }
-          }
-        },
         "MXI5arNjdwDUFhvZzNyTa$$fozZC1ATZSnRmGiAm2uEl" : {
           "id" : "MXI5arNjdwDUFhvZzNyTa$$fozZC1ATZSnRmGiAm2uEl",
           "component" : "OrderBy",
@@ -6766,113 +7300,6 @@
               },
               "sortType" : "asc"
             } ]
-          }
-        },
-        "EJUp8Rrw3BcntngQvEI0E$$ADm8lm83uuxppnbECyaDl" : {
-          "id" : "EJUp8Rrw3BcntngQvEI0E$$ADm8lm83uuxppnbECyaDl",
-          "component" : "Limit",
-          "metadata" : {
-            "label" : "Limit_2",
-            "slug" : "Limit_2",
-            "x" : -300,
-            "y" : -240,
-            "phase" : 0,
-            "cache" : false,
-            "detailedStats" : false,
-            "isImported" : false
-          },
-          "ports" : {
-            "inputs" : [ {
-              "id" : "hDA9juxfG69jjtb1NvTGX$$ZzMn9spe0R5TyPToD7FTo",
-              "slug" : "in",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "year",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_code_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "industry_name_ANZSIC",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "rme_size_grp",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "variable",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "value",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "unit",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "c_configs",
-                  "type" : "string",
-                  "nullable" : false,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
-            } ],
-            "outputs" : [ {
-              "id" : "h2OIK5fufmjG1G46JF-2v$$4PreHPsreBQUTYIySvmLM",
-              "slug" : "out"
-            } ],
-            "selectedInputFields" : [ ],
-            "isCustomOutputSchema" : false,
-            "autoUpdateOnRun" : false
-          },
-          "properties" : {
-            "limit" : "10"
           }
         }
       }
@@ -7493,6 +7920,15 @@
               "name" : "c_configs",
               "type" : "string",
               "nullable" : false,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "c_lookup",
+              "type" : "string",
+              "nullable" : true,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -8438,6 +8874,15 @@
               "name" : "c_configs",
               "type" : "string",
               "nullable" : false,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "c_lookup",
+              "type" : "string",
+              "nullable" : true,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],

@@ -12,6 +12,8 @@ import java.time._
 package object Subgraph_1_1 {
 
   def apply(context: Context, in0: DataFrame): DataFrame = {
+    val df_annual_1 = annual_1(context)
+    Lookup_1(context, df_annual_1)
     val df_Reformat_2_1 = Reformat_2_1(context, in0)
     val df_Filter_2     = Filter_2(context,     df_Reformat_2_1)
     val df_OrderBy_2    = OrderBy_2(context,    df_Filter_2)

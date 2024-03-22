@@ -258,135 +258,42 @@
     "sourcePort" : "h2OIK5fufmjG1G46JF-2v",
     "target" : "5jG77N8ph-jDxcCqLj9vQ",
     "targetPort" : "PXFCK_rSSju5LEljn-w7o"
+  }, {
+    "id" : "RM4YU4YO5CmeMasFabp-J",
+    "source" : "o0yGaGTgCOkwrDoj0Hqq3",
+    "sourcePort" : "pPrN2tCIo6vou-Z8AmumI",
+    "target" : "ypezTiRjP-oExNOS4Aiyg",
+    "targetPort" : "1blNktKja9ZFRIWtSH_VP"
   } ],
   "processes" : {
-    "jVf0CAOWNWJz7d3xnDgog" : {
-      "id" : "jVf0CAOWNWJz7d3xnDgog",
-      "component" : "Reformat",
+    "ypezTiRjP-oExNOS4Aiyg" : {
+      "id" : "ypezTiRjP-oExNOS4Aiyg",
+      "component" : "Lookup",
       "metadata" : {
-        "label" : "Reformat_2_1",
-        "slug" : "Reformat_2_1",
-        "x" : -820,
-        "y" : -260,
-        "phase" : 0,
+        "label" : "Lookup_1",
+        "slug" : "Lookup_1",
+        "x" : -680,
+        "y" : -440,
+        "phase" : -1,
         "cache" : false,
         "detailedStats" : false,
         "isImported" : false
       },
       "ports" : {
         "inputs" : [ {
-          "id" : "3sZnoMeN60m2Wvkgq5iqr",
-          "slug" : "in"
+          "id" : "1blNktKja9ZFRIWtSH_VP",
+          "slug" : "in0"
         } ],
-        "outputs" : [ {
-          "id" : "jJ3QnFONzlg5lxXN_rF72",
-          "slug" : "out"
-        } ],
+        "outputs" : [ ],
         "selectedInputFields" : [ ],
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       },
       "properties" : {
-        "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##year", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##variable", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##value", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##unit" ],
-        "expressions" : [ {
-          "_row_id" : "1239632698",
-          "target" : "year",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "year"
-          },
-          "description" : ""
-        }, {
-          "_row_id" : "2016137708",
-          "target" : "industry_code_ANZSIC",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "industry_code_ANZSIC"
-          },
-          "description" : ""
-        }, {
-          "_row_id" : "432454046",
-          "target" : "industry_name_ANZSIC",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "industry_name_ANZSIC"
-          },
-          "description" : ""
-        }, {
-          "_row_id" : "890418858",
-          "target" : "rme_size_grp",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "rme_size_grp"
-          },
-          "description" : ""
-        }, {
-          "_row_id" : "1050398739",
-          "target" : "variable",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "variable"
-          },
-          "description" : ""
-        }, {
-          "_row_id" : "973847111",
-          "target" : "value",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "value"
-          },
-          "description" : ""
-        }, {
-          "_row_id" : "1284920282",
-          "target" : "unit",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "unit"
-          },
-          "description" : ""
-        }, {
-          "_row_id" : "c_323",
-          "target" : "c_configs",
-          "expression" : {
-            "format" : "sql",
-            "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
-          },
-          "description" : ""
-        } ]
-      }
-    },
-    "6M9bCOCrVPCiorMgz5DNo" : {
-      "id" : "6M9bCOCrVPCiorMgz5DNo",
-      "component" : "Filter",
-      "metadata" : {
-        "label" : "Filter_2",
-        "slug" : "Filter_2",
-        "x" : -620,
-        "y" : -240,
-        "phase" : 0,
-        "cache" : false,
-        "detailedStats" : false,
-        "isImported" : false
-      },
-      "ports" : {
-        "inputs" : [ {
-          "id" : "xogs0F8LL3xMv1lKt-81b",
-          "slug" : "in"
-        } ],
-        "outputs" : [ {
-          "id" : "puF3xFTl-C6xx6AAHA9hj",
-          "slug" : "out"
-        } ],
-        "selectedInputFields" : [ ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      },
-      "properties" : {
-        "columnsSelector" : [ ],
-        "condition" : {
-          "format" : "sql",
-          "expression" : "true"
-        }
+        "isRange" : false,
+        "processName" : "LookupTest1",
+        "keyColumns" : [ "variable", "unit" ],
+        "valueColumns" : [ "value" ]
       }
     },
     "MXI5arNjdwDUFhvZzNyTa" : {
@@ -460,6 +367,388 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "6M9bCOCrVPCiorMgz5DNo" : {
+      "id" : "6M9bCOCrVPCiorMgz5DNo",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Filter_2",
+        "slug" : "Filter_2",
+        "x" : -620,
+        "y" : -240,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "xogs0F8LL3xMv1lKt-81b",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "puF3xFTl-C6xx6AAHA9hj",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "condition" : {
+          "format" : "sql",
+          "expression" : "true"
+        }
+      }
+    },
+    "o0yGaGTgCOkwrDoj0Hqq3" : {
+      "id" : "o0yGaGTgCOkwrDoj0Hqq3",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "annual_1",
+        "slug" : "annual_1",
+        "x" : -1020,
+        "y" : -380,
+        "phase" : -1,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "pPrN2tCIo6vou-Z8AmumI",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "format" : "csv",
+        "refreshDataset" : false,
+        "dataFormats" : [ {
+          "label" : "CSV",
+          "value" : "csv",
+          "icon" : "CsvIcon",
+          "type" : "File"
+        }, {
+          "label" : "Parquet",
+          "value" : "parquet",
+          "icon" : "ParquetLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Avro",
+          "value" : "avro",
+          "icon" : "AvroLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Text",
+          "value" : "text",
+          "icon" : "FileTextIcon",
+          "type" : "File"
+        }, {
+          "label" : "Delta",
+          "value" : "delta",
+          "icon" : "DeltaLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "JSON",
+          "value" : "json",
+          "icon" : "JsonIcon",
+          "type" : "File"
+        }, {
+          "label" : "ORC",
+          "value" : "orc",
+          "icon" : "OrcLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Fixed Format",
+          "value" : "fixedformat",
+          "icon" : "FixedFormatFileIcon",
+          "type" : "File"
+        }, {
+          "label" : "Catalog Table",
+          "value" : "catalogTable",
+          "icon" : "CatalogTableIcon",
+          "type" : "Database"
+        }, {
+          "label" : "Snowflake",
+          "value" : "snowflake",
+          "icon" : "SnowflakeLogoIcon",
+          "type" : "Warehouse"
+        }, {
+          "label" : "Xml",
+          "value" : "xml",
+          "icon" : "XmlIcon",
+          "type" : "File"
+        }, {
+          "label" : "Kafka",
+          "value" : "KafkaStream",
+          "icon" : "KafkaLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Mongodb",
+          "value" : "mongodb",
+          "icon" : "MongoDbIcon",
+          "type" : "Warehouse"
+        }, {
+          "label" : "Xlsx",
+          "value" : "xlsx",
+          "icon" : "FileIcon",
+          "type" : "File"
+        }, {
+          "label" : "JDBC",
+          "value" : "jdbc",
+          "icon" : "JdbcFileIcon",
+          "type" : "Warehouse"
+        }, {
+          "label" : "Jdbc2",
+          "value" : "jdbc2",
+          "icon" : "DatabaseASolidIcon",
+          "type" : "Warehouse"
+        } ],
+        "datasetId" : "datasets/livy-annual-enterprise",
+        "dataTypes" : [ {
+          "label" : "File",
+          "value" : "File",
+          "icon" : "File"
+        }, {
+          "label" : "Warehouse",
+          "value" : "Warehouse",
+          "icon" : "Database"
+        }, {
+          "label" : "Catalog Table",
+          "value" : "Database",
+          "icon" : "CatalogTable"
+        }, {
+          "label" : "Applications",
+          "value" : "WebApp",
+          "icon" : "WebApp"
+        } ],
+        "updated" : true,
+        "currentDatasetId" : "datasets/livy-annual-enterprise",
+        "dataset" : {
+          "ignoreLeadingWhiteSpaceReading" : null,
+          "multiLine" : null,
+          "path" : "file:/storage/workflowdata/annual-enterprise",
+          "ignoreTrailingWhiteSpaceReading" : null,
+          "maxColumns" : null,
+          "writeMode" : "error",
+          "description" : "",
+          "separator" : ",",
+          "compression" : null,
+          "nullValue" : null,
+          "nanValue" : null,
+          "escapeQuotes" : null,
+          "charToEscapeQuoteEscaping" : null,
+          "skipFooters" : null,
+          "encoding" : null,
+          "inferSchema" : null,
+          "enforceSchema" : null,
+          "quoteAll" : null,
+          "ignoreLeadingWhiteSpaceWriting" : null,
+          "locale" : null,
+          "quote" : null,
+          "timestampFormat" : null,
+          "emptyValue" : null,
+          "recursiveFileLookup" : null,
+          "partitionColumns" : null,
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ {
+              "name" : "year",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "industry_code_ANZSIC",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "industry_name_ANZSIC",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "rme_size_grp",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "variable",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "value",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "unit",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            } ]
+          },
+          "escape" : null,
+          "unescapedQuoteHandling" : null,
+          "positiveInf" : null,
+          "skipHeaders" : null,
+          "comment" : null,
+          "lineSep" : null,
+          "samplingRatio" : null,
+          "dateFormat" : null,
+          "mode" : null,
+          "header" : true,
+          "columnNameOfCorruptRecord" : null,
+          "modifiedBefore" : null,
+          "ignoreTrailingWhiteSpaceWriting" : null,
+          "maxCharsPerColumn" : null,
+          "negativeInf" : null,
+          "createSingleOutputFile" : null,
+          "pathGlobFilter" : null,
+          "useSchema" : true,
+          "modifiedAfter" : null
+        },
+        "isNewDataset" : false,
+        "disabled" : false,
+        "datasetType" : "File"
+      }
+    },
+    "jVf0CAOWNWJz7d3xnDgog" : {
+      "id" : "jVf0CAOWNWJz7d3xnDgog",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_2_1",
+        "slug" : "Reformat_2_1",
+        "x" : -820,
+        "y" : -260,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "3sZnoMeN60m2Wvkgq5iqr",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "jJ3QnFONzlg5lxXN_rF72",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##year", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##variable", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##value", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##unit" ],
+        "expressions" : [ {
+          "_row_id" : "1239632698",
+          "target" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2016137708",
+          "target" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "432454046",
+          "target" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "890418858",
+          "target" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1050398739",
+          "target" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "973847111",
+          "target" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1284920282",
+          "target" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "c_323",
+          "target" : "c_configs",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "c_183",
+          "target" : "c_lookup",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "LookupTest1(variable, unit)['value']"
+          },
+          "description" : ""
+        } ]
       }
     }
   }
