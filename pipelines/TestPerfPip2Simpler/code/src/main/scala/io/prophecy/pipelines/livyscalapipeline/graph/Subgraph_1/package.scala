@@ -13,7 +13,7 @@ package object Subgraph_1 {
 
   def apply(context: Context, in0: DataFrame): DataFrame = {
     val df_src_emr_s3_source = src_emr_s3_source(context)
-    Lookup_1(context, df_src_emr_s3_source)
+    Lookup_1_1(context, df_src_emr_s3_source)
     val df_Reformat_2_1 = Reformat_2_1(context, in0)
     val df_Filter_2     = Filter_2(context,     df_Reformat_2_1)
     val df_OrderBy_2    = OrderBy_2(context,    df_Filter_2)

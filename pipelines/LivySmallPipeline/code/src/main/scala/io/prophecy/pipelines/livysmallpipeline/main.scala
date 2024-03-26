@@ -15,19 +15,19 @@ import java.time._
 object Main {
 
   def apply(context: Context): Unit = {
-    val df_livy_annual_enterprise = livy_annual_enterprise(context)
+    val df_src_emr_s3_source = src_emr_s3_source(context)
     val df_sgScriptWith5ScriptEachHaving1000LOC =
       sgScriptWith5ScriptEachHaving1000LOC.apply(
         sgScriptWith5ScriptEachHaving1000LOC.config.Context(
           context.spark,
           context.config.sgScriptWith5ScriptEachHaving1000LOC
         ),
-        df_livy_annual_enterprise
+        df_src_emr_s3_source
       )
-    val df_210Gems_10kLOC = `210Gems_10kLOC`.apply(
-      `210Gems_10kLOC`.config
-        .Context(context.spark, context.config.`210Gems_10kLOC`),
-      df_livy_annual_enterprise
+    val df_T210Gems_10kLOC = T210Gems_10kLOC.apply(
+      T210Gems_10kLOC.config
+        .Context(context.spark, context.config.T210Gems_10kLOC),
+      df_src_emr_s3_source
     )
     val df_sgScriptWith5ScriptEachHaving1000LOC_1 =
       sgScriptWith5ScriptEachHaving1000LOC_1.apply(
@@ -47,7 +47,7 @@ object Main {
          df_sg100gems_out7
     ) = sg100gems.apply(
       sg100gems.config.Context(context.spark, context.config.sg100gems),
-      df_livy_annual_enterprise
+      df_src_emr_s3_source
     )
     val df_sgScriptWith5ScriptEachHaving1000LOC_2 =
       sgScriptWith5ScriptEachHaving1000LOC_2.apply(
@@ -57,10 +57,10 @@ object Main {
         ),
         df_sgScriptWith5ScriptEachHaving1000LOC_1
       )
-    val df_21Gems1000LOC = `21Gems1000LOC`.apply(
-      `21Gems1000LOC`.config
-        .Context(context.spark, context.config.`21Gems1000LOC`),
-      df_livy_annual_enterprise
+    val df_T21Gems1000LOC = T21Gems1000LOC.apply(
+      T21Gems1000LOC.config
+        .Context(context.spark, context.config.T21Gems1000LOC),
+      df_src_emr_s3_source
     )
     val df_sgScriptWith5ScriptEachHaving1000LOC_1_1 =
       sgScriptWith5ScriptEachHaving1000LOC_1_1.apply(

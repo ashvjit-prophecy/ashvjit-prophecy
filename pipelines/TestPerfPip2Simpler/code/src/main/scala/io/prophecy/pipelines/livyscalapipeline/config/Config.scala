@@ -12,6 +12,9 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1_2.config.{
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1.config.{
   Config => Subgraph_1_Config
 }
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2.config.{
+  Config => Subgraph_2_Config
+}
 
 case class Config(
   var c_string:  String = "old_value_string_to_check",
@@ -29,7 +32,8 @@ case class Config(
   var Subgraph_1:                         Subgraph_1_Config = Subgraph_1_Config(),
   var Subgraph_1_1:                       Subgraph_1_1_Config = Subgraph_1_1_Config(),
   var Subgraph_1_2:                       Subgraph_1_2_Config = Subgraph_1_2_Config(),
-  var c_string_default_value_dont_change: String = "default_value"
+  var c_string_default_value_dont_change: String = "default_value",
+  var Subgraph_2:                         Subgraph_2_Config = Subgraph_2_Config()
 ) extends ConfigBase
 
 object C_array {

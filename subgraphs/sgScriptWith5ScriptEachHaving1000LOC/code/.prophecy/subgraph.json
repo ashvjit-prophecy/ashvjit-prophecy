@@ -36,37 +36,37 @@
     "packageName" : "orgtest.sgScriptWith5ScriptEachHaving1000LOC"
   },
   "connections" : [ {
-    "id" : "OXZvKThQHMPzpwmPZv5c-",
+    "id" : "5ScUO_z7EyoPI7E7Ixb6v",
     "source" : "TvIomW-vaDllPmpO-pweF",
     "sourcePort" : "ZiPURFDp_dv_nBho9bQRD",
     "target" : "DulCJqofhzSnDlKukNFk5",
     "targetPort" : "ViZ3cRIYvT3SOM3vxpzYU"
   }, {
-    "id" : "LLl6vg2CozWrGZrMOUBHp",
+    "id" : "IoAWz6UXLdBIvRNpGgNRR",
     "source" : "DulCJqofhzSnDlKukNFk5",
     "sourcePort" : "j39GCEb9btf7b3pQfvhni",
     "target" : "e7LcJ90qy_YlM5JuOCcUL",
     "targetPort" : "THD4L88nd4_sQqtgI8kaF"
   }, {
-    "id" : "JUtGPGXGzDAwE9yW2kHLr",
+    "id" : "-lNIAtyypPzFnSe1EzofT",
     "source" : "e7LcJ90qy_YlM5JuOCcUL",
     "sourcePort" : "N9PQ0a-DZ4J734HRGWkwp",
     "target" : "zlJBNoov4eW6Bi6uv64Aq",
     "targetPort" : "kENbmb2ccZe4D7NJ3829U"
   }, {
-    "id" : "hGBHrcv-4VQ884glBrauy",
+    "id" : "Nelehqta4fdpLrHTTKdg7",
     "source" : "zlJBNoov4eW6Bi6uv64Aq",
     "sourcePort" : "KnSVBpuLO26dI5YnoF3Cr",
     "target" : "sjgitdn5ts1xpRG7HV9uG",
     "targetPort" : "DbHqZho2UwaJb4Ddv8u7B"
   }, {
-    "id" : "PZh-0OsIhTD34BfJtWXzA",
+    "id" : "hJLIEC4lxLHdMUWDUg8lA",
     "source" : "BvAcs0lr470L8x3oMOdDL",
     "sourcePort" : "Wg3dO12uAdQOczNtwq-LI",
     "target" : "TvIomW-vaDllPmpO-pweF",
     "targetPort" : "tOiAZslcdKHfY0kywLak4"
   }, {
-    "id" : "fbnKw4m8CeuIh_-cAxkCd",
+    "id" : "IaP8s_dI3DQt-cj7FqvKc",
     "source" : "sjgitdn5ts1xpRG7HV9uG",
     "sourcePort" : "c3eBcBow_PuIOKDs66rW7",
     "target" : "BvAcs0lr470L8x3oMOdDL",
@@ -79,8 +79,8 @@
       "metadata" : {
         "label" : "scala_code_snippets_1_1",
         "slug" : "scala_code_snippets_1_1",
-        "x" : -95.13340301513654,
-        "y" : 19.58197698192231,
+        "x" : 120,
+        "y" : -20,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -179,8 +179,8 @@
       "metadata" : {
         "label" : "scala_code_snippets_1_1_1_1",
         "slug" : "scala_code_snippets_1_1_1_1",
-        "x" : 224.86659698486346,
-        "y" : -0.41802301807769027,
+        "x" : 440,
+        "y" : -40,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -279,8 +279,8 @@
       "metadata" : {
         "label" : "scala_code_snippets_1",
         "slug" : "scala_code_snippets_1",
-        "x" : -255.13340301513654,
-        "y" : -0.41802301807769027,
+        "x" : -40,
+        "y" : -40,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -379,10 +379,10 @@
       "metadata" : {
         "label" : "scala_code_snippets_1_1_1",
         "slug" : "scala_code_snippets_1_1_1",
-        "x" : 44.86659698486346,
-        "y" : -0.41802301807769027,
+        "x" : 260,
+        "y" : -40,
         "phase" : 0,
-        "cache" : false,
+        "cache" : true,
         "detailedStats" : false,
         "isImported" : false
       },
@@ -479,8 +479,8 @@
       "metadata" : {
         "label" : "scala_code_snippets",
         "slug" : "scala_code_snippets",
-        "x" : -395.13340301513654,
-        "y" : -0.41802301807769027,
+        "x" : -180,
+        "y" : -40,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,

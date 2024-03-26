@@ -95,7 +95,7 @@ pipelines:
     createdAt: '2024-03-26 10:14:54'
     datasets:
       inputs:
-      - datasets/livy-annual-enterprise
+      - datasets/src_emr_s3_source
       outputs: []
     subgraphs:
     - subgraphs/sgScriptWith5ScriptEachHaving1000LOC
@@ -161,9 +161,13 @@ pipelines:
     language: scala
     createdAt: '2024-03-26 16:25:18'
     datasets:
-      inputs: []
+      inputs:
+      - datasets/src_emr_s3_source
       outputs: []
-    subgraphs: []
+    subgraphs:
+    - subgraphs/21Gems1000LOC
+    - subgraphs/sg100gems
+    - subgraphs/sgScriptWith5ScriptEachHaving1000LOC
     dependencies: {}
 datasets:
   datasets/scala-customers:

@@ -234,8 +234,8 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_1_1_1_1_2.conf
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_5_7.config.{
   Config => Subgraph_2_1_5_7_Config
 }
-import io.prophecy.pipelines.livyscalapipeline.graph.`210Gem_10kLoc`.config.{
-  Config => `210Gem_10kLoc_Config`
+import io.prophecy.pipelines.livyscalapipeline.graph.T210Gem_10kLoc.config.{
+  Config => T210Gem_10kLoc_Config
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_5_6.config.{
   Config => Subgraph_2_1_5_6_Config
@@ -396,7 +396,7 @@ case class Config(
   var Subgraph_2_1_4_2: Subgraph_2_1_4_2_Config = Subgraph_2_1_4_2_Config(),
   var Subgraph_2_1_4:   Subgraph_2_1_4_Config = Subgraph_2_1_4_Config(),
   var sg100gems:        sg100gems_Config = sg100gems_Config(),
-  var `210Gem_10kLoc`:  `210Gem_10kLoc_Config` = `210Gem_10kLoc_Config`()
+  var T210Gem_10kLoc:   T210Gem_10kLoc_Config = T210Gem_10kLoc_Config()
 ) extends ConfigBase
 
 object C_array {

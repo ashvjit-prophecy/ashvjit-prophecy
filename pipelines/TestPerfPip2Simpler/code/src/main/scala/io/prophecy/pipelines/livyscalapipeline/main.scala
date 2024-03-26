@@ -70,9 +70,15 @@ object Main {
     val df_Limit_1           = Limit_1(context,           df_OrderBy_3)
     val df_Reformat_1        = Reformat_1(context,        df_Limit_1)
     val df_FlattenSchema_1   = FlattenSchema_1(context,   df_Reformat_1)
-    val (df_RowDistributor_1_out0, df_RowDistributor_1_out1) =
-      RowDistributor_1(context, df_FlattenSchema_1)
-    val df_Repartition_1 = Repartition_1(context, df_RowDistributor_1_out0)
+    val (df_RowDistributor_1_out0, df_RowDistributor_1_out1) = {
+      val (df_RowDistributor_1_out0_temp, df_RowDistributor_1_out1_temp) =
+        RowDistributor_1(context, df_FlattenSchema_1)
+      (df_RowDistributor_1_out0_temp.cache(),
+       df_RowDistributor_1_out1_temp.cache()
+      )
+    }
+    val df_Repartition_1 =
+      Repartition_1(context, df_RowDistributor_1_out0).cache()
     val df_SQLStatement_1 =
       SQLStatement_1(context, df_Repartition_1, df_RowDistributor_1_out1)
     val df_Script_1 = Script_1(context, df_SQLStatement_1)
@@ -135,7 +141,7 @@ object Main {
       Reformat_1_1_4_1_1_4_1_1_1_1(context, df_Reformat_1_1_4_1_1_4_1_2_1)
     val df_Reformat_1_1_4_1_1_4_1_2_1_1 =
       Reformat_1_1_4_1_1_4_1_2_1_1(context, df_Reformat_1_1_4_1_1_4_1_1_1_1)
-    val df_Reformat_1_1      = Reformat_1_1(context,      df_Limit_1_1)
+    val df_Reformat_1_1      = Reformat_1_1(context,      df_Limit_1_1).cache()
     val df_FlattenSchema_1_1 = FlattenSchema_1_1(context, df_Reformat_1_1)
     val df_Reformat_1_1_4_1_1_4_1_5 =
       Reformat_1_1_4_1_1_4_1_5(context, df_FlattenSchema_1_1)
@@ -164,6 +170,16 @@ object Main {
       Reformat_1_1_4_1_1_4_1_1_1_2(context, df_Reformat_1_1_4_1_1_4_1_2_2)
     val df_Reformat_1_1_4_1_1_4_1_3_1 =
       Reformat_1_1_4_1_1_4_1_3_1(context, df_Reformat_1_1_4_1_1_4_1_1_1_2)
+    val df_Reformat_3_2_1 = if (context.config.c_string == "will.i.am") {
+      val df_Removeme = Removeme(context, df_ConfigUdfLookup)
+      Reformat_3_2_1(context, df_Removeme)
+    } else
+      null
+    val df_Skipme =
+      if (context.config.c_string == "will.i.am")
+        Skipme(context, df_ConfigUdfLookup)
+      else df_ConfigUdfLookup
+    val df_Reformat_3_1 = Reformat_3_1(context, df_Skipme)
     val df_Reformat_1_1_4_1_1_4_1_1_7 =
       Reformat_1_1_4_1_1_4_1_1_7(context, df_Reformat_1_1_4_1_1_4_1_8)
     val df_Reformat_1_1_4_1_1_4_1_2_6 =
@@ -176,6 +192,7 @@ object Main {
       Reformat_1_1_4_1_1_4_1_1_2_5(context, df_Reformat_1_1_4_1_1_4_1_3_5)
     val df_Reformat_1_1_4_1_1_4_1_2_1_6 =
       Reformat_1_1_4_1_1_4_1_2_1_6(context, df_Reformat_1_1_4_1_1_4_1_1_2_5)
+        .cache()
     val df_Reformat_1_1_4_1_1_4_1_1_1_1_6 =
       Reformat_1_1_4_1_1_4_1_1_1_1_6(context, df_Reformat_1_1_4_1_1_4_1_2_1_6)
     val df_Reformat_1_1_4_1_1_4_1_2_1_1_5 =
@@ -209,6 +226,14 @@ object Main {
     val df_Reformat_1_1_4_1_1_4_1_1_1_1_4 =
       Reformat_1_1_4_1_1_4_1_1_1_1_4(context, df_Reformat_1_1_4_1_1_4_1_2_1_4)
     dest_livytest(context,                    df_Reformat_1_1_3_1_1_4)
+    val df_Subgraph_2 =
+      if (context.config.c_string == "will.i.am")
+        Subgraph_2.apply(
+          Subgraph_2.config.Context(context.spark, context.config.Subgraph_2),
+          df_Reformat_1_1_1_5
+        )
+      else df_Reformat_1_1_1_5
+    val df_Reformat_3 = Reformat_3(context, df_Subgraph_2)
     val df_Reformat_1_1_4_1_1_4_1_2_1_1_3 =
       Reformat_1_1_4_1_1_4_1_2_1_1_3(context, df_Reformat_1_1_4_1_1_4_1_1_1_1_4)
     val df_Reformat_1_1_4_1_1_4_1_1_1_1_1_3 = Reformat_1_1_4_1_1_4_1_1_1_1_1_3(
