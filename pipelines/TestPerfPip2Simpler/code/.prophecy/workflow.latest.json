@@ -17358,33 +17358,6 @@
         } ]
       }
     },
-    "A5Goezo6ijJk1neBlYgwH$$lcak8S8yq8p6zvU6zDr0Z" : {
-      "id" : "A5Goezo6ijJk1neBlYgwH$$lcak8S8yq8p6zvU6zDr0Z",
-      "component" : "Source",
-      "metadata" : {
-        "label" : "src_emr_s3_source",
-        "slug" : "src_emr_s3_source",
-        "x" : -1440,
-        "y" : -680,
-        "phase" : 0,
-        "cache" : false,
-        "detailedStats" : false,
-        "isImported" : false
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "L-jCKztZZEiPCFdUhPlsJ$$fSeU6qgl8zZFhySo1bfMj",
-          "slug" : "out"
-        } ],
-        "selectedInputFields" : [ ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      },
-      "properties" : {
-        "datasetId" : "datasets/src_emr_s3_source"
-      }
-    },
     "iYLlqFuvFhA6WqoHsK1Wj$$XWQ5v4VjGuwMdqmjlZAcS" : {
       "id" : "iYLlqFuvFhA6WqoHsK1Wj$$XWQ5v4VjGuwMdqmjlZAcS",
       "component" : "Reformat",

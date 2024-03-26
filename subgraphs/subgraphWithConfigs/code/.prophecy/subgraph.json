@@ -259,13 +259,258 @@
     "target" : "5jG77N8ph-jDxcCqLj9vQ",
     "targetPort" : "PXFCK_rSSju5LEljn-w7o"
   }, {
-    "id" : "RM4YU4YO5CmeMasFabp-J",
-    "source" : "o0yGaGTgCOkwrDoj0Hqq3",
-    "sourcePort" : "pPrN2tCIo6vou-Z8AmumI",
+    "id" : "AorjpdhE5uZWM2KiIMj3t$$qUx-eLoF6pCiSOe5Y8Cq4",
+    "source" : "yE6weZ-4wJFRl3OsdiSwf",
+    "sourcePort" : "xHnDAhSq62Md3AC4iQvdk",
     "target" : "ypezTiRjP-oExNOS4Aiyg",
     "targetPort" : "1blNktKja9ZFRIWtSH_VP"
   } ],
   "processes" : {
+    "yE6weZ-4wJFRl3OsdiSwf" : {
+      "id" : "yE6weZ-4wJFRl3OsdiSwf",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "src_emr_s3_source",
+        "slug" : "src_emr_s3_source",
+        "x" : -880,
+        "y" : -440,
+        "phase" : -1,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "xHnDAhSq62Md3AC4iQvdk",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "format" : "csv",
+        "refreshDataset" : false,
+        "dataFormats" : [ {
+          "label" : "CSV",
+          "value" : "csv",
+          "icon" : "CsvIcon",
+          "type" : "File"
+        }, {
+          "label" : "Parquet",
+          "value" : "parquet",
+          "icon" : "ParquetLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Avro",
+          "value" : "avro",
+          "icon" : "AvroLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Text",
+          "value" : "text",
+          "icon" : "FileTextIcon",
+          "type" : "File"
+        }, {
+          "label" : "Delta",
+          "value" : "delta",
+          "icon" : "DeltaLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "JSON",
+          "value" : "json",
+          "icon" : "JsonIcon",
+          "type" : "File"
+        }, {
+          "label" : "ORC",
+          "value" : "orc",
+          "icon" : "OrcLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Fixed Format",
+          "value" : "fixedformat",
+          "icon" : "FixedFormatFileIcon",
+          "type" : "File"
+        }, {
+          "label" : "Catalog Table",
+          "value" : "catalogTable",
+          "icon" : "CatalogTableIcon",
+          "type" : "Database"
+        }, {
+          "label" : "Snowflake",
+          "value" : "snowflake",
+          "icon" : "SnowflakeLogoIcon",
+          "type" : "Warehouse"
+        }, {
+          "label" : "Xml",
+          "value" : "xml",
+          "icon" : "XmlIcon",
+          "type" : "File"
+        }, {
+          "label" : "Kafka",
+          "value" : "KafkaStream",
+          "icon" : "KafkaLogoIcon",
+          "type" : "File"
+        }, {
+          "label" : "Mongodb",
+          "value" : "mongodb",
+          "icon" : "MongoDbIcon",
+          "type" : "Warehouse"
+        }, {
+          "label" : "Xlsx",
+          "value" : "xlsx",
+          "icon" : "FileIcon",
+          "type" : "File"
+        }, {
+          "label" : "JDBC",
+          "value" : "jdbc",
+          "icon" : "JdbcFileIcon",
+          "type" : "Warehouse"
+        }, {
+          "label" : "Jdbc2",
+          "value" : "jdbc2",
+          "icon" : "DatabaseASolidIcon",
+          "type" : "Warehouse"
+        } ],
+        "datasetId" : "datasets/src_emr_s3_source",
+        "dataTypes" : [ {
+          "label" : "File",
+          "value" : "File",
+          "icon" : "File"
+        }, {
+          "label" : "Warehouse",
+          "value" : "Warehouse",
+          "icon" : "Database"
+        }, {
+          "label" : "Catalog Table",
+          "value" : "Database",
+          "icon" : "CatalogTable"
+        }, {
+          "label" : "Applications",
+          "value" : "WebApp",
+          "icon" : "WebApp"
+        } ],
+        "updated" : true,
+        "currentDatasetId" : "datasets/src_emr_s3_source",
+        "dataset" : {
+          "ignoreLeadingWhiteSpaceReading" : null,
+          "multiLine" : null,
+          "path" : "s3://qa-prophecy/livydata/annual-enterprise/",
+          "ignoreTrailingWhiteSpaceReading" : null,
+          "maxColumns" : null,
+          "writeMode" : "error",
+          "description" : "",
+          "separator" : ",",
+          "compression" : null,
+          "nullValue" : null,
+          "nanValue" : null,
+          "escapeQuotes" : null,
+          "charToEscapeQuoteEscaping" : null,
+          "skipFooters" : null,
+          "encoding" : null,
+          "inferSchema" : null,
+          "enforceSchema" : null,
+          "quoteAll" : null,
+          "ignoreLeadingWhiteSpaceWriting" : null,
+          "locale" : null,
+          "quote" : null,
+          "timestampFormat" : null,
+          "emptyValue" : null,
+          "recursiveFileLookup" : null,
+          "partitionColumns" : null,
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ {
+              "name" : "year",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "industry_code_ANZSIC",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "industry_name_ANZSIC",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "rme_size_grp",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "variable",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "value",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            }, {
+              "name" : "unit",
+              "type" : "string",
+              "nullable" : true,
+              "metadata" : {
+                "description" : "",
+                "mappings" : [ ],
+                "tags" : [ ]
+              }
+            } ]
+          },
+          "escape" : null,
+          "unescapedQuoteHandling" : null,
+          "positiveInf" : null,
+          "skipHeaders" : null,
+          "comment" : null,
+          "lineSep" : null,
+          "samplingRatio" : null,
+          "dateFormat" : null,
+          "mode" : null,
+          "header" : true,
+          "columnNameOfCorruptRecord" : null,
+          "modifiedBefore" : null,
+          "ignoreTrailingWhiteSpaceWriting" : null,
+          "maxCharsPerColumn" : null,
+          "negativeInf" : null,
+          "createSingleOutputFile" : null,
+          "pathGlobFilter" : null,
+          "useSchema" : true,
+          "modifiedAfter" : null
+        },
+        "isNewDataset" : false,
+        "disabled" : false,
+        "datasetType" : "File"
+      }
+    },
     "ypezTiRjP-oExNOS4Aiyg" : {
       "id" : "ypezTiRjP-oExNOS4Aiyg",
       "component" : "Lookup",
@@ -401,251 +646,6 @@
           "format" : "sql",
           "expression" : "true"
         }
-      }
-    },
-    "o0yGaGTgCOkwrDoj0Hqq3" : {
-      "id" : "o0yGaGTgCOkwrDoj0Hqq3",
-      "component" : "Source",
-      "metadata" : {
-        "label" : "annual_1",
-        "slug" : "annual_1",
-        "x" : -1020,
-        "y" : -380,
-        "phase" : -1,
-        "cache" : false,
-        "detailedStats" : false,
-        "isImported" : false
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ {
-          "id" : "pPrN2tCIo6vou-Z8AmumI",
-          "slug" : "out"
-        } ],
-        "selectedInputFields" : [ ],
-        "isCustomOutputSchema" : false,
-        "autoUpdateOnRun" : false
-      },
-      "properties" : {
-        "format" : "csv",
-        "refreshDataset" : false,
-        "dataFormats" : [ {
-          "label" : "CSV",
-          "value" : "csv",
-          "icon" : "CsvIcon",
-          "type" : "File"
-        }, {
-          "label" : "Parquet",
-          "value" : "parquet",
-          "icon" : "ParquetLogoIcon",
-          "type" : "File"
-        }, {
-          "label" : "Avro",
-          "value" : "avro",
-          "icon" : "AvroLogoIcon",
-          "type" : "File"
-        }, {
-          "label" : "Text",
-          "value" : "text",
-          "icon" : "FileTextIcon",
-          "type" : "File"
-        }, {
-          "label" : "Delta",
-          "value" : "delta",
-          "icon" : "DeltaLogoIcon",
-          "type" : "File"
-        }, {
-          "label" : "JSON",
-          "value" : "json",
-          "icon" : "JsonIcon",
-          "type" : "File"
-        }, {
-          "label" : "ORC",
-          "value" : "orc",
-          "icon" : "OrcLogoIcon",
-          "type" : "File"
-        }, {
-          "label" : "Fixed Format",
-          "value" : "fixedformat",
-          "icon" : "FixedFormatFileIcon",
-          "type" : "File"
-        }, {
-          "label" : "Catalog Table",
-          "value" : "catalogTable",
-          "icon" : "CatalogTableIcon",
-          "type" : "Database"
-        }, {
-          "label" : "Snowflake",
-          "value" : "snowflake",
-          "icon" : "SnowflakeLogoIcon",
-          "type" : "Warehouse"
-        }, {
-          "label" : "Xml",
-          "value" : "xml",
-          "icon" : "XmlIcon",
-          "type" : "File"
-        }, {
-          "label" : "Kafka",
-          "value" : "KafkaStream",
-          "icon" : "KafkaLogoIcon",
-          "type" : "File"
-        }, {
-          "label" : "Mongodb",
-          "value" : "mongodb",
-          "icon" : "MongoDbIcon",
-          "type" : "Warehouse"
-        }, {
-          "label" : "Xlsx",
-          "value" : "xlsx",
-          "icon" : "FileIcon",
-          "type" : "File"
-        }, {
-          "label" : "JDBC",
-          "value" : "jdbc",
-          "icon" : "JdbcFileIcon",
-          "type" : "Warehouse"
-        }, {
-          "label" : "Jdbc2",
-          "value" : "jdbc2",
-          "icon" : "DatabaseASolidIcon",
-          "type" : "Warehouse"
-        } ],
-        "datasetId" : "datasets/livy-annual-enterprise",
-        "dataTypes" : [ {
-          "label" : "File",
-          "value" : "File",
-          "icon" : "File"
-        }, {
-          "label" : "Warehouse",
-          "value" : "Warehouse",
-          "icon" : "Database"
-        }, {
-          "label" : "Catalog Table",
-          "value" : "Database",
-          "icon" : "CatalogTable"
-        }, {
-          "label" : "Applications",
-          "value" : "WebApp",
-          "icon" : "WebApp"
-        } ],
-        "updated" : true,
-        "currentDatasetId" : "datasets/livy-annual-enterprise",
-        "dataset" : {
-          "ignoreLeadingWhiteSpaceReading" : null,
-          "multiLine" : null,
-          "path" : "file:/storage/workflowdata/annual-enterprise",
-          "ignoreTrailingWhiteSpaceReading" : null,
-          "maxColumns" : null,
-          "writeMode" : "error",
-          "description" : "",
-          "separator" : ",",
-          "compression" : null,
-          "nullValue" : null,
-          "nanValue" : null,
-          "escapeQuotes" : null,
-          "charToEscapeQuoteEscaping" : null,
-          "skipFooters" : null,
-          "encoding" : null,
-          "inferSchema" : null,
-          "enforceSchema" : null,
-          "quoteAll" : null,
-          "ignoreLeadingWhiteSpaceWriting" : null,
-          "locale" : null,
-          "quote" : null,
-          "timestampFormat" : null,
-          "emptyValue" : null,
-          "recursiveFileLookup" : null,
-          "partitionColumns" : null,
-          "schema" : {
-            "type" : "struct",
-            "fields" : [ {
-              "name" : "year",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "industry_code_ANZSIC",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "industry_name_ANZSIC",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "rme_size_grp",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "variable",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "value",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            }, {
-              "name" : "unit",
-              "type" : "string",
-              "nullable" : true,
-              "metadata" : {
-                "description" : "",
-                "mappings" : [ ],
-                "tags" : [ ]
-              }
-            } ]
-          },
-          "escape" : null,
-          "unescapedQuoteHandling" : null,
-          "positiveInf" : null,
-          "skipHeaders" : null,
-          "comment" : null,
-          "lineSep" : null,
-          "samplingRatio" : null,
-          "dateFormat" : null,
-          "mode" : null,
-          "header" : true,
-          "columnNameOfCorruptRecord" : null,
-          "modifiedBefore" : null,
-          "ignoreTrailingWhiteSpaceWriting" : null,
-          "maxCharsPerColumn" : null,
-          "negativeInf" : null,
-          "createSingleOutputFile" : null,
-          "pathGlobFilter" : null,
-          "useSchema" : true,
-          "modifiedAfter" : null
-        },
-        "isNewDataset" : false,
-        "disabled" : false,
-        "datasetType" : "File"
       }
     },
     "jVf0CAOWNWJz7d3xnDgog" : {

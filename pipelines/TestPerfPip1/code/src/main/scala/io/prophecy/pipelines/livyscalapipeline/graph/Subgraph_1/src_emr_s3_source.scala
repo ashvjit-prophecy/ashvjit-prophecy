@@ -1,7 +1,7 @@
-package io.prophecy.pipelines.livyscalapipeline.graph
+package io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1
 
 import io.prophecy.libs._
-import io.prophecy.pipelines.livyscalapipeline.config.Context
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_1.config.Context
 import org.apache.spark._
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions._
@@ -9,7 +9,7 @@ import org.apache.spark.sql.types._
 import org.apache.spark.sql.expressions._
 import java.time._
 
-object annual {
+object src_emr_s3_source {
 
   def apply(context: Context): DataFrame =
     context.spark.read
@@ -29,6 +29,6 @@ object annual {
           )
         )
       )
-      .load("file:/storage/workflowdata/annual-enterprise")
+      .load("s3://qa-prophecy/livydata/annual-enterprise/")
 
 }

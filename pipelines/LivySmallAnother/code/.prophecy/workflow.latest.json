@@ -10,7 +10,7 @@
       "hasApplication" : true
     },
     "language" : "scala",
-    "fabricId" : "1",
+    "fabricId" : "47",
     "frontEndLanguage" : "sql",
     "mode" : "batch",
     "udfs" : {
@@ -57,14 +57,14 @@
   },
   "connections" : [ ],
   "processes" : {
-    "Xeogy6WsSXWRJvAdcekj1$$HMSoTWRJTmzOZqPjL6mKP" : {
-      "id" : "Xeogy6WsSXWRJvAdcekj1$$HMSoTWRJTmzOZqPjL6mKP",
+    "OXHVRan6PmhTpBBr4hRDG$$BSTQh64cVSDYcvuSK9atc" : {
+      "id" : "OXHVRan6PmhTpBBr4hRDG$$BSTQh64cVSDYcvuSK9atc",
       "component" : "Source",
       "metadata" : {
-        "label" : "livy-annual-enterprise",
-        "slug" : "livy_annual_enterprise",
-        "x" : -780,
-        "y" : -60,
+        "label" : "src_emr_s3_source",
+        "slug" : "src_emr_s3_source",
+        "x" : -1220,
+        "y" : -240,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -73,7 +73,7 @@
       "ports" : {
         "inputs" : [ ],
         "outputs" : [ {
-          "id" : "CBsFYvaThiXxHGFAszSg_$$hcoxJh_6nLq_NKSQk-3SI",
+          "id" : "y5bs72fQ5fadEnJn1OVh_$$QPK4dA987YsLVYRoI7thU",
           "slug" : "out"
         } ],
         "selectedInputFields" : [ ],
@@ -81,7 +81,7 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
-        "datasetId" : "datasets/livy-annual-enterprise"
+        "datasetId" : "datasets/src_emr_s3_source"
       }
     }
   },

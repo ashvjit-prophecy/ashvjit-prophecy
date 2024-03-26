@@ -113,7 +113,7 @@ pipelines:
     createdAt: '2024-03-26 12:19:06'
     datasets:
       inputs:
-      - datasets/livy-annual-enterprise
+      - datasets/src_emr_s3_source
       outputs: []
     subgraphs: []
     dependencies: {}
@@ -127,7 +127,7 @@ pipelines:
     createdAt: '2024-03-26 12:55:40'
     datasets:
       inputs:
-      - datasets/livy-annual-enterprise
+      - datasets/src_emr_s3_source
       outputs:
       - datasets/dest_livytest
     subgraphs:
@@ -146,7 +146,6 @@ pipelines:
     datasets:
       inputs:
       - datasets/livy-annual-enterprise
-      - datasets/src_emr_s3_source
       outputs:
       - datasets/dest_livytest
     subgraphs:
