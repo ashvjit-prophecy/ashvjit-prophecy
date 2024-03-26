@@ -3,18 +3,23 @@ package io.prophecy.pipelines.livysmallpipeline.config
 import pureconfig._
 import pureconfig.generic.ProductHint
 import io.prophecy.libs._
-import io.prophecy.pipelines.livysmallpipeline.graph.Subgraph_0.config.{
-  Config => Subgraph_0_Config
+import io.prophecy.pipelines.livysmallpipeline.graph.sgScriptWith5ScriptEachHaving1000LOC.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_Config
 }
-import io.prophecy.pipelines.livysmallpipeline.graph.Subgraph_1.config.{
-  Config => Subgraph_1_Config
+import io.prophecy.pipelines.livysmallpipeline.graph.`210Gems_10kLOC`.config.{
+  Config => `210Gems_10kLOC_Config`
 }
 import io.prophecy.pipelines.livysmallpipeline.graph.sg100gems.config.{
   Config => sg100gems_Config
 }
+import io.prophecy.pipelines.livysmallpipeline.graph.`21Gems1000LOC`.config.{
+  Config => `21Gems1000LOC_Config`
+}
 
 case class Config(
-  var Subgraph_0: Subgraph_0_Config = Subgraph_0_Config(),
-  var Subgraph_1: Subgraph_1_Config = Subgraph_1_Config(),
-  var sg100gems:  sg100gems_Config = sg100gems_Config()
+  var `21Gems1000LOC`:  `21Gems1000LOC_Config` = `21Gems1000LOC_Config`(),
+  var `210Gems_10kLOC`: `210Gems_10kLOC_Config` = `210Gems_10kLOC_Config`(),
+  var sg100gems:        sg100gems_Config = sg100gems_Config(),
+  var sgScriptWith5ScriptEachHaving1000LOC: sgScriptWith5ScriptEachHaving1000LOC_Config =
+    sgScriptWith5ScriptEachHaving1000LOC_Config()
 ) extends ConfigBase

@@ -16,12 +16,17 @@ object Main {
 
   def apply(context: Context): Unit = {
     val df_livy_annual_enterprise = livy_annual_enterprise(context)
-    val df_Subgraph_0 = Subgraph_0.apply(
-      Subgraph_0.config.Context(context.spark, context.config.Subgraph_0),
-      df_livy_annual_enterprise
-    )
-    val df_Subgraph_1 = Subgraph_1.apply(
-      Subgraph_1.config.Context(context.spark, context.config.Subgraph_1),
+    val df_sgScriptWith5ScriptEachHaving1000LOC =
+      sgScriptWith5ScriptEachHaving1000LOC.apply(
+        sgScriptWith5ScriptEachHaving1000LOC.config.Context(
+          context.spark,
+          context.config.sgScriptWith5ScriptEachHaving1000LOC
+        ),
+        df_livy_annual_enterprise
+      )
+    val df_210Gems_10kLOC = `210Gems_10kLOC`.apply(
+      `210Gems_10kLOC`.config
+        .Context(context.spark, context.config.`210Gems_10kLOC`),
       df_livy_annual_enterprise
     )
     val (df_sg100gems_out0,
@@ -34,6 +39,11 @@ object Main {
          df_sg100gems_out7
     ) = sg100gems.apply(
       sg100gems.config.Context(context.spark, context.config.sg100gems),
+      df_livy_annual_enterprise
+    )
+    val df_21Gems1000LOC = `21Gems1000LOC`.apply(
+      `21Gems1000LOC`.config
+        .Context(context.spark, context.config.`21Gems1000LOC`),
       df_livy_annual_enterprise
     )
   }

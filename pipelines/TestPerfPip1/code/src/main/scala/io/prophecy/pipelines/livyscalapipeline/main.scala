@@ -101,6 +101,18 @@ object Main {
         .Context(context.spark, context.config.Subgraph_2_1_5_1),
       df_ConfigUdfLookup
     )
+    val (df_sg100gems_1_1_out0,
+         df_sg100gems_1_1_out1,
+         df_sg100gems_1_1_out2,
+         df_sg100gems_1_1_out3,
+         df_sg100gems_1_1_out4,
+         df_sg100gems_1_1_out5,
+         df_sg100gems_1_1_out6,
+         df_sg100gems_1_1_out7
+    ) = sg100gems_1_1.apply(
+      sg100gems_1_1.config.Context(context.spark, context.config.sg100gems_1_1),
+      df_annual_2
+    )
     val df_Reformat_1_1_4_5   = Reformat_1_1_4_5(context,   df_ConfigUdfLookup)
     val df_Reformat_1_1_1_5   = Reformat_1_1_1_5(context,   df_Reformat_1_1_4_5)
     val df_Reformat_1_1_3_5   = Reformat_1_1_3_5(context,   df_OrderBy_3)
@@ -257,6 +269,18 @@ object Main {
         .Context(context.spark, context.config.Subgraph_2_1_2_2),
       df_Subgraph_2_2_2
     )
+    val (df_sg100gems_1_out0,
+         df_sg100gems_1_out1,
+         df_sg100gems_1_out2,
+         df_sg100gems_1_out3,
+         df_sg100gems_1_out4,
+         df_sg100gems_1_out5,
+         df_sg100gems_1_out6,
+         df_sg100gems_1_out7
+    ) = sg100gems_1.apply(
+      sg100gems_1.config.Context(context.spark, context.config.sg100gems_1),
+      df_annual_2
+    )
     val df_Subgraph_2 = Subgraph_2.apply(
       Subgraph_2.config.Context(context.spark, context.config.Subgraph_2),
       df_Reformat_1_1
@@ -384,6 +408,18 @@ object Main {
       Subgraph_2_1_1_1_2_1.config
         .Context(context.spark, context.config.Subgraph_2_1_1_1_2_1),
       df_Subgraph_2_1_1_2_1
+    )
+    val (df_sg100gems_out0,
+         df_sg100gems_out1,
+         df_sg100gems_out2,
+         df_sg100gems_out3,
+         df_sg100gems_out4,
+         df_sg100gems_out5,
+         df_sg100gems_out6,
+         df_sg100gems_out7
+    ) = sg100gems.apply(
+      sg100gems.config.Context(context.spark, context.config.sg100gems),
+      df_annual_2
     )
     val df_Reformat_1_1_4_1_5 = Reformat_1_1_4_1_5(context, df_Reformat_1_1_1_5)
     val df_Reformat_1_1_1_1_4 =

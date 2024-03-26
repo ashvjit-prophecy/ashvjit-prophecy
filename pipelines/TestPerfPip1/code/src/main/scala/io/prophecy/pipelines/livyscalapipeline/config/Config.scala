@@ -45,6 +45,9 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_4_1.config.{
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_5_1.config.{
   Config => Subgraph_2_1_5_1_Config
 }
+import io.prophecy.pipelines.livyscalapipeline.graph.sg100gems_1_1.config.{
+  Config => sg100gems_1_1_Config
+}
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_3.config.{
   Config => Subgraph_2_3_Config
 }
@@ -126,6 +129,9 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_2_2.config.{
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_2_2.config.{
   Config => Subgraph_2_1_2_2_Config
 }
+import io.prophecy.pipelines.livyscalapipeline.graph.sg100gems_1.config.{
+  Config => sg100gems_1_Config
+}
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2.config.{
   Config => Subgraph_2_Config
 }
@@ -200,6 +206,9 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_1_1_1_3_3.conf
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_1_1_2_1.config.{
   Config => Subgraph_2_1_1_1_2_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.sg100gems.config.{
+  Config => sg100gems_Config
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_1_1_2_2.config.{
   Config => Subgraph_2_1_1_1_2_2_Config
@@ -327,7 +336,71 @@ case class Config(
     Subgraph_2_1_1_4_3_Config(),
   var Subgraph_2_1_1_1_1_1_2_3: Subgraph_2_1_1_1_1_1_2_3_Config =
     Subgraph_2_1_1_1_1_1_2_3_Config(),
-  var Subgraph_2_1_5_10: Subgraph_2_1_5_10_Config = Subgraph_2_1_5_10_Config()
+  var Subgraph_2_1_5_10: Subgraph_2_1_5_10_Config = Subgraph_2_1_5_10_Config(),
+  var Subgraph_2_4:      Subgraph_2_4_Config = Subgraph_2_4_Config(),
+  var Subgraph_2_1_1_2_2_2: Subgraph_2_1_1_2_2_2_Config =
+    Subgraph_2_1_1_2_2_2_Config(),
+  var Subgraph_2_1_1_1_1_3_2: Subgraph_2_1_1_1_1_3_2_Config =
+    Subgraph_2_1_1_1_1_3_2_Config(),
+  var Subgraph_2_1_2_2_2: Subgraph_2_1_2_2_2_Config =
+    Subgraph_2_1_2_2_2_Config(),
+  var Subgraph_2_1_1_1_2_2_2: Subgraph_2_1_1_1_2_2_2_Config =
+    Subgraph_2_1_1_1_2_2_2_Config(),
+  var Subgraph_2_1_5_4: Subgraph_2_1_5_4_Config = Subgraph_2_1_5_4_Config(),
+  var Subgraph_2_1_1:   Subgraph_2_1_1_Config = Subgraph_2_1_1_Config(),
+  var Subgraph_2_4_2:   Subgraph_2_4_2_Config = Subgraph_2_4_2_Config(),
+  var Subgraph_2_1_5_8: Subgraph_2_1_5_8_Config = Subgraph_2_1_5_8_Config(),
+  var Subgraph_2_1_1_2_2_1: Subgraph_2_1_1_2_2_1_Config =
+    Subgraph_2_1_1_2_2_1_Config(),
+  var Subgraph_2_1_1_4_2: Subgraph_2_1_1_4_2_Config =
+    Subgraph_2_1_1_4_2_Config(),
+  var Subgraph_2_1_1_1_4_2: Subgraph_2_1_1_1_4_2_Config =
+    Subgraph_2_1_1_1_4_2_Config(),
+  var Subgraph_2_1_2_2: Subgraph_2_1_2_2_Config = Subgraph_2_1_2_2_Config(),
+  var Subgraph_2_1_1_1_1_3_1: Subgraph_2_1_1_1_1_3_1_Config =
+    Subgraph_2_1_1_1_1_3_1_Config(),
+  var Subgraph_2_1_5_7: Subgraph_2_1_5_7_Config = Subgraph_2_1_5_7_Config(),
+  var Subgraph_2_1_1_1_1_1_2_2: Subgraph_2_1_1_1_1_1_2_2_Config =
+    Subgraph_2_1_1_1_1_1_2_2_Config(),
+  var Subgraph_2_1_1_1_4_1: Subgraph_2_1_1_1_4_1_Config =
+    Subgraph_2_1_1_1_4_1_Config(),
+  var Subgraph_2_1_1_1_2_2: Subgraph_2_1_1_1_2_2_Config =
+    Subgraph_2_1_1_1_2_2_Config(),
+  var Subgraph_2_1_4_1: Subgraph_2_1_4_1_Config = Subgraph_2_1_4_1_Config(),
+  var Subgraph_2_2_2_2: Subgraph_2_2_2_2_Config = Subgraph_2_2_2_2_Config(),
+  var Subgraph_2_1_1_2_2: Subgraph_2_1_1_2_2_Config =
+    Subgraph_2_1_1_2_2_Config(),
+  var Subgraph_2_1_1_1_1: Subgraph_2_1_1_1_1_Config =
+    Subgraph_2_1_1_1_1_Config(),
+  var Subgraph_2_1_1_1_1_1_2: Subgraph_2_1_1_1_1_1_2_Config =
+    Subgraph_2_1_1_1_1_1_2_Config(),
+  var Subgraph_2_1_1_1_1_3: Subgraph_2_1_1_1_1_3_Config =
+    Subgraph_2_1_1_1_1_3_Config(),
+  var Subgraph_2_2_2: Subgraph_2_2_2_Config = Subgraph_2_2_2_Config(),
+  var Subgraph_2_1_1_1_4: Subgraph_2_1_1_1_4_Config =
+    Subgraph_2_1_1_1_4_Config(),
+  var Subgraph_2_1_1_4_1: Subgraph_2_1_1_4_1_Config =
+    Subgraph_2_1_1_4_1_Config(),
+  var Subgraph_2_4_1: Subgraph_2_4_1_Config = Subgraph_2_4_1_Config(),
+  var Subgraph_2_1_1_1_1_1_2_1: Subgraph_2_1_1_1_1_1_2_1_Config =
+    Subgraph_2_1_1_1_1_1_2_1_Config(),
+  var Subgraph_2_2_2_1: Subgraph_2_2_2_1_Config = Subgraph_2_2_2_1_Config(),
+  var Subgraph_2_1_5_3: Subgraph_2_1_5_3_Config = Subgraph_2_1_5_3_Config(),
+  var Subgraph_2_1_5_2: Subgraph_2_1_5_2_Config = Subgraph_2_1_5_2_Config(),
+  var Subgraph_2_1_5_6: Subgraph_2_1_5_6_Config = Subgraph_2_1_5_6_Config(),
+  var Subgraph_2_1_1_1_2_2_1: Subgraph_2_1_1_1_2_2_1_Config =
+    Subgraph_2_1_1_1_2_2_1_Config(),
+  var Subgraph_2_1_5_5: Subgraph_2_1_5_5_Config = Subgraph_2_1_5_5_Config(),
+  var Subgraph_2_1_1_4: Subgraph_2_1_1_4_Config = Subgraph_2_1_1_4_Config(),
+  var Subgraph_2_1_5_1: Subgraph_2_1_5_1_Config = Subgraph_2_1_5_1_Config(),
+  var Subgraph_2_1_2_2_1: Subgraph_2_1_2_2_1_Config =
+    Subgraph_2_1_2_2_1_Config(),
+  var Subgraph_2_1_5_9: Subgraph_2_1_5_9_Config = Subgraph_2_1_5_9_Config(),
+  var Subgraph_2_1_4_2: Subgraph_2_1_4_2_Config = Subgraph_2_1_4_2_Config(),
+  var Subgraph_2_1_4:   Subgraph_2_1_4_Config = Subgraph_2_1_4_Config(),
+  var sg100gems:        sg100gems_Config = sg100gems_Config(),
+  var sg100gems_1:      sg100gems_1_Config = sg100gems_1_Config(),
+  var sg100gems_1_1:    sg100gems_1_1_Config = sg100gems_1_1_Config()
 ) extends ConfigBase
 
 object C_array {
