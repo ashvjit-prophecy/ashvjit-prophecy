@@ -101,18 +101,6 @@ object Main {
         .Context(context.spark, context.config.Subgraph_2_1_5_1),
       df_ConfigUdfLookup
     )
-    val (df_sg100gems_1_1_out0,
-         df_sg100gems_1_1_out1,
-         df_sg100gems_1_1_out2,
-         df_sg100gems_1_1_out3,
-         df_sg100gems_1_1_out4,
-         df_sg100gems_1_1_out5,
-         df_sg100gems_1_1_out6,
-         df_sg100gems_1_1_out7
-    ) = sg100gems_1_1.apply(
-      sg100gems_1_1.config.Context(context.spark, context.config.sg100gems_1_1),
-      df_annual_2
-    )
     val df_Reformat_1_1_4_5   = Reformat_1_1_4_5(context,   df_ConfigUdfLookup)
     val df_Reformat_1_1_1_5   = Reformat_1_1_1_5(context,   df_Reformat_1_1_4_5)
     val df_Reformat_1_1_3_5   = Reformat_1_1_3_5(context,   df_OrderBy_3)
@@ -268,18 +256,6 @@ object Main {
       Subgraph_2_1_2_2.config
         .Context(context.spark, context.config.Subgraph_2_1_2_2),
       df_Subgraph_2_2_2
-    )
-    val (df_sg100gems_1_out0,
-         df_sg100gems_1_out1,
-         df_sg100gems_1_out2,
-         df_sg100gems_1_out3,
-         df_sg100gems_1_out4,
-         df_sg100gems_1_out5,
-         df_sg100gems_1_out6,
-         df_sg100gems_1_out7
-    ) = sg100gems_1.apply(
-      sg100gems_1.config.Context(context.spark, context.config.sg100gems_1),
-      df_annual_2
     )
     val df_Subgraph_2 = Subgraph_2.apply(
       Subgraph_2.config.Context(context.spark, context.config.Subgraph_2),
@@ -476,6 +452,11 @@ object Main {
       Subgraph_2_1_5_7.config
         .Context(context.spark, context.config.Subgraph_2_1_5_7),
       df_ConfigUdfLookup_1
+    )
+    val df_210Gem_10kLoc = `210Gem_10kLoc`.apply(
+      `210Gem_10kLoc`.config
+        .Context(context.spark, context.config.`210Gem_10kLoc`),
+      df_annual_2
     )
     val df_Subgraph_2_1_5_6 = Subgraph_2_1_5_6.apply(
       Subgraph_2_1_5_6.config

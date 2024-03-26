@@ -12,11 +12,11 @@ import java.time._
 package object sg100gems {
 
   def apply(context: Context, in0: DataFrame): Subgraph8 = {
-    val df_Reformat_1         = Reformat_1(context,         in0)
-    val df_Reformat_1_1_2     = Reformat_1_1_2(context,     df_Reformat_1)
-    val df_Reformat_1_1       = Reformat_1_1(context,       df_Reformat_1_1_2)
-    val df_Filter_1           = Filter_1(context,           df_Reformat_1_1)
-    val df_OrderBy_1          = OrderBy_1(context,          df_Filter_1)
+    val df_Reformat_1_2       = Reformat_1_2(context,       in0)
+    val df_Reformat_1_1_2     = Reformat_1_1_2(context,     df_Reformat_1_2)
+    val df_Reformat_1_1_1     = Reformat_1_1_1(context,     df_Reformat_1_1_2)
+    val df_Filter_1_1         = Filter_1_1(context,         df_Reformat_1_1_1)
+    val df_OrderBy_1_1        = OrderBy_1_1(context,        df_Filter_1_1)
     val df_Reformat_1_3_2     = Reformat_1_3_2(context,     in0)
     val df_Reformat_1_1_2_1_2 = Reformat_1_1_2_1_2(context, df_Reformat_1_3_2)
     val df_Reformat_1_1_3_2   = Reformat_1_1_3_2(context,   df_Reformat_1_1_2_1_2)
@@ -90,17 +90,20 @@ package object sg100gems {
     val df_SQLStatement_1_2 = SQLStatement_1_2(context, df_Repartition_1_2)
     val df_SchemaTransform_1_1_1 =
       SchemaTransform_1_1_1(context, df_SQLStatement_1_2)
-    val df_Limit_1_1_1         = Limit_1_1_1(context,         df_SchemaTransform_1_1_1)
-    val df_SetOperation_1      = SetOperation_1(context,      df_OrderBy_1, df_OrderBy_1)
-    val df_SchemaTransform_1   = SchemaTransform_1(context,   df_SetOperation_1)
-    val df_Limit_1             = Limit_1(context,             df_SchemaTransform_1)
-    val df_Repartition_1       = Repartition_1(context,       df_Limit_1)
-    val df_SQLStatement_1      = SQLStatement_1(context,      df_Repartition_1)
-    val df_SchemaTransform_1_1 = SchemaTransform_1_1(context, df_SQLStatement_1)
-    val df_Limit_1_1           = Limit_1_1(context,           df_SchemaTransform_1_1)
-    val df_Reformat_1_1_3_3    = Reformat_1_1_3_3(context,    df_Reformat_1_1_2_1_3)
-    val df_Filter_1_1_3        = Filter_1_1_3(context,        df_Reformat_1_1_3_3)
-    val df_OrderBy_1_1_3       = OrderBy_1_1_3(context,       df_Filter_1_1_3)
+    val df_Limit_1_1_1 = Limit_1_1_1(context, df_SchemaTransform_1_1_1)
+    val df_SetOperation_1_1 =
+      SetOperation_1_1(context, df_OrderBy_1_1, df_OrderBy_1_1)
+    val df_SchemaTransform_1_1 =
+      SchemaTransform_1_1(context, df_SetOperation_1_1)
+    val df_Limit_1_2        = Limit_1_2(context,        df_SchemaTransform_1_1)
+    val df_Repartition_1_1  = Repartition_1_1(context,  df_Limit_1_2)
+    val df_SQLStatement_1_1 = SQLStatement_1_1(context, df_Repartition_1_1)
+    val df_SchemaTransform_1_1_1 =
+      SchemaTransform_1_1_1(context, df_SQLStatement_1_1)
+    val df_Limit_1_1_1      = Limit_1_1_1(context,      df_SchemaTransform_1_1_1)
+    val df_Reformat_1_1_3_3 = Reformat_1_1_3_3(context, df_Reformat_1_1_2_1_3)
+    val df_Filter_1_1_3     = Filter_1_1_3(context,     df_Reformat_1_1_3_3)
+    val df_OrderBy_1_1_3    = OrderBy_1_1_3(context,    df_Filter_1_1_3)
     val df_SetOperation_1_1_3 =
       SetOperation_1_1_3(context, df_OrderBy_1_1_3, df_OrderBy_1_1_3)
     val df_SchemaTransform_1_2_3 =
@@ -127,7 +130,7 @@ package object sg100gems {
     val df_SQLStatement_1_1_1_1 =
       SQLStatement_1_1_1_1(context, df_Repartition_1_1_1_1)
     val df_Reformat_1_2_1_1    = Reformat_1_2_1_1(context,    df_SQLStatement_1_1_1_1)
-    val df_Repartition_1_1     = Repartition_1_1(context,     df_Limit_1_1)
+    val df_Repartition_1_1     = Repartition_1_1(context,     df_Limit_1_1_1)
     val df_Repartition_1_2_3_2 = Repartition_1_2_3_2(context, df_Limit_1_2_3_2)
     val df_SQLStatement_1_2_3_2 =
       SQLStatement_1_2_3_2(context, df_Repartition_1_2_3_2)
@@ -147,18 +150,18 @@ package object sg100gems {
       SQLStatement_1_1_1_3_2(context, df_Repartition_1_1_1_3_2)
     val df_Reformat_1_2_1_3_2 =
       Reformat_1_2_1_3_2(context, df_SQLStatement_1_1_1_3_2)
-    val df_SQLStatement_1_1  = SQLStatement_1_1(context,  df_Repartition_1_1)
-    val df_Reformat_1_2      = Reformat_1_2(context,      df_SQLStatement_1_1)
-    val df_Repartition_1_1_1 = Repartition_1_1_1(context, df_Limit_1_1_1)
+    val df_SQLStatement_1_1_1 = SQLStatement_1_1_1(context, df_Repartition_1_1)
+    val df_Reformat_1_2_1     = Reformat_1_2_1(context,     df_SQLStatement_1_1_1)
+    val df_Repartition_1_1_1  = Repartition_1_1_1(context,  df_Limit_1_1_1)
     val df_SQLStatement_1_1_1_2 =
       SQLStatement_1_1_1_2(context, df_Repartition_1_1_1_2)
     val df_SQLStatement_1_1_1 =
       SQLStatement_1_1_1(context, df_Repartition_1_1_1)
-    val df_Reformat_1_2_1   = Reformat_1_2_1(context,   df_SQLStatement_1_1_1)
+    val df_Reformat_1_2_1_1 = Reformat_1_2_1_1(context, df_SQLStatement_1_1_1)
     val df_Reformat_1_2_1_2 = Reformat_1_2_1_2(context, df_SQLStatement_1_1_1_2)
-    val df_Reformat_1_1_1   = Reformat_1_1_1(context,   df_Reformat_1_2)
+    val df_Reformat_1_1_1   = Reformat_1_1_1(context,   df_Reformat_1_2_1)
     (df_Reformat_1_1_1,
-     df_Reformat_1_2_1,
+     df_Reformat_1_2_1_1,
      df_Reformat_1_2_1_1,
      df_Reformat_1_2_1_2,
      df_Reformat_1_2_1_3,

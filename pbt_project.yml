@@ -131,6 +131,7 @@ pipelines:
       outputs:
       - datasets/dest_livytest
     subgraphs:
+    - subgraphs/sg10kLOC10Subgraphs
     - subgraphs/subgraphWithConfigs
     - subgraphs/sg100gems
     dependencies: {}
