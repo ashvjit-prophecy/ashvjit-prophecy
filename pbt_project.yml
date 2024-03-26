@@ -99,9 +99,9 @@ pipelines:
       outputs: []
     subgraphs:
     - subgraphs/sgScriptWith5ScriptEachHaving1000LOC
+    - subgraphs/21Gems1000LOC
     - subgraphs/sg10kLOC10Subgraphs
     - subgraphs/sg100gems
-    - subgraphs/21Gems1000LOC
     dependencies: {}
   pipelines/LivySmallAnother:
     name: LivySmallAnother

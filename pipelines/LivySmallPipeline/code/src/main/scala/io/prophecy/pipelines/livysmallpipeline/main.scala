@@ -29,6 +29,14 @@ object Main {
         .Context(context.spark, context.config.`210Gems_10kLOC`),
       df_livy_annual_enterprise
     )
+    val df_sgScriptWith5ScriptEachHaving1000LOC_1 =
+      sgScriptWith5ScriptEachHaving1000LOC_1.apply(
+        sgScriptWith5ScriptEachHaving1000LOC_1.config.Context(
+          context.spark,
+          context.config.sgScriptWith5ScriptEachHaving1000LOC_1
+        ),
+        df_sgScriptWith5ScriptEachHaving1000LOC
+      )
     val (df_sg100gems_out0,
          df_sg100gems_out1,
          df_sg100gems_out2,
@@ -41,11 +49,27 @@ object Main {
       sg100gems.config.Context(context.spark, context.config.sg100gems),
       df_livy_annual_enterprise
     )
+    val df_sgScriptWith5ScriptEachHaving1000LOC_2 =
+      sgScriptWith5ScriptEachHaving1000LOC_2.apply(
+        sgScriptWith5ScriptEachHaving1000LOC_2.config.Context(
+          context.spark,
+          context.config.sgScriptWith5ScriptEachHaving1000LOC_2
+        ),
+        df_sgScriptWith5ScriptEachHaving1000LOC_1
+      )
     val df_21Gems1000LOC = `21Gems1000LOC`.apply(
       `21Gems1000LOC`.config
         .Context(context.spark, context.config.`21Gems1000LOC`),
       df_livy_annual_enterprise
     )
+    val df_sgScriptWith5ScriptEachHaving1000LOC_1_1 =
+      sgScriptWith5ScriptEachHaving1000LOC_1_1.apply(
+        sgScriptWith5ScriptEachHaving1000LOC_1_1.config.Context(
+          context.spark,
+          context.config.sgScriptWith5ScriptEachHaving1000LOC_1_1
+        ),
+        df_sgScriptWith5ScriptEachHaving1000LOC_2
+      )
   }
 
   def main(args: Array[String]): Unit = {
