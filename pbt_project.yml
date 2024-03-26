@@ -112,8 +112,7 @@ pipelines:
       inputs:
       - datasets/livy-annual-enterprise
       outputs: []
-    subgraphs:
-    - subgraphs/sg100gems
+    subgraphs: []
     dependencies: {}
 datasets:
   datasets/scala-customers:
@@ -273,6 +272,14 @@ subgraphs:
     artefactID: ''
     mode: batch
     createdAt: '2024-03-26 12:25:40'
+  subgraphs/sgScriptWith5ScriptEachHaving1000LOC:
+    name: sgScriptWith5ScriptEachHaving1000LOC
+    description: sgScriptWith5ScriptEachHaving1000LOC
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-26 12:27:59'
 sqlModels: {}
 sqlMacros: {}
 sqlSeeds: {}

@@ -16,18 +16,6 @@ object Main {
 
   def apply(context: Context): Unit = {
     val df_livy_annual_enterprise = livy_annual_enterprise(context)
-    val (df_Subgraph_1_out0,
-         df_Subgraph_1_out1,
-         df_Subgraph_1_out2,
-         df_Subgraph_1_out3,
-         df_Subgraph_1_out4,
-         df_Subgraph_1_out5,
-         df_Subgraph_1_out6,
-         df_Subgraph_1_out7
-    ) = Subgraph_1.apply(
-      Subgraph_1.config.Context(context.spark, context.config.Subgraph_1),
-      df_livy_annual_enterprise
-    )
   }
 
   def main(args: Array[String]): Unit = {
