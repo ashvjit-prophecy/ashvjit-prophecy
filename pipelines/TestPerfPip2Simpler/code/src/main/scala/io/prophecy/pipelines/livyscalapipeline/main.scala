@@ -215,6 +215,7 @@ object Main {
       context,
       df_Reformat_1_1_4_1_1_4_1_2_1_1_3
     )
+    val df_src_emr_s3_source = src_emr_s3_source(context)
   }
 
   def main(args: Array[String]): Unit = {

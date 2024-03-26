@@ -146,6 +146,7 @@ pipelines:
     datasets:
       inputs:
       - datasets/livy-annual-enterprise
+      - datasets/src_emr_s3_source
       outputs:
       - datasets/dest_livytest
     subgraphs:
@@ -230,6 +231,19 @@ datasets:
         description: ''
         author: ashvjit@prophecy.io
         createdAt: '2024-03-22 12:28:13'
+  datasets/src_emr_s3_source:
+    name: src_emr_s3_source
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2024-03-26 15:59:50'
+    mode: batch
+    physicalDatasets:
+      livy:
+        fabricId: 19
+        datasetType: File
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2024-03-26 15:59:50'
 templates: {}
 jobs: {}
 gemContainer:
