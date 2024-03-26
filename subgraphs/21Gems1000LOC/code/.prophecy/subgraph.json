@@ -36,155 +36,161 @@
     "packageName" : "orgTest.21Gems1000LOC"
   },
   "connections" : [ {
-    "id" : "EVIXxpbKnB9-6wbEXvqv7",
+    "id" : "OsjLzpp3_DulZIBybjTEF",
     "source" : "TBGAncJilabH4kILWmw0p",
     "sourcePort" : "ak2G44Ttd5N_w1iBDWYxf",
     "target" : "NnAUu_m2EsaroM9_8W4NM",
     "targetPort" : "puTGrLswg47FFajjlVws3"
   }, {
-    "id" : "00gqs387q1C1zu-cUNgIN$$Zz06NN2Sr6qtU83qd_yrB",
+    "id" : "R6VREdkLh8fIDuxH2aWnO",
     "source" : "8EFcUgjtcc6bymt8PAHn7",
     "sourcePort" : "60T2DmuRekur-iaqoYZbr",
     "target" : "V5MCv1n-YF2piZ96FumWt",
     "targetPort" : "QtWbr1mzqMrjBXTH_Qy9U"
   }, {
-    "id" : "MFhQKVD5_Y_fZsrKBomjy",
+    "id" : "HJ99JCddjoesjClbKe4hZ",
     "source" : "8EFcUgjtcc6bymt8PAHn7",
     "sourcePort" : "60T2DmuRekur-iaqoYZbr",
     "target" : "V5MCv1n-YF2piZ96FumWt",
     "targetPort" : "UWf30ON1xkm2i3jTv1LPw"
   }, {
-    "id" : "pbmw_bWXtj9OqOF6l_2yM$$9YydxFN7EFZRHmr_suQrz",
+    "id" : "B0dgdv0VG8BJGRN-s9nTe",
     "source" : "V5MCv1n-YF2piZ96FumWt",
     "sourcePort" : "-wkgfaLS36LA8u7JDzmuF",
     "target" : "3hn5yXhxM1w3Z-aHcrr_I",
     "targetPort" : "PwyNt51PW0Yv3Gtlk3mFg"
   }, {
-    "id" : "Z724uOR1szoVfrESGyN0P$$IcBjIQ39SIw0P8cfLh7o0",
+    "id" : "CPD718QLYdqqQRYWZ70op",
     "source" : "3hn5yXhxM1w3Z-aHcrr_I",
     "sourcePort" : "8rbF8_pYQHiieSOajoPaR",
     "target" : "Sto2hGxg2xmtaIuIszhCh",
     "targetPort" : "0EQGXXu0zxEO5ExEhVT8J"
   }, {
-    "id" : "f183L7whiyduqjB0Cuy4c$$nfaHc_AaZSFZ89imB7W_P",
+    "id" : "TX4WDDGqwCmpqa7fBS5ci",
     "source" : "Sto2hGxg2xmtaIuIszhCh",
     "sourcePort" : "x8XinU63zJUPOG0x8_A1l",
     "target" : "cWjQ4Pz_TRw7l1icIfsSZ",
     "targetPort" : "YkSkjwChEKyeoa9fyYVL3"
   }, {
-    "id" : "9qJAoomUPMNaJMttUK-7R$$Lqp4C2IosDdAdMOX1CY1h",
+    "id" : "i3anEk0gT5nedjog4sr03",
     "source" : "cWjQ4Pz_TRw7l1icIfsSZ",
     "sourcePort" : "kK711dzWrkDbmxGDqtRTS",
     "target" : "K6ebly2yUln8acvHVsDJK",
     "targetPort" : "gBMOsqb3aqKMXjuhagBOK"
   }, {
-    "id" : "zl_umYxkEiBb7VtRPezku",
+    "id" : "bGnWIgH5uggrH2BPMZicl",
     "source" : "MKWLx5PxgZ_kJbbJNsztM",
     "sourcePort" : "hVpWyieIXgxpZBCQk39D3",
     "target" : "ypsykR1VVBBK6cM1njIOb",
     "targetPort" : "Oa4XohkKmXcyJOxpIjQJw"
   }, {
-    "id" : "X0w30RTLH_llos2UGYuol",
+    "id" : "cS4vxrdzVW7ho_0FYLwmY",
     "source" : "MKWLx5PxgZ_kJbbJNsztM",
     "sourcePort" : "hVpWyieIXgxpZBCQk39D3",
     "target" : "ypsykR1VVBBK6cM1njIOb",
     "targetPort" : "sQAGA2UT_MvTU7DaKfYq6"
   }, {
-    "id" : "6jmq9HcmsSnttV9UZDGgU",
+    "id" : "gvL_gHgDMU_5Vt-YmPc19",
     "source" : "ypsykR1VVBBK6cM1njIOb",
     "sourcePort" : "mpLmsuAGXb9HdZEvJnLl_",
     "target" : "79yb8I2Wj4VL-4oWuIkLC",
     "targetPort" : "n6lrHbKozLHPtyl-g6KM6"
   }, {
-    "id" : "Xh4auwvIOBeTSRomZV_Gp",
+    "id" : "nuA_9j4wv9sLfZVAU2t-l",
     "source" : "79yb8I2Wj4VL-4oWuIkLC",
     "sourcePort" : "D2ZX6zzNPUr8CqYXeotQC",
     "target" : "BDtFxmL5bdHxxvXPx_-DA",
     "targetPort" : "Fv76OGBSyx78NDBt6y-xp"
   }, {
-    "id" : "baeYRz3qEM8sqLaPBasCD",
+    "id" : "s4OaAOafUbfa4em4grWcH",
     "source" : "BDtFxmL5bdHxxvXPx_-DA",
     "sourcePort" : "4YIrpDik0vsXXO0QGE9em",
     "target" : "0ixwA00iLVQakCi040ree",
     "targetPort" : "6eQKf6pHimDatoMDirUth"
   }, {
-    "id" : "9o5D2V6Owpo-MwNWZD8aS",
+    "id" : "CmusyzNBgCc15LW_6VEkJ",
     "source" : "0ixwA00iLVQakCi040ree",
     "sourcePort" : "oLPaMYniBgn-WAqb0xd-Q",
     "target" : "xkBslOAUAxXMViu7VLq6x",
     "targetPort" : "MjpmdaJGJLbIEWPungSFD"
   }, {
-    "id" : "7QHpDiehCVhNr-fbtAH-V$$AOfKCTWxBVaM6cUcccJe3",
+    "id" : "NE_x4PFwVdI_J-uvdPA8r",
     "source" : "xkBslOAUAxXMViu7VLq6x",
     "sourcePort" : "o3aYKhZpmHHrJ0DIDLhGo",
     "target" : "GxRk6-fZjzMHq_NOx8CbG",
     "targetPort" : "cXU2ED7eD5fkG7-GRKatk"
   }, {
-    "id" : "n8aOSvpkbZkbVUifOvkUd",
+    "id" : "LIJZN5SA65xkeEge2XCfY",
     "source" : "K6ebly2yUln8acvHVsDJK",
     "sourcePort" : "R8j1rWwxofe54ibzaliw9",
     "target" : "GxRk6-fZjzMHq_NOx8CbG",
     "targetPort" : "lFp_shpaGteV_8KvMsaDm"
   }, {
-    "id" : "OUArNxCnd3L8_lPHwsTuB",
+    "id" : "Qc8jbiIXnVvvbl1oT8ZE2",
     "source" : "GxRk6-fZjzMHq_NOx8CbG",
     "sourcePort" : "DcEtaGUqJGh5sMnkOPVfx",
     "target" : "TBGAncJilabH4kILWmw0p",
     "targetPort" : "k0ogtZhDXTgVFjCRWDeWA"
   }, {
-    "id" : "5JPA7pnGNg_r4Zt4_sVJk",
+    "id" : "4uLyPb390fjEGdmQ9EStv",
     "source" : "TBGAncJilabH4kILWmw0p",
     "sourcePort" : "ak2G44Ttd5N_w1iBDWYxf",
     "target" : "ir3U8KsD-SSKoRIDczj3x",
     "targetPort" : "ai4Aj6OVcl8UAWQyAzCIm"
   }, {
-    "id" : "SIaH1nEFclzjHeWwEXGo-$$cs3NQ-3s2GWUnS1JnRJC-",
+    "id" : "wuWp0ycJI45xOxu5zFvEZ",
     "source" : "NnAUu_m2EsaroM9_8W4NM",
     "sourcePort" : "9VQddv0p17U-tq6XMWC5G",
     "target" : "jg3npmrS_aD5Jn7WmbbLY",
     "targetPort" : "7Tnxix7-EORsHCDrfZ6rG"
   }, {
-    "id" : "hA_3Xjxk8d2rH_GwX7Jil",
+    "id" : "ECnfH2CTOlocy2nuuShpu",
     "source" : "jg3npmrS_aD5Jn7WmbbLY",
     "sourcePort" : "sv-q2HcYoN9D53dko5CO9",
     "target" : "MZo7xmd7yVD6HYRaRP6RN",
     "targetPort" : "6FiVA8DaupnyKpII4A9kv"
   }, {
-    "id" : "Os4HZLnis4ibxWQoy7SHj",
+    "id" : "BamoPfyb3w7ug6QWWwkrS",
     "source" : "ir3U8KsD-SSKoRIDczj3x",
     "sourcePort" : "fdJRgt832PrjUrd4itiHv",
     "target" : "plvDzxa88dFiLH0yaHW9l",
     "targetPort" : "T0CKkitwoYRHYeVhDh0lw"
   }, {
-    "id" : "qpJUvFvXJGTdZDBqqSFkE",
+    "id" : "UhbRZZKuXdA39axyjLyMI",
     "source" : "plvDzxa88dFiLH0yaHW9l",
     "sourcePort" : "DQXUyN3PG3zJ1yehqhIwx",
     "target" : "CUukqykMndOdcNgglPpxC",
     "targetPort" : "CIsbQVeSsSsyBOw5CEx9a"
   }, {
-    "id" : "eaok7P-rxmSfPsA1w2Hit$$wNCzioGv135jCTLiZ6JvP",
+    "id" : "dSwxcdGUJEyxgoqVz6PsF",
     "source" : "wH39n9REQXLTG8jWtYxNU",
     "sourcePort" : "C6mQZ6aYZbpH6CdI8o0Gr",
     "target" : "MKWLx5PxgZ_kJbbJNsztM",
     "targetPort" : "_V4lgaC3cpzsjwHFo2cNv"
   }, {
-    "id" : "h-tE6Hv73SQuZDPUeBHdI",
+    "id" : "f_fjjuKHOx0RemyJ60mR-",
     "source" : "CUukqykMndOdcNgglPpxC",
     "sourcePort" : "8F4X_nCyWMmCixNa9l8o1",
     "target" : "wH39n9REQXLTG8jWtYxNU",
     "targetPort" : "EAlgMoLQHbsFsNzXCDgHM"
   }, {
-    "id" : "wj5_pbrvamZxpHQmaDybK$$9BxbdVQAkD2605idJLnU3",
+    "id" : "NBsFydecbTBXKYP9A8RTZ",
     "source" : "lYlGUrkaqqNH9RI9Mv4Ww",
     "sourcePort" : "UBwvnd-eUxMowNNFoq-K2",
     "target" : "8EFcUgjtcc6bymt8PAHn7",
     "targetPort" : "6cF3L4AFRao7Dy5ONkUpa"
   }, {
-    "id" : "KFqBRKifUq--oeIeNfBSq",
+    "id" : "dzauXt9tv4jvJThkMA-GK",
     "source" : "MZo7xmd7yVD6HYRaRP6RN",
     "sourcePort" : "gYFyGxIelWNO8btiA_9b3",
     "target" : "lYlGUrkaqqNH9RI9Mv4Ww",
     "targetPort" : "74t01mQ8Q9rns-xEOSg6x"
+  }, {
+    "id" : "L1gsatcoNCAwPU3VDEINH",
+    "source" : "79yb8I2Wj4VL-4oWuIkLC",
+    "sourcePort" : "D2ZX6zzNPUr8CqYXeotQC",
+    "target" : "4wF5X0P9Shhx5nY7s7Qe_",
+    "targetPort" : "qp9loXDaERW3EPUVz_IZ7"
   } ],
   "processes" : {
     "BDtFxmL5bdHxxvXPx_-DA" : {
@@ -193,8 +199,8 @@
       "metadata" : {
         "label" : "FlattenSchema_1_1",
         "slug" : "FlattenSchema_1_1",
-        "x" : -40,
-        "y" : 160,
+        "x" : 100,
+        "y" : -40,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -542,8 +548,8 @@
       "metadata" : {
         "label" : "OrderBy_1_2",
         "slug" : "OrderBy_1_2",
-        "x" : -600,
-        "y" : -40,
+        "x" : -460,
+        "y" : -160,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -783,8 +789,8 @@
       "metadata" : {
         "label" : "Filter_1",
         "slug" : "Filter_1",
-        "x" : -720,
-        "y" : -40,
+        "x" : -580,
+        "y" : -160,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -817,8 +823,8 @@
       "metadata" : {
         "label" : "FlattenSchema_1",
         "slug" : "FlattenSchema_1",
-        "x" : -80,
-        "y" : -60,
+        "x" : 60,
+        "y" : -180,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1166,8 +1172,8 @@
       "metadata" : {
         "label" : "SetOperation_1_1",
         "slug" : "SetOperation_1_1",
-        "x" : -340,
-        "y" : 160,
+        "x" : -200,
+        "y" : 40,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1200,8 +1206,8 @@
       "metadata" : {
         "label" : "Filter_1_1",
         "slug" : "Filter_1_1",
-        "x" : -740,
-        "y" : 180,
+        "x" : -600,
+        "y" : 60,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1234,8 +1240,8 @@
       "metadata" : {
         "label" : "Limit_1",
         "slug" : "Limit_1",
-        "x" : -220,
-        "y" : -60,
+        "x" : -80,
+        "y" : -180,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1264,8 +1270,8 @@
       "metadata" : {
         "label" : "SetOperation_1",
         "slug" : "SetOperation_1",
-        "x" : -360,
-        "y" : -60,
+        "x" : -220,
+        "y" : -180,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1298,8 +1304,8 @@
       "metadata" : {
         "label" : "Join1",
         "slug" : "Join1",
-        "x" : 480,
-        "y" : 80,
+        "x" : 620,
+        "y" : -40,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1326,7 +1332,7 @@
           "alias" : "in1",
           "expression" : {
             "format" : "sql",
-            "expression" : "in0.industry_code_ANZSIC=in1.industry_code_ANZSIC"
+            "expression" : "in0.industry_code_ANZSIC!=in1.industry_code_ANZSIC"
           },
           "joinType" : "inner"
         } ],
@@ -1391,7 +1397,7 @@
           "hintType" : "none",
           "propagateColumns" : false
         } ],
-        "activeTab" : "advanced",
+        "activeTab" : "conditions",
         "columnsSelector" : [ "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##industry_code_ANZSIC", "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc##industry_code_ANZSIC", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##year", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##industry_code_ANZSIC", "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc##industry_name_ANZSIC", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##rme_size_grp", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##variable", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##value", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##unit" ],
         "whereClause" : {
           "format" : "sql",
@@ -1400,14 +1406,51 @@
         "headAlias" : "in0"
       }
     },
+    "4wF5X0P9Shhx5nY7s7Qe_" : {
+      "id" : "4wF5X0P9Shhx5nY7s7Qe_",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : 80,
+        "y" : 100,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "qp9loXDaERW3EPUVz_IZ7",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "DwsXSvoyl-eijFdbMHbNM",
+          "slug" : "out0",
+          "schema" : {
+            "type" : "struct",
+            "fields" : [ ]
+          },
+          "isStreaming" : false
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : true,
+        "autoUpdateOnRun" : true
+      },
+      "properties" : {
+        "script" : "var a=10\nvar b=20\nvar c=30\nprint(\"hello\")\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\nvar out0=in0",
+        "scriptMethodHeader" : "def apply(spark: SparkSession, in0: DataFrame): DataFrame = {",
+        "scriptMethodFooter" : "    out0\n}"
+      }
+    },
     "xkBslOAUAxXMViu7VLq6x" : {
       "id" : "xkBslOAUAxXMViu7VLq6x",
       "component" : "SQLStatement",
       "metadata" : {
         "label" : "SQLStatement1_1",
         "slug" : "SQLStatement1_1",
-        "x" : 280,
-        "y" : 140,
+        "x" : 420,
+        "y" : 20,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1442,8 +1485,8 @@
       "metadata" : {
         "label" : "Reformat_1_1_1",
         "slug" : "Reformat_1_1_1",
-        "x" : -880,
-        "y" : 180,
+        "x" : -740,
+        "y" : 60,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1753,8 +1796,8 @@
       "metadata" : {
         "label" : "Reformat_1_1",
         "slug" : "Reformat_1_1",
-        "x" : -1020,
-        "y" : 180,
+        "x" : -880,
+        "y" : 60,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -2064,8 +2107,8 @@
       "metadata" : {
         "label" : "Reformat_1",
         "slug" : "Reformat_1",
-        "x" : -1000,
-        "y" : -40,
+        "x" : -860,
+        "y" : -160,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -2375,8 +2418,8 @@
       "metadata" : {
         "label" : "OrderBy_1_1",
         "slug" : "OrderBy_1_1",
-        "x" : -480,
-        "y" : 180,
+        "x" : -340,
+        "y" : 60,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -2628,8 +2671,8 @@
       "metadata" : {
         "label" : "Repartition_1",
         "slug" : "Repartition_1",
-        "x" : 80,
-        "y" : -80,
+        "x" : 220,
+        "y" : -200,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -2663,8 +2706,8 @@
       "metadata" : {
         "label" : "SQLStatement1",
         "slug" : "SQLStatement1",
-        "x" : 240,
-        "y" : -80,
+        "x" : 380,
+        "y" : -200,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -2699,8 +2742,8 @@
       "metadata" : {
         "label" : "Reformat_1_2",
         "slug" : "Reformat_1_2",
-        "x" : -860,
-        "y" : -40,
+        "x" : -720,
+        "y" : -160,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -3010,8 +3053,8 @@
       "metadata" : {
         "label" : "Limit_1_1",
         "slug" : "Limit_1_1",
-        "x" : -200,
-        "y" : 160,
+        "x" : -60,
+        "y" : 20,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -3040,8 +3083,8 @@
       "metadata" : {
         "label" : "OrderBy_1_1_1",
         "slug" : "OrderBy_1_1_1",
-        "x" : -620,
-        "y" : 180,
+        "x" : -480,
+        "y" : 60,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -3293,8 +3336,8 @@
       "metadata" : {
         "label" : "Repartition_1_1",
         "slug" : "Repartition_1_1",
-        "x" : 100,
-        "y" : 160,
+        "x" : 240,
+        "y" : 40,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -3328,8 +3371,8 @@
       "metadata" : {
         "label" : "OrderBy_1",
         "slug" : "OrderBy_1",
-        "x" : -480,
-        "y" : -60,
+        "x" : -340,
+        "y" : -180,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,

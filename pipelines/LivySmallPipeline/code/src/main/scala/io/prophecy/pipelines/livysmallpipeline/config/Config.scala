@@ -8,6 +8,6 @@ import io.prophecy.pipelines.livysmallpipeline.graph.Subgraph_0.config.{
 }
 
 case class Config(
-  var sg_1000_LOC: Sg_1000_LOC = Sg_1000_LOC(),
-  var Subgraph_0:  Subgraph_0_Config = Subgraph_0_Config()
+  var Subgraph_0:   Subgraph_0_Config = Subgraph_0_Config(),
+  var Subgraph_1_1: SUBGRAPH_1_1 = SUBGRAPH_1_1()
 ) extends ConfigBase

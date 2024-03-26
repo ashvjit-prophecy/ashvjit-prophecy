@@ -27,918 +27,16 @@
       "common" : {
         "type" : "record",
         "fields" : [ {
-          "name" : "sg_1000_LOC",
+          "name" : "Subgraph_0",
           "kind" : {
             "type" : "record",
-            "fields" : [ {
-              "name" : "Subgraph_4",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ {
-                  "name" : "c_expr",
-                  "kind" : {
-                    "type" : "string",
-                    "value" : "%11%"
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_st_expr",
-                  "kind" : {
-                    "type" : "spark_expression",
-                    "value" : "concat(industry_code_ANZSIC, industry_name_ANZSIC)"
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_string",
-                  "kind" : {
-                    "type" : "string",
-                    "value" : "this is default"
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_int",
-                  "kind" : {
-                    "type" : "int",
-                    "value" : 11
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_array",
-                  "kind" : {
-                    "type" : "array",
-                    "elementType" : {
-                      "type" : "record",
-                      "fields" : [ {
-                        "name" : "car_sparkexpression",
-                        "kind" : {
-                          "type" : "spark_expression",
-                          "value" : null
-                        },
-                        "optional" : false,
-                        "isWorkflowNodeConfiguration" : false,
-                        "isReferenced" : false
-                      }, {
-                        "name" : "car_short",
-                        "kind" : {
-                          "type" : "short",
-                          "value" : null
-                        },
-                        "optional" : false,
-                        "isWorkflowNodeConfiguration" : false,
-                        "isReferenced" : false
-                      }, {
-                        "name" : "car_float",
-                        "kind" : {
-                          "type" : "float",
-                          "value" : null
-                        },
-                        "optional" : false,
-                        "isWorkflowNodeConfiguration" : false,
-                        "isReferenced" : false
-                      } ]
-                    },
-                    "value" : [ {
-                      "car_sparkexpression" : "concat('a', 10)",
-                      "car_short" : -10,
-                      "car_float" : -10.1
-                    } ]
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_record",
-                  "kind" : {
-                    "type" : "record",
-                    "fields" : [ {
-                      "name" : "cr_string",
-                      "kind" : {
-                        "type" : "string",
-                        "value" : "hello"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "cr_double",
-                      "kind" : {
-                        "type" : "double",
-                        "value" : 123213213435
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    } ]
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "Subgraph_2_1_2",
-                  "kind" : {
-                    "type" : "record",
-                    "fields" : [ {
-                      "name" : "c_expr",
-                      "kind" : {
-                        "type" : "string",
-                        "value" : "%11%"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_st_expr",
-                      "kind" : {
-                        "type" : "spark_expression",
-                        "value" : "concat(industry_code_ANZSIC, industry_name_ANZSIC)"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_string",
-                      "kind" : {
-                        "type" : "string",
-                        "value" : "this is default"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_int",
-                      "kind" : {
-                        "type" : "int",
-                        "value" : 11
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_array",
-                      "kind" : {
-                        "type" : "array",
-                        "elementType" : {
-                          "type" : "record",
-                          "fields" : [ {
-                            "name" : "car_sparkexpression",
-                            "kind" : {
-                              "type" : "spark_expression",
-                              "value" : null
-                            },
-                            "optional" : false,
-                            "isWorkflowNodeConfiguration" : false,
-                            "isReferenced" : false
-                          }, {
-                            "name" : "car_short",
-                            "kind" : {
-                              "type" : "short",
-                              "value" : null
-                            },
-                            "optional" : false,
-                            "isWorkflowNodeConfiguration" : false,
-                            "isReferenced" : false
-                          }, {
-                            "name" : "car_float",
-                            "kind" : {
-                              "type" : "float",
-                              "value" : null
-                            },
-                            "optional" : false,
-                            "isWorkflowNodeConfiguration" : false,
-                            "isReferenced" : false
-                          } ]
-                        },
-                        "value" : [ {
-                          "car_sparkexpression" : "concat('a', 10)",
-                          "car_short" : -10,
-                          "car_float" : -10.1
-                        } ]
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_record",
-                      "kind" : {
-                        "type" : "record",
-                        "fields" : [ {
-                          "name" : "cr_string",
-                          "kind" : {
-                            "type" : "string",
-                            "value" : "hello"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "cr_double",
-                          "kind" : {
-                            "type" : "double",
-                            "value" : 123213213435
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        } ]
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "Subgraph_3_1_2",
-                      "kind" : {
-                        "type" : "record",
-                        "fields" : [ {
-                          "name" : "c_expr",
-                          "kind" : {
-                            "type" : "string",
-                            "value" : "%11%"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_st_expr",
-                          "kind" : {
-                            "type" : "spark_expression",
-                            "value" : "concat(industry_code_ANZSIC, industry_name_ANZSIC)"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_string",
-                          "kind" : {
-                            "type" : "string",
-                            "value" : "this is default"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_int",
-                          "kind" : {
-                            "type" : "int",
-                            "value" : 11
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_array",
-                          "kind" : {
-                            "type" : "array",
-                            "elementType" : {
-                              "type" : "record",
-                              "fields" : [ {
-                                "name" : "car_sparkexpression",
-                                "kind" : {
-                                  "type" : "spark_expression",
-                                  "value" : null
-                                },
-                                "optional" : false,
-                                "isWorkflowNodeConfiguration" : false,
-                                "isReferenced" : false
-                              }, {
-                                "name" : "car_short",
-                                "kind" : {
-                                  "type" : "short",
-                                  "value" : null
-                                },
-                                "optional" : false,
-                                "isWorkflowNodeConfiguration" : false,
-                                "isReferenced" : false
-                              }, {
-                                "name" : "car_float",
-                                "kind" : {
-                                  "type" : "float",
-                                  "value" : null
-                                },
-                                "optional" : false,
-                                "isWorkflowNodeConfiguration" : false,
-                                "isReferenced" : false
-                              } ]
-                            },
-                            "value" : [ {
-                              "car_sparkexpression" : "concat('a', 10)",
-                              "car_short" : -10,
-                              "car_float" : -10.1
-                            } ]
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_record",
-                          "kind" : {
-                            "type" : "record",
-                            "fields" : [ {
-                              "name" : "cr_string",
-                              "kind" : {
-                                "type" : "string",
-                                "value" : "hello"
-                              },
-                              "optional" : false,
-                              "isWorkflowNodeConfiguration" : false,
-                              "isReferenced" : false
-                            }, {
-                              "name" : "cr_double",
-                              "kind" : {
-                                "type" : "double",
-                                "value" : 123213213435
-                              },
-                              "optional" : false,
-                              "isWorkflowNodeConfiguration" : false,
-                              "isReferenced" : false
-                            } ]
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        } ]
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : true,
-                      "isReferenced" : false
-                    } ]
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : true,
-                  "isReferenced" : false
-                } ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "c_expr",
-              "kind" : {
-                "type" : "string",
-                "value" : "%11%"
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : false,
-              "isReferenced" : false
-            }, {
-              "name" : "c_st_expr",
-              "kind" : {
-                "type" : "spark_expression",
-                "value" : "concat(industry_code_ANZSIC, industry_name_ANZSIC)"
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : false,
-              "isReferenced" : false
-            }, {
-              "name" : "c_string",
-              "kind" : {
-                "type" : "string",
-                "value" : "this is default"
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : false,
-              "isReferenced" : false
-            }, {
-              "name" : "c_int",
-              "kind" : {
-                "type" : "int",
-                "value" : 11
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : false,
-              "isReferenced" : false
-            }, {
-              "name" : "c_array",
-              "kind" : {
-                "type" : "array",
-                "elementType" : {
-                  "type" : "record",
-                  "fields" : [ {
-                    "name" : "car_sparkexpression",
-                    "kind" : {
-                      "type" : "spark_expression",
-                      "value" : null
-                    },
-                    "optional" : false,
-                    "isWorkflowNodeConfiguration" : false,
-                    "isReferenced" : false
-                  }, {
-                    "name" : "car_short",
-                    "kind" : {
-                      "type" : "short",
-                      "value" : null
-                    },
-                    "optional" : false,
-                    "isWorkflowNodeConfiguration" : false,
-                    "isReferenced" : false
-                  }, {
-                    "name" : "car_float",
-                    "kind" : {
-                      "type" : "float",
-                      "value" : null
-                    },
-                    "optional" : false,
-                    "isWorkflowNodeConfiguration" : false,
-                    "isReferenced" : false
-                  } ]
-                },
-                "value" : [ {
-                  "car_sparkexpression" : "concat('a', 10)",
-                  "car_short" : -10,
-                  "car_float" : -10.1
-                } ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : false,
-              "isReferenced" : false
-            }, {
-              "name" : "c_record",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ {
-                  "name" : "cr_string",
-                  "kind" : {
-                    "type" : "string",
-                    "value" : "hello"
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "cr_double",
-                  "kind" : {
-                    "type" : "double",
-                    "value" : 123213213435
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                } ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : false,
-              "isReferenced" : false
-            }, {
-              "name" : "livy_scala_subgraph1",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ {
-                  "name" : "c_expr",
-                  "kind" : {
-                    "type" : "string",
-                    "value" : "%11%"
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_st_expr",
-                  "kind" : {
-                    "type" : "spark_expression",
-                    "value" : "concat(industry_code_ANZSIC, industry_name_ANZSIC)"
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_string",
-                  "kind" : {
-                    "type" : "string",
-                    "value" : "this is default"
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_int",
-                  "kind" : {
-                    "type" : "int",
-                    "value" : 11
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_array",
-                  "kind" : {
-                    "type" : "array",
-                    "elementType" : {
-                      "type" : "record",
-                      "fields" : [ {
-                        "name" : "car_sparkexpression",
-                        "kind" : {
-                          "type" : "spark_expression",
-                          "value" : null
-                        },
-                        "optional" : false,
-                        "isWorkflowNodeConfiguration" : false,
-                        "isReferenced" : false
-                      }, {
-                        "name" : "car_short",
-                        "kind" : {
-                          "type" : "short",
-                          "value" : null
-                        },
-                        "optional" : false,
-                        "isWorkflowNodeConfiguration" : false,
-                        "isReferenced" : false
-                      }, {
-                        "name" : "car_float",
-                        "kind" : {
-                          "type" : "float",
-                          "value" : null
-                        },
-                        "optional" : false,
-                        "isWorkflowNodeConfiguration" : false,
-                        "isReferenced" : false
-                      } ]
-                    },
-                    "value" : [ {
-                      "car_sparkexpression" : "concat('a', 10)",
-                      "car_short" : -10,
-                      "car_float" : -10.1
-                    } ]
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "c_record",
-                  "kind" : {
-                    "type" : "record",
-                    "fields" : [ {
-                      "name" : "cr_string",
-                      "kind" : {
-                        "type" : "string",
-                        "value" : "hello"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "cr_double",
-                      "kind" : {
-                        "type" : "double",
-                        "value" : 123213213435
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    } ]
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : false,
-                  "isReferenced" : false
-                }, {
-                  "name" : "Subgraph_2_1_2",
-                  "kind" : {
-                    "type" : "record",
-                    "fields" : [ {
-                      "name" : "c_expr",
-                      "kind" : {
-                        "type" : "string",
-                        "value" : "%11%"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_st_expr",
-                      "kind" : {
-                        "type" : "spark_expression",
-                        "value" : "concat(industry_code_ANZSIC, industry_name_ANZSIC)"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_string",
-                      "kind" : {
-                        "type" : "string",
-                        "value" : "this is default"
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_int",
-                      "kind" : {
-                        "type" : "int",
-                        "value" : 11
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_array",
-                      "kind" : {
-                        "type" : "array",
-                        "elementType" : {
-                          "type" : "record",
-                          "fields" : [ {
-                            "name" : "car_sparkexpression",
-                            "kind" : {
-                              "type" : "spark_expression",
-                              "value" : null
-                            },
-                            "optional" : false,
-                            "isWorkflowNodeConfiguration" : false,
-                            "isReferenced" : false
-                          }, {
-                            "name" : "car_short",
-                            "kind" : {
-                              "type" : "short",
-                              "value" : null
-                            },
-                            "optional" : false,
-                            "isWorkflowNodeConfiguration" : false,
-                            "isReferenced" : false
-                          }, {
-                            "name" : "car_float",
-                            "kind" : {
-                              "type" : "float",
-                              "value" : null
-                            },
-                            "optional" : false,
-                            "isWorkflowNodeConfiguration" : false,
-                            "isReferenced" : false
-                          } ]
-                        },
-                        "value" : [ {
-                          "car_sparkexpression" : "concat('a', 10)",
-                          "car_short" : -10,
-                          "car_float" : -10.1
-                        } ]
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "c_record",
-                      "kind" : {
-                        "type" : "record",
-                        "fields" : [ {
-                          "name" : "cr_string",
-                          "kind" : {
-                            "type" : "string",
-                            "value" : "hello"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "cr_double",
-                          "kind" : {
-                            "type" : "double",
-                            "value" : 123213213435
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        } ]
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : false,
-                      "isReferenced" : false
-                    }, {
-                      "name" : "Subgraph_3_1_2",
-                      "kind" : {
-                        "type" : "record",
-                        "fields" : [ {
-                          "name" : "c_expr",
-                          "kind" : {
-                            "type" : "string",
-                            "value" : "%11%"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_st_expr",
-                          "kind" : {
-                            "type" : "spark_expression",
-                            "value" : "concat(industry_code_ANZSIC, industry_name_ANZSIC)"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_string",
-                          "kind" : {
-                            "type" : "string",
-                            "value" : "this is default"
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_int",
-                          "kind" : {
-                            "type" : "int",
-                            "value" : 11
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_array",
-                          "kind" : {
-                            "type" : "array",
-                            "elementType" : {
-                              "type" : "record",
-                              "fields" : [ {
-                                "name" : "car_sparkexpression",
-                                "kind" : {
-                                  "type" : "spark_expression",
-                                  "value" : null
-                                },
-                                "optional" : false,
-                                "isWorkflowNodeConfiguration" : false,
-                                "isReferenced" : false
-                              }, {
-                                "name" : "car_short",
-                                "kind" : {
-                                  "type" : "short",
-                                  "value" : null
-                                },
-                                "optional" : false,
-                                "isWorkflowNodeConfiguration" : false,
-                                "isReferenced" : false
-                              }, {
-                                "name" : "car_float",
-                                "kind" : {
-                                  "type" : "float",
-                                  "value" : null
-                                },
-                                "optional" : false,
-                                "isWorkflowNodeConfiguration" : false,
-                                "isReferenced" : false
-                              } ]
-                            },
-                            "value" : [ {
-                              "car_sparkexpression" : "concat('a', 10)",
-                              "car_short" : -10,
-                              "car_float" : -10.1
-                            } ]
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        }, {
-                          "name" : "c_record",
-                          "kind" : {
-                            "type" : "record",
-                            "fields" : [ {
-                              "name" : "cr_string",
-                              "kind" : {
-                                "type" : "string",
-                                "value" : "hello"
-                              },
-                              "optional" : false,
-                              "isWorkflowNodeConfiguration" : false,
-                              "isReferenced" : false
-                            }, {
-                              "name" : "cr_double",
-                              "kind" : {
-                                "type" : "double",
-                                "value" : 123213213435
-                              },
-                              "optional" : false,
-                              "isWorkflowNodeConfiguration" : false,
-                              "isReferenced" : false
-                            } ]
-                          },
-                          "optional" : false,
-                          "isWorkflowNodeConfiguration" : false,
-                          "isReferenced" : false
-                        } ]
-                      },
-                      "optional" : false,
-                      "isWorkflowNodeConfiguration" : true,
-                      "isReferenced" : false
-                    } ]
-                  },
-                  "optional" : false,
-                  "isWorkflowNodeConfiguration" : true,
-                  "isReferenced" : false
-                } ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1_1_1",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1_2_1",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1_1_1_1",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1_3",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_2_1",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1_1_2",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1_1",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_1_2",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            }, {
-              "name" : "Subgraph_2_2",
-              "kind" : {
-                "type" : "record",
-                "fields" : [ ]
-              },
-              "optional" : false,
-              "isWorkflowNodeConfiguration" : true,
-              "isReferenced" : false
-            } ]
+            "fields" : [ ]
           },
           "optional" : false,
           "isWorkflowNodeConfiguration" : true,
           "isReferenced" : false
         }, {
-          "name" : "Subgraph_0",
+          "name" : "Subgraph_1_1",
           "kind" : {
             "type" : "record",
             "fields" : [ ]
@@ -989,8 +87,8 @@
       "metadata" : {
         "label" : "Subgraph_0",
         "slug" : "Subgraph_0",
-        "x" : -1160,
-        "y" : -480,
+        "x" : -1260,
+        "y" : -600,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1078,160 +176,166 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
+        "packageName" : "orgTest.21Gems1000LOC",
         "externalId" : "subgraphs/21Gems1000LOC",
-        "name" : "21Gems1000LOC",
-        "packageName" : "orgTest.21Gems1000LOC"
+        "name" : "21Gems1000LOC"
       },
       "connections" : [ {
-        "id" : "EVIXxpbKnB9-6wbEXvqv7",
+        "id" : "OsjLzpp3_DulZIBybjTEF",
         "source" : "TBGAncJilabH4kILWmw0p$$JOufCXTiUV-Qfr5GFVNkf",
         "sourcePort" : "ak2G44Ttd5N_w1iBDWYxf$$bLWBUxBelDG3uij-exI_6",
         "target" : "NnAUu_m2EsaroM9_8W4NM$$274Wt4elJvwfQ43EawPhV",
         "targetPort" : "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh"
       }, {
-        "id" : "00gqs387q1C1zu-cUNgIN$$Zz06NN2Sr6qtU83qd_yrB",
+        "id" : "R6VREdkLh8fIDuxH2aWnO",
         "source" : "8EFcUgjtcc6bymt8PAHn7$$jD6A9gnwIUjZwNnZTyUy4",
         "sourcePort" : "60T2DmuRekur-iaqoYZbr$$mKAtpeANowDo6ixf3CAGs",
         "target" : "V5MCv1n-YF2piZ96FumWt$$OhUMnATeRDncwUN0Ad8p8",
         "targetPort" : "QtWbr1mzqMrjBXTH_Qy9U$$2oOx2kvXIsXE6e1FO9kBN"
       }, {
-        "id" : "MFhQKVD5_Y_fZsrKBomjy",
+        "id" : "HJ99JCddjoesjClbKe4hZ",
         "source" : "8EFcUgjtcc6bymt8PAHn7$$jD6A9gnwIUjZwNnZTyUy4",
         "sourcePort" : "60T2DmuRekur-iaqoYZbr$$mKAtpeANowDo6ixf3CAGs",
         "target" : "V5MCv1n-YF2piZ96FumWt$$OhUMnATeRDncwUN0Ad8p8",
         "targetPort" : "UWf30ON1xkm2i3jTv1LPw$$6xMVljZBWHDRDa43VWO4c"
       }, {
-        "id" : "pbmw_bWXtj9OqOF6l_2yM$$9YydxFN7EFZRHmr_suQrz",
+        "id" : "B0dgdv0VG8BJGRN-s9nTe",
         "source" : "V5MCv1n-YF2piZ96FumWt$$OhUMnATeRDncwUN0Ad8p8",
         "sourcePort" : "-wkgfaLS36LA8u7JDzmuF$$-8bNyBw87vzy-0929B84k",
         "target" : "3hn5yXhxM1w3Z-aHcrr_I$$hgFEpwU6ldu8KpTvj-C1c",
         "targetPort" : "PwyNt51PW0Yv3Gtlk3mFg$$Jzop-E4B880rr0JaYR5sJ"
       }, {
-        "id" : "Z724uOR1szoVfrESGyN0P$$IcBjIQ39SIw0P8cfLh7o0",
+        "id" : "CPD718QLYdqqQRYWZ70op",
         "source" : "3hn5yXhxM1w3Z-aHcrr_I$$hgFEpwU6ldu8KpTvj-C1c",
         "sourcePort" : "8rbF8_pYQHiieSOajoPaR$$JetLg8zZW1KYjCiRnG54D",
         "target" : "Sto2hGxg2xmtaIuIszhCh$$l47k1_uBzbvugQyExbgmv",
         "targetPort" : "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx"
       }, {
-        "id" : "f183L7whiyduqjB0Cuy4c$$nfaHc_AaZSFZ89imB7W_P",
+        "id" : "TX4WDDGqwCmpqa7fBS5ci",
         "source" : "Sto2hGxg2xmtaIuIszhCh$$l47k1_uBzbvugQyExbgmv",
         "sourcePort" : "x8XinU63zJUPOG0x8_A1l$$WAfENUci7R4VRyAVDGilh",
         "target" : "cWjQ4Pz_TRw7l1icIfsSZ$$5pPRAJDN9ry5HJDZ8KVcw",
         "targetPort" : "YkSkjwChEKyeoa9fyYVL3$$XNl9uLpr8LB3BQnlbdOjC"
       }, {
-        "id" : "9qJAoomUPMNaJMttUK-7R$$Lqp4C2IosDdAdMOX1CY1h",
+        "id" : "i3anEk0gT5nedjog4sr03",
         "source" : "cWjQ4Pz_TRw7l1icIfsSZ$$5pPRAJDN9ry5HJDZ8KVcw",
         "sourcePort" : "kK711dzWrkDbmxGDqtRTS$$zMybAULJBAbmaazcP_g82",
         "target" : "K6ebly2yUln8acvHVsDJK$$5CKgHqwpEFzrdbDbOLOMN",
         "targetPort" : "gBMOsqb3aqKMXjuhagBOK$$XJQM6MEZBADZBASmhOtZP"
       }, {
-        "id" : "zl_umYxkEiBb7VtRPezku",
+        "id" : "bGnWIgH5uggrH2BPMZicl",
         "source" : "MKWLx5PxgZ_kJbbJNsztM$$eRuh9NZYY-V-oMKEv_34v",
         "sourcePort" : "hVpWyieIXgxpZBCQk39D3$$JcdSK7yf3ky5b7MzAAF4n",
         "target" : "ypsykR1VVBBK6cM1njIOb$$HvrZR4Uc4K33-IZKg7yAB",
         "targetPort" : "Oa4XohkKmXcyJOxpIjQJw$$2jMbwJkSf7mbguxi8AVwi"
       }, {
-        "id" : "X0w30RTLH_llos2UGYuol",
+        "id" : "cS4vxrdzVW7ho_0FYLwmY",
         "source" : "MKWLx5PxgZ_kJbbJNsztM$$eRuh9NZYY-V-oMKEv_34v",
         "sourcePort" : "hVpWyieIXgxpZBCQk39D3$$JcdSK7yf3ky5b7MzAAF4n",
         "target" : "ypsykR1VVBBK6cM1njIOb$$HvrZR4Uc4K33-IZKg7yAB",
         "targetPort" : "sQAGA2UT_MvTU7DaKfYq6$$L2M-obLAF6j2ONOdGzWIc"
       }, {
-        "id" : "6jmq9HcmsSnttV9UZDGgU",
+        "id" : "gvL_gHgDMU_5Vt-YmPc19",
         "source" : "ypsykR1VVBBK6cM1njIOb$$HvrZR4Uc4K33-IZKg7yAB",
         "sourcePort" : "mpLmsuAGXb9HdZEvJnLl_$$Yyz3pM6rtQ6ooAmmSzHKZ",
         "target" : "79yb8I2Wj4VL-4oWuIkLC$$q0BN7lwM3tGQ39znPU2ZO",
         "targetPort" : "n6lrHbKozLHPtyl-g6KM6$$_tDw_yHnDmD5qARCshh6Q"
       }, {
-        "id" : "Xh4auwvIOBeTSRomZV_Gp",
+        "id" : "nuA_9j4wv9sLfZVAU2t-l",
         "source" : "79yb8I2Wj4VL-4oWuIkLC$$q0BN7lwM3tGQ39znPU2ZO",
         "sourcePort" : "D2ZX6zzNPUr8CqYXeotQC$$KEwHBZpLk019EHhL4WBwu",
         "target" : "BDtFxmL5bdHxxvXPx_-DA$$OdCwts8g1A0dvmRYgt2F8",
         "targetPort" : "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP"
       }, {
-        "id" : "baeYRz3qEM8sqLaPBasCD",
+        "id" : "s4OaAOafUbfa4em4grWcH",
         "source" : "BDtFxmL5bdHxxvXPx_-DA$$OdCwts8g1A0dvmRYgt2F8",
         "sourcePort" : "4YIrpDik0vsXXO0QGE9em$$j-4PqYRu1YAE1Ilw57yAy",
         "target" : "0ixwA00iLVQakCi040ree$$ceKKhxSjdm4vvdxIoAqyM",
         "targetPort" : "6eQKf6pHimDatoMDirUth$$vmLD2w7_1SsMq4p2OwmTa"
       }, {
-        "id" : "9o5D2V6Owpo-MwNWZD8aS",
+        "id" : "CmusyzNBgCc15LW_6VEkJ",
         "source" : "0ixwA00iLVQakCi040ree$$ceKKhxSjdm4vvdxIoAqyM",
         "sourcePort" : "oLPaMYniBgn-WAqb0xd-Q$$sD4eL-7s036QI-O980T_T",
         "target" : "xkBslOAUAxXMViu7VLq6x$$cyOp7EqwJ9JCF9YTnPuak",
         "targetPort" : "MjpmdaJGJLbIEWPungSFD$$yApAIzH59MKboDWwT-5LA"
       }, {
-        "id" : "7QHpDiehCVhNr-fbtAH-V$$AOfKCTWxBVaM6cUcccJe3",
+        "id" : "NE_x4PFwVdI_J-uvdPA8r",
         "source" : "xkBslOAUAxXMViu7VLq6x$$cyOp7EqwJ9JCF9YTnPuak",
         "sourcePort" : "o3aYKhZpmHHrJ0DIDLhGo$$A3WrB40ud0nDtXKPfVZiX",
         "target" : "GxRk6-fZjzMHq_NOx8CbG$$O94dcD_oIc6NLZL9p7p2V",
         "targetPort" : "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc"
       }, {
-        "id" : "n8aOSvpkbZkbVUifOvkUd",
+        "id" : "LIJZN5SA65xkeEge2XCfY",
         "source" : "K6ebly2yUln8acvHVsDJK$$5CKgHqwpEFzrdbDbOLOMN",
         "sourcePort" : "R8j1rWwxofe54ibzaliw9$$NQJdgcpZpvstfBeSspU6V",
         "target" : "GxRk6-fZjzMHq_NOx8CbG$$O94dcD_oIc6NLZL9p7p2V",
         "targetPort" : "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_"
       }, {
-        "id" : "OUArNxCnd3L8_lPHwsTuB",
+        "id" : "Qc8jbiIXnVvvbl1oT8ZE2",
         "source" : "GxRk6-fZjzMHq_NOx8CbG$$O94dcD_oIc6NLZL9p7p2V",
         "sourcePort" : "DcEtaGUqJGh5sMnkOPVfx$$KiW3n0BwrNRiX2Qj3aThn",
         "target" : "TBGAncJilabH4kILWmw0p$$JOufCXTiUV-Qfr5GFVNkf",
         "targetPort" : "k0ogtZhDXTgVFjCRWDeWA$$ElBcE6wWCOWZLPbDYLRkO"
       }, {
-        "id" : "5JPA7pnGNg_r4Zt4_sVJk",
+        "id" : "4uLyPb390fjEGdmQ9EStv",
         "source" : "TBGAncJilabH4kILWmw0p$$JOufCXTiUV-Qfr5GFVNkf",
         "sourcePort" : "ak2G44Ttd5N_w1iBDWYxf$$bLWBUxBelDG3uij-exI_6",
         "target" : "ir3U8KsD-SSKoRIDczj3x$$flMYRgXTtC5L9wwWuEDu5",
         "targetPort" : "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL"
       }, {
-        "id" : "SIaH1nEFclzjHeWwEXGo-$$cs3NQ-3s2GWUnS1JnRJC-",
+        "id" : "wuWp0ycJI45xOxu5zFvEZ",
         "source" : "NnAUu_m2EsaroM9_8W4NM$$274Wt4elJvwfQ43EawPhV",
         "sourcePort" : "9VQddv0p17U-tq6XMWC5G$$TAMY9nSukbwIfDLGGPG96",
         "target" : "jg3npmrS_aD5Jn7WmbbLY$$ut0tuYSgENuYlPNTI7xAa",
         "targetPort" : "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP"
       }, {
-        "id" : "hA_3Xjxk8d2rH_GwX7Jil",
+        "id" : "ECnfH2CTOlocy2nuuShpu",
         "source" : "jg3npmrS_aD5Jn7WmbbLY$$ut0tuYSgENuYlPNTI7xAa",
         "sourcePort" : "sv-q2HcYoN9D53dko5CO9$$4vG3Y4THODC3SXIFEDFHv",
         "target" : "MZo7xmd7yVD6HYRaRP6RN$$weZETzd2z_hbmfoCB6K0g",
         "targetPort" : "6FiVA8DaupnyKpII4A9kv$$a4hqnUcrLsNDIwR2NTPDt"
       }, {
-        "id" : "Os4HZLnis4ibxWQoy7SHj",
+        "id" : "BamoPfyb3w7ug6QWWwkrS",
         "source" : "ir3U8KsD-SSKoRIDczj3x$$flMYRgXTtC5L9wwWuEDu5",
         "sourcePort" : "fdJRgt832PrjUrd4itiHv$$w82H9E3H7Vj0DOCydgaaK",
         "target" : "plvDzxa88dFiLH0yaHW9l$$eo4CQFd_FcBwaM5HvDXo7",
         "targetPort" : "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ"
       }, {
-        "id" : "qpJUvFvXJGTdZDBqqSFkE",
+        "id" : "UhbRZZKuXdA39axyjLyMI",
         "source" : "plvDzxa88dFiLH0yaHW9l$$eo4CQFd_FcBwaM5HvDXo7",
         "sourcePort" : "DQXUyN3PG3zJ1yehqhIwx$$BH0pGA_K1D1Z3B_xWCdSX",
         "target" : "CUukqykMndOdcNgglPpxC$$6wGno-zaOlfbEB17af8pF",
         "targetPort" : "CIsbQVeSsSsyBOw5CEx9a$$o4GNqub5tTFanIfs5Nej4"
       }, {
-        "id" : "eaok7P-rxmSfPsA1w2Hit$$wNCzioGv135jCTLiZ6JvP",
+        "id" : "dSwxcdGUJEyxgoqVz6PsF",
         "source" : "wH39n9REQXLTG8jWtYxNU$$yDBkU5PXBUpcfdYBbshfI",
         "sourcePort" : "C6mQZ6aYZbpH6CdI8o0Gr$$TrfJuLp1Dq8sQqgvf5uDI",
         "target" : "MKWLx5PxgZ_kJbbJNsztM$$eRuh9NZYY-V-oMKEv_34v",
         "targetPort" : "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2"
       }, {
-        "id" : "h-tE6Hv73SQuZDPUeBHdI",
+        "id" : "f_fjjuKHOx0RemyJ60mR-",
         "source" : "CUukqykMndOdcNgglPpxC$$6wGno-zaOlfbEB17af8pF",
         "sourcePort" : "8F4X_nCyWMmCixNa9l8o1$$ZbC8wMkwKyEd3_6W6ykSx",
         "target" : "wH39n9REQXLTG8jWtYxNU$$yDBkU5PXBUpcfdYBbshfI",
         "targetPort" : "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL"
       }, {
-        "id" : "wj5_pbrvamZxpHQmaDybK$$9BxbdVQAkD2605idJLnU3",
+        "id" : "NBsFydecbTBXKYP9A8RTZ",
         "source" : "lYlGUrkaqqNH9RI9Mv4Ww$$iDdxKgPdvtFixWuSGFIoY",
         "sourcePort" : "UBwvnd-eUxMowNNFoq-K2$$IeRlel9GDffyv9JG_n5sy",
         "target" : "8EFcUgjtcc6bymt8PAHn7$$jD6A9gnwIUjZwNnZTyUy4",
         "targetPort" : "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO"
       }, {
-        "id" : "KFqBRKifUq--oeIeNfBSq",
+        "id" : "dzauXt9tv4jvJThkMA-GK",
         "source" : "MZo7xmd7yVD6HYRaRP6RN$$weZETzd2z_hbmfoCB6K0g",
         "sourcePort" : "gYFyGxIelWNO8btiA_9b3$$nxwV-Ufjr5d2xzKeeXMub",
         "target" : "lYlGUrkaqqNH9RI9Mv4Ww$$iDdxKgPdvtFixWuSGFIoY",
         "targetPort" : "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN"
+      }, {
+        "id" : "L1gsatcoNCAwPU3VDEINH",
+        "source" : "79yb8I2Wj4VL-4oWuIkLC$$q0BN7lwM3tGQ39znPU2ZO",
+        "sourcePort" : "D2ZX6zzNPUr8CqYXeotQC$$KEwHBZpLk019EHhL4WBwu",
+        "target" : "4wF5X0P9Shhx5nY7s7Qe_$$4B2rOpZPZPjERrRtVZEZf",
+        "targetPort" : "qp9loXDaERW3EPUVz_IZ7$$WvkQoByZ2GWQtUDOg8NF4"
       } ],
       "processes" : {
         "79yb8I2Wj4VL-4oWuIkLC$$q0BN7lwM3tGQ39znPU2ZO" : {
@@ -1240,8 +344,8 @@
           "metadata" : {
             "label" : "Limit_1_1",
             "slug" : "Limit_1_1",
-            "x" : -200,
-            "y" : 160,
+            "x" : -60,
+            "y" : 20,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -1590,8 +694,8 @@
           "metadata" : {
             "label" : "SetOperation_1",
             "slug" : "SetOperation_1",
-            "x" : -360,
-            "y" : -60,
+            "x" : -220,
+            "y" : -180,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -2264,8 +1368,8 @@
           "metadata" : {
             "label" : "OrderBy_1",
             "slug" : "OrderBy_1",
-            "x" : -480,
-            "y" : -60,
+            "x" : -340,
+            "y" : -180,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -2825,8 +1929,8 @@
           "metadata" : {
             "label" : "Reformat_1_1_1",
             "slug" : "Reformat_1_1_1",
-            "x" : -880,
-            "y" : 180,
+            "x" : -740,
+            "y" : 60,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -3421,8 +2525,8 @@
           "metadata" : {
             "label" : "Join1",
             "slug" : "Join1",
-            "x" : 480,
-            "y" : 80,
+            "x" : 620,
+            "y" : -40,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -4089,7 +3193,7 @@
               "alias" : "in1",
               "expression" : {
                 "format" : "sql",
-                "expression" : "in0.industry_code_ANZSIC=in1.industry_code_ANZSIC"
+                "expression" : "in0.industry_code_ANZSIC!=in1.industry_code_ANZSIC"
               },
               "joinType" : "inner"
             } ],
@@ -4154,7 +3258,7 @@
               "hintType" : "none",
               "propagateColumns" : false
             } ],
-            "activeTab" : "advanced",
+            "activeTab" : "conditions",
             "columnsSelector" : [ "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##industry_code_ANZSIC", "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc##industry_code_ANZSIC", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##year", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##industry_code_ANZSIC", "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc##industry_name_ANZSIC", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##rme_size_grp", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##variable", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##value", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##unit" ],
             "whereClause" : {
               "format" : "sql",
@@ -4169,8 +3273,8 @@
           "metadata" : {
             "label" : "Limit_1",
             "slug" : "Limit_1",
-            "x" : -220,
-            "y" : -60,
+            "x" : -80,
+            "y" : -180,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -4519,8 +3623,8 @@
           "metadata" : {
             "label" : "Filter_1",
             "slug" : "Filter_1",
-            "x" : -720,
-            "y" : -40,
+            "x" : -580,
+            "y" : -160,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -4873,8 +3977,8 @@
           "metadata" : {
             "label" : "SQLStatement1_1",
             "slug" : "SQLStatement1_1",
-            "x" : 280,
-            "y" : 140,
+            "x" : 420,
+            "y" : 20,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -5223,14 +4327,371 @@
             "inputPortNames" : [ "in0" ]
           }
         },
+        "4wF5X0P9Shhx5nY7s7Qe_$$4B2rOpZPZPjERrRtVZEZf" : {
+          "id" : "4wF5X0P9Shhx5nY7s7Qe_$$4B2rOpZPZPjERrRtVZEZf",
+          "component" : "Script",
+          "metadata" : {
+            "label" : "Script_1",
+            "slug" : "Script_1",
+            "x" : 80,
+            "y" : 100,
+            "phase" : 0,
+            "cache" : false,
+            "detailedStats" : false,
+            "isImported" : false
+          },
+          "ports" : {
+            "inputs" : [ {
+              "id" : "qp9loXDaERW3EPUVz_IZ7$$WvkQoByZ2GWQtUDOg8NF4",
+              "slug" : "in0",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ {
+                  "name" : "year",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "year1",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC1",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC1",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp1",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable1",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value1",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit1",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "year2",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC2",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC2",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp2",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable2",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value2",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit2",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "year3",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC3",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC3",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp3",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable3",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value3",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit3",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "year4",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_code_ANZSIC4",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "industry_name_ANZSIC4",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "rme_size_grp4",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "variable4",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "value4",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "unit4",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                } ]
+              },
+              "isStreaming" : false
+            } ],
+            "outputs" : [ {
+              "id" : "DwsXSvoyl-eijFdbMHbNM$$ju7gOZRe8MkmxW6tkuFYd",
+              "slug" : "out0",
+              "schema" : {
+                "type" : "struct",
+                "fields" : [ ]
+              },
+              "isStreaming" : false
+            } ],
+            "selectedInputFields" : [ ],
+            "isCustomOutputSchema" : true,
+            "autoUpdateOnRun" : true
+          },
+          "properties" : {
+            "script" : "var a=10\nvar b=20\nvar c=30\nprint(\"hello\")\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\na=b*c\na=20\nvar out0=in0",
+            "scriptMethodHeader" : "def apply(spark: SparkSession, in0: DataFrame): DataFrame = {",
+            "scriptMethodFooter" : "    out0\n}"
+          }
+        },
         "NnAUu_m2EsaroM9_8W4NM$$274Wt4elJvwfQ43EawPhV" : {
           "id" : "NnAUu_m2EsaroM9_8W4NM$$274Wt4elJvwfQ43EawPhV",
           "component" : "Reformat",
           "metadata" : {
             "label" : "Reformat_1",
             "slug" : "Reformat_1",
-            "x" : -1000,
-            "y" : -40,
+            "x" : -860,
+            "y" : -160,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -5573,8 +5034,8 @@
           "metadata" : {
             "label" : "Repartition_1_1",
             "slug" : "Repartition_1_1",
-            "x" : 100,
-            "y" : 160,
+            "x" : 240,
+            "y" : 40,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -5928,8 +5389,8 @@
           "metadata" : {
             "label" : "Repartition_1",
             "slug" : "Repartition_1",
-            "x" : 80,
-            "y" : -80,
+            "x" : 220,
+            "y" : -200,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -6283,8 +5744,8 @@
           "metadata" : {
             "label" : "FlattenSchema_1_1",
             "slug" : "FlattenSchema_1_1",
-            "x" : -40,
-            "y" : 160,
+            "x" : 100,
+            "y" : -40,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -6952,8 +6413,8 @@
           "metadata" : {
             "label" : "FlattenSchema_1",
             "slug" : "FlattenSchema_1",
-            "x" : -80,
-            "y" : -60,
+            "x" : 60,
+            "y" : -180,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -7621,8 +7082,8 @@
           "metadata" : {
             "label" : "Reformat_1_1",
             "slug" : "Reformat_1_1",
-            "x" : -1020,
-            "y" : 180,
+            "x" : -880,
+            "y" : 60,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -7965,8 +7426,8 @@
           "metadata" : {
             "label" : "Filter_1_1",
             "slug" : "Filter_1_1",
-            "x" : -740,
-            "y" : 180,
+            "x" : -600,
+            "y" : 60,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -8319,8 +7780,8 @@
           "metadata" : {
             "label" : "OrderBy_1_1",
             "slug" : "OrderBy_1_1",
-            "x" : -480,
-            "y" : 180,
+            "x" : -340,
+            "y" : 60,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -8892,8 +8353,8 @@
           "metadata" : {
             "label" : "OrderBy_1_1_1",
             "slug" : "OrderBy_1_1_1",
-            "x" : -620,
-            "y" : 180,
+            "x" : -480,
+            "y" : 60,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -9465,8 +8926,8 @@
           "metadata" : {
             "label" : "Reformat_1_2",
             "slug" : "Reformat_1_2",
-            "x" : -860,
-            "y" : -40,
+            "x" : -720,
+            "y" : -160,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -10061,8 +9522,8 @@
           "metadata" : {
             "label" : "OrderBy_1_2",
             "slug" : "OrderBy_1_2",
-            "x" : -600,
-            "y" : -40,
+            "x" : -460,
+            "y" : -160,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -10622,8 +10083,8 @@
           "metadata" : {
             "label" : "SQLStatement1",
             "slug" : "SQLStatement1",
-            "x" : 240,
-            "y" : -80,
+            "x" : 380,
+            "y" : -200,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -10978,8 +10439,8 @@
           "metadata" : {
             "label" : "SetOperation_1_1",
             "slug" : "SetOperation_1_1",
-            "x" : -340,
-            "y" : 160,
+            "x" : -200,
+            "y" : 40,
             "phase" : 0,
             "cache" : false,
             "detailedStats" : false,
@@ -11654,8 +11115,8 @@
       "metadata" : {
         "label" : "livy-annual-enterprise",
         "slug" : "livy_annual_enterprise",
-        "x" : -1600,
-        "y" : -420,
+        "x" : -1900,
+        "y" : -560,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -11682,5 +11143,23 @@
     "selectedInputFields" : [ ],
     "isCustomOutputSchema" : false,
     "autoUpdateOnRun" : false
-  }
+  },
+  "diagnostics" : [ {
+    "property" : "$.workflow.processes.TBGAncJilabH4kILWmw0p$$JOufCXTiUV-Qfr5GFVNkf.processes.4wF5X0P9Shhx5nY7s7Qe_$$4B2rOpZPZPjERrRtVZEZf.ports.outputs",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 3,
+    "message" : "Please infer output schema from the cluster as described [here](https://docs.prophecy.io/low-code-spark/gems/custom/script/)",
+    "tags" : [ ],
+    "relatedInformation" : [ ],
+    "diagnosticType" : 2
+  } ]
 }

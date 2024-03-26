@@ -17,7 +17,7 @@ object Join1 {
     in0
       .as("in0")
       .join(in1.as("in1"),
-            col("in0.industry_code_ANZSIC") === col("in1.industry_code_ANZSIC"),
+            col("in0.industry_code_ANZSIC") =!= col("in1.industry_code_ANZSIC"),
             "inner"
       )
       .where(col("in0.year").isNotNull.and(col("in1.year").isNotNull))

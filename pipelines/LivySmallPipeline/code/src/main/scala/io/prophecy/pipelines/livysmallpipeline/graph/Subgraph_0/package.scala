@@ -34,6 +34,7 @@ package object Subgraph_0 {
     val df_Repartition_1     = Repartition_1(context,     df_FlattenSchema_1)
     val df_SQLStatement1     = SQLStatement1(context,     df_Repartition_1)
     val df_Join1             = Join1(context,             df_SQLStatement1, df_SQLStatement1_1)
+    val df_Script_1          = Script_1(context,          df_Limit_1_1)
     df_Join1
   }
 
