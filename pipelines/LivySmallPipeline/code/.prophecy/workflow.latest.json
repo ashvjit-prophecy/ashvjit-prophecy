@@ -10,7 +10,7 @@
       "hasApplication" : true
     },
     "language" : "scala",
-    "fabricId" : "1",
+    "fabricId" : "19",
     "frontEndLanguage" : "sql",
     "mode" : "batch",
     "udfs" : {
@@ -989,8 +989,8 @@
       "metadata" : {
         "label" : "Subgraph_0",
         "slug" : "Subgraph_0",
-        "x" : -920,
-        "y" : -320,
+        "x" : -1160,
+        "y" : -480,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -1077,7 +1077,11 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       },
-      "properties" : { },
+      "properties" : {
+        "externalId" : "subgraphs/21Gems1000LOC",
+        "name" : "21Gems1000LOC",
+        "packageName" : "orgTest.21Gems1000LOC"
+      },
       "connections" : [ {
         "id" : "EVIXxpbKnB9-6wbEXvqv7",
         "source" : "TBGAncJilabH4kILWmw0p$$JOufCXTiUV-Qfr5GFVNkf",
@@ -11650,8 +11654,8 @@
       "metadata" : {
         "label" : "livy-annual-enterprise",
         "slug" : "livy_annual_enterprise",
-        "x" : -1400,
-        "y" : -340,
+        "x" : -1600,
+        "y" : -420,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,

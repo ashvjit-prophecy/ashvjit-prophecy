@@ -1,0 +1,3567 @@
+{
+  "id" : "TBGAncJilabH4kILWmw0p",
+  "component" : "Subgraph",
+  "metadata" : {
+    "label" : "",
+    "slug" : "",
+    "x" : 0,
+    "y" : 0,
+    "phase" : 0,
+    "cache" : false,
+    "detailedStats" : false,
+    "isImported" : false,
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ {
+      "id" : "ak2G44Ttd5N_w1iBDWYxf",
+      "slug" : "in0",
+      "isStreaming" : false
+    } ],
+    "outputs" : [ {
+      "id" : "k0ogtZhDXTgVFjCRWDeWA",
+      "slug" : "out0",
+      "isStreaming" : false
+    } ],
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false,
+    "autoUpdateOnRun" : false
+  },
+  "properties" : {
+    "packageName" : "orgTest.21Gems1000LOC"
+  },
+  "connections" : [ {
+    "id" : "EVIXxpbKnB9-6wbEXvqv7",
+    "source" : "TBGAncJilabH4kILWmw0p",
+    "sourcePort" : "ak2G44Ttd5N_w1iBDWYxf",
+    "target" : "NnAUu_m2EsaroM9_8W4NM",
+    "targetPort" : "puTGrLswg47FFajjlVws3"
+  }, {
+    "id" : "00gqs387q1C1zu-cUNgIN$$Zz06NN2Sr6qtU83qd_yrB",
+    "source" : "8EFcUgjtcc6bymt8PAHn7",
+    "sourcePort" : "60T2DmuRekur-iaqoYZbr",
+    "target" : "V5MCv1n-YF2piZ96FumWt",
+    "targetPort" : "QtWbr1mzqMrjBXTH_Qy9U"
+  }, {
+    "id" : "MFhQKVD5_Y_fZsrKBomjy",
+    "source" : "8EFcUgjtcc6bymt8PAHn7",
+    "sourcePort" : "60T2DmuRekur-iaqoYZbr",
+    "target" : "V5MCv1n-YF2piZ96FumWt",
+    "targetPort" : "UWf30ON1xkm2i3jTv1LPw"
+  }, {
+    "id" : "pbmw_bWXtj9OqOF6l_2yM$$9YydxFN7EFZRHmr_suQrz",
+    "source" : "V5MCv1n-YF2piZ96FumWt",
+    "sourcePort" : "-wkgfaLS36LA8u7JDzmuF",
+    "target" : "3hn5yXhxM1w3Z-aHcrr_I",
+    "targetPort" : "PwyNt51PW0Yv3Gtlk3mFg"
+  }, {
+    "id" : "Z724uOR1szoVfrESGyN0P$$IcBjIQ39SIw0P8cfLh7o0",
+    "source" : "3hn5yXhxM1w3Z-aHcrr_I",
+    "sourcePort" : "8rbF8_pYQHiieSOajoPaR",
+    "target" : "Sto2hGxg2xmtaIuIszhCh",
+    "targetPort" : "0EQGXXu0zxEO5ExEhVT8J"
+  }, {
+    "id" : "f183L7whiyduqjB0Cuy4c$$nfaHc_AaZSFZ89imB7W_P",
+    "source" : "Sto2hGxg2xmtaIuIszhCh",
+    "sourcePort" : "x8XinU63zJUPOG0x8_A1l",
+    "target" : "cWjQ4Pz_TRw7l1icIfsSZ",
+    "targetPort" : "YkSkjwChEKyeoa9fyYVL3"
+  }, {
+    "id" : "9qJAoomUPMNaJMttUK-7R$$Lqp4C2IosDdAdMOX1CY1h",
+    "source" : "cWjQ4Pz_TRw7l1icIfsSZ",
+    "sourcePort" : "kK711dzWrkDbmxGDqtRTS",
+    "target" : "K6ebly2yUln8acvHVsDJK",
+    "targetPort" : "gBMOsqb3aqKMXjuhagBOK"
+  }, {
+    "id" : "zl_umYxkEiBb7VtRPezku",
+    "source" : "MKWLx5PxgZ_kJbbJNsztM",
+    "sourcePort" : "hVpWyieIXgxpZBCQk39D3",
+    "target" : "ypsykR1VVBBK6cM1njIOb",
+    "targetPort" : "Oa4XohkKmXcyJOxpIjQJw"
+  }, {
+    "id" : "X0w30RTLH_llos2UGYuol",
+    "source" : "MKWLx5PxgZ_kJbbJNsztM",
+    "sourcePort" : "hVpWyieIXgxpZBCQk39D3",
+    "target" : "ypsykR1VVBBK6cM1njIOb",
+    "targetPort" : "sQAGA2UT_MvTU7DaKfYq6"
+  }, {
+    "id" : "6jmq9HcmsSnttV9UZDGgU",
+    "source" : "ypsykR1VVBBK6cM1njIOb",
+    "sourcePort" : "mpLmsuAGXb9HdZEvJnLl_",
+    "target" : "79yb8I2Wj4VL-4oWuIkLC",
+    "targetPort" : "n6lrHbKozLHPtyl-g6KM6"
+  }, {
+    "id" : "Xh4auwvIOBeTSRomZV_Gp",
+    "source" : "79yb8I2Wj4VL-4oWuIkLC",
+    "sourcePort" : "D2ZX6zzNPUr8CqYXeotQC",
+    "target" : "BDtFxmL5bdHxxvXPx_-DA",
+    "targetPort" : "Fv76OGBSyx78NDBt6y-xp"
+  }, {
+    "id" : "baeYRz3qEM8sqLaPBasCD",
+    "source" : "BDtFxmL5bdHxxvXPx_-DA",
+    "sourcePort" : "4YIrpDik0vsXXO0QGE9em",
+    "target" : "0ixwA00iLVQakCi040ree",
+    "targetPort" : "6eQKf6pHimDatoMDirUth"
+  }, {
+    "id" : "9o5D2V6Owpo-MwNWZD8aS",
+    "source" : "0ixwA00iLVQakCi040ree",
+    "sourcePort" : "oLPaMYniBgn-WAqb0xd-Q",
+    "target" : "xkBslOAUAxXMViu7VLq6x",
+    "targetPort" : "MjpmdaJGJLbIEWPungSFD"
+  }, {
+    "id" : "7QHpDiehCVhNr-fbtAH-V$$AOfKCTWxBVaM6cUcccJe3",
+    "source" : "xkBslOAUAxXMViu7VLq6x",
+    "sourcePort" : "o3aYKhZpmHHrJ0DIDLhGo",
+    "target" : "GxRk6-fZjzMHq_NOx8CbG",
+    "targetPort" : "cXU2ED7eD5fkG7-GRKatk"
+  }, {
+    "id" : "n8aOSvpkbZkbVUifOvkUd",
+    "source" : "K6ebly2yUln8acvHVsDJK",
+    "sourcePort" : "R8j1rWwxofe54ibzaliw9",
+    "target" : "GxRk6-fZjzMHq_NOx8CbG",
+    "targetPort" : "lFp_shpaGteV_8KvMsaDm"
+  }, {
+    "id" : "OUArNxCnd3L8_lPHwsTuB",
+    "source" : "GxRk6-fZjzMHq_NOx8CbG",
+    "sourcePort" : "DcEtaGUqJGh5sMnkOPVfx",
+    "target" : "TBGAncJilabH4kILWmw0p",
+    "targetPort" : "k0ogtZhDXTgVFjCRWDeWA"
+  }, {
+    "id" : "5JPA7pnGNg_r4Zt4_sVJk",
+    "source" : "TBGAncJilabH4kILWmw0p",
+    "sourcePort" : "ak2G44Ttd5N_w1iBDWYxf",
+    "target" : "ir3U8KsD-SSKoRIDczj3x",
+    "targetPort" : "ai4Aj6OVcl8UAWQyAzCIm"
+  }, {
+    "id" : "SIaH1nEFclzjHeWwEXGo-$$cs3NQ-3s2GWUnS1JnRJC-",
+    "source" : "NnAUu_m2EsaroM9_8W4NM",
+    "sourcePort" : "9VQddv0p17U-tq6XMWC5G",
+    "target" : "jg3npmrS_aD5Jn7WmbbLY",
+    "targetPort" : "7Tnxix7-EORsHCDrfZ6rG"
+  }, {
+    "id" : "hA_3Xjxk8d2rH_GwX7Jil",
+    "source" : "jg3npmrS_aD5Jn7WmbbLY",
+    "sourcePort" : "sv-q2HcYoN9D53dko5CO9",
+    "target" : "MZo7xmd7yVD6HYRaRP6RN",
+    "targetPort" : "6FiVA8DaupnyKpII4A9kv"
+  }, {
+    "id" : "Os4HZLnis4ibxWQoy7SHj",
+    "source" : "ir3U8KsD-SSKoRIDczj3x",
+    "sourcePort" : "fdJRgt832PrjUrd4itiHv",
+    "target" : "plvDzxa88dFiLH0yaHW9l",
+    "targetPort" : "T0CKkitwoYRHYeVhDh0lw"
+  }, {
+    "id" : "qpJUvFvXJGTdZDBqqSFkE",
+    "source" : "plvDzxa88dFiLH0yaHW9l",
+    "sourcePort" : "DQXUyN3PG3zJ1yehqhIwx",
+    "target" : "CUukqykMndOdcNgglPpxC",
+    "targetPort" : "CIsbQVeSsSsyBOw5CEx9a"
+  }, {
+    "id" : "eaok7P-rxmSfPsA1w2Hit$$wNCzioGv135jCTLiZ6JvP",
+    "source" : "wH39n9REQXLTG8jWtYxNU",
+    "sourcePort" : "C6mQZ6aYZbpH6CdI8o0Gr",
+    "target" : "MKWLx5PxgZ_kJbbJNsztM",
+    "targetPort" : "_V4lgaC3cpzsjwHFo2cNv"
+  }, {
+    "id" : "h-tE6Hv73SQuZDPUeBHdI",
+    "source" : "CUukqykMndOdcNgglPpxC",
+    "sourcePort" : "8F4X_nCyWMmCixNa9l8o1",
+    "target" : "wH39n9REQXLTG8jWtYxNU",
+    "targetPort" : "EAlgMoLQHbsFsNzXCDgHM"
+  }, {
+    "id" : "wj5_pbrvamZxpHQmaDybK$$9BxbdVQAkD2605idJLnU3",
+    "source" : "lYlGUrkaqqNH9RI9Mv4Ww",
+    "sourcePort" : "UBwvnd-eUxMowNNFoq-K2",
+    "target" : "8EFcUgjtcc6bymt8PAHn7",
+    "targetPort" : "6cF3L4AFRao7Dy5ONkUpa"
+  }, {
+    "id" : "KFqBRKifUq--oeIeNfBSq",
+    "source" : "MZo7xmd7yVD6HYRaRP6RN",
+    "sourcePort" : "gYFyGxIelWNO8btiA_9b3",
+    "target" : "lYlGUrkaqqNH9RI9Mv4Ww",
+    "targetPort" : "74t01mQ8Q9rns-xEOSg6x"
+  } ],
+  "processes" : {
+    "BDtFxmL5bdHxxvXPx_-DA" : {
+      "id" : "BDtFxmL5bdHxxvXPx_-DA",
+      "component" : "FlattenSchema",
+      "metadata" : {
+        "label" : "FlattenSchema_1_1",
+        "slug" : "FlattenSchema_1_1",
+        "x" : -40,
+        "y" : 160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Fv76OGBSyx78NDBt6y-xp",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "4YIrpDik0vsXXO0QGE9em",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "explodedColsNewName" : [ ],
+        "fsExpressions" : [ {
+          "exploded" : "",
+          "flattenedExpression" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "targetTokens" : [ "year" ],
+          "target" : "year"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC" ],
+          "target" : "industry_code_ANZSIC"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC" ],
+          "target" : "industry_name_ANZSIC"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "targetTokens" : [ "rme_size_grp" ],
+          "target" : "rme_size_grp"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "targetTokens" : [ "variable" ],
+          "target" : "variable"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "targetTokens" : [ "value" ],
+          "target" : "value"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "targetTokens" : [ "unit" ],
+          "target" : "unit"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year1"
+          },
+          "targetTokens" : [ "year1" ],
+          "target" : "year1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC1"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC1" ],
+          "target" : "industry_code_ANZSIC1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC1"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC1" ],
+          "target" : "industry_name_ANZSIC1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp1"
+          },
+          "targetTokens" : [ "rme_size_grp1" ],
+          "target" : "rme_size_grp1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable1"
+          },
+          "targetTokens" : [ "variable1" ],
+          "target" : "variable1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value1"
+          },
+          "targetTokens" : [ "value1" ],
+          "target" : "value1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit1"
+          },
+          "targetTokens" : [ "unit1" ],
+          "target" : "unit1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year2"
+          },
+          "targetTokens" : [ "year2" ],
+          "target" : "year2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC2"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC2" ],
+          "target" : "industry_code_ANZSIC2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC2"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC2" ],
+          "target" : "industry_name_ANZSIC2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp2"
+          },
+          "targetTokens" : [ "rme_size_grp2" ],
+          "target" : "rme_size_grp2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable2"
+          },
+          "targetTokens" : [ "variable2" ],
+          "target" : "variable2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value2"
+          },
+          "targetTokens" : [ "value2" ],
+          "target" : "value2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit2"
+          },
+          "targetTokens" : [ "unit2" ],
+          "target" : "unit2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year3"
+          },
+          "targetTokens" : [ "year3" ],
+          "target" : "year3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC3"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC3" ],
+          "target" : "industry_code_ANZSIC3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC3"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC3" ],
+          "target" : "industry_name_ANZSIC3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp3"
+          },
+          "targetTokens" : [ "rme_size_grp3" ],
+          "target" : "rme_size_grp3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable3"
+          },
+          "targetTokens" : [ "variable3" ],
+          "target" : "variable3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value3"
+          },
+          "targetTokens" : [ "value3" ],
+          "target" : "value3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit3"
+          },
+          "targetTokens" : [ "unit3" ],
+          "target" : "unit3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year4"
+          },
+          "targetTokens" : [ "year4" ],
+          "target" : "year4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC4"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC4" ],
+          "target" : "industry_code_ANZSIC4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC4"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC4" ],
+          "target" : "industry_name_ANZSIC4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp4"
+          },
+          "targetTokens" : [ "rme_size_grp4" ],
+          "target" : "rme_size_grp4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable4"
+          },
+          "targetTokens" : [ "variable4" ],
+          "target" : "variable4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value4"
+          },
+          "targetTokens" : [ "value4" ],
+          "target" : "value4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit4"
+          },
+          "targetTokens" : [ "unit4" ],
+          "target" : "unit4"
+        } ],
+        "columnsSelector" : [ "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##year", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_code_ANZSIC", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_name_ANZSIC", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##rme_size_grp", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##variable", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##value", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##unit", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##year1", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_code_ANZSIC1", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_name_ANZSIC1", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##rme_size_grp1", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##variable1", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##value1", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##unit1", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##year2", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_code_ANZSIC2", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_name_ANZSIC2", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##rme_size_grp2", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##variable2", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##value2", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##unit2", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##year3", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_code_ANZSIC3", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_name_ANZSIC3", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##rme_size_grp3", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##variable3", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##value3", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##unit3", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##year4", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_code_ANZSIC4", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##industry_name_ANZSIC4", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##rme_size_grp4", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##variable4", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##value4", "Fv76OGBSyx78NDBt6y-xp$$8oFn_FpeImzu4plzGTPlP##unit4" ],
+        "explodeColumns" : [ ],
+        "delimiter" : "_"
+      }
+    },
+    "lYlGUrkaqqNH9RI9Mv4Ww" : {
+      "id" : "lYlGUrkaqqNH9RI9Mv4Ww",
+      "component" : "OrderBy",
+      "metadata" : {
+        "label" : "OrderBy_1_2",
+        "slug" : "OrderBy_1_2",
+        "x" : -600,
+        "y" : -40,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "74t01mQ8Q9rns-xEOSg6x",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "UBwvnd-eUxMowNNFoq-K2",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##year", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_code_ANZSIC", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_name_ANZSIC", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##rme_size_grp", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##variable", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##value", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##unit", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##year1", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_code_ANZSIC1", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_name_ANZSIC1", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##rme_size_grp1", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##variable1", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##value1", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##unit1", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##year2", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_code_ANZSIC2", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_name_ANZSIC2", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##rme_size_grp2", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##variable2", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##value2", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##unit2", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##year3", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_code_ANZSIC3", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_name_ANZSIC3", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##rme_size_grp3", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##variable3", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##value3", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##unit3", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##year4", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_code_ANZSIC4", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##industry_name_ANZSIC4", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##rme_size_grp4", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##variable4", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##value4", "74t01mQ8Q9rns-xEOSg6x$$7tqyGKQDrFEszgu4VYJCN##unit4" ],
+        "orders" : [ {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit4"
+          },
+          "sortType" : "asc"
+        } ]
+      }
+    },
+    "MZo7xmd7yVD6HYRaRP6RN" : {
+      "id" : "MZo7xmd7yVD6HYRaRP6RN",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Filter_1",
+        "slug" : "Filter_1",
+        "x" : -720,
+        "y" : -40,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "6FiVA8DaupnyKpII4A9kv",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "gYFyGxIelWNO8btiA_9b3",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "condition" : {
+          "format" : "sql",
+          "expression" : "true"
+        }
+      }
+    },
+    "Sto2hGxg2xmtaIuIszhCh" : {
+      "id" : "Sto2hGxg2xmtaIuIszhCh",
+      "component" : "FlattenSchema",
+      "metadata" : {
+        "label" : "FlattenSchema_1",
+        "slug" : "FlattenSchema_1",
+        "x" : -80,
+        "y" : -60,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "0EQGXXu0zxEO5ExEhVT8J",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "x8XinU63zJUPOG0x8_A1l",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "explodedColsNewName" : [ ],
+        "fsExpressions" : [ {
+          "exploded" : "",
+          "flattenedExpression" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "targetTokens" : [ "year" ],
+          "target" : "year"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC" ],
+          "target" : "industry_code_ANZSIC"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC" ],
+          "target" : "industry_name_ANZSIC"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "targetTokens" : [ "rme_size_grp" ],
+          "target" : "rme_size_grp"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "targetTokens" : [ "variable" ],
+          "target" : "variable"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "targetTokens" : [ "value" ],
+          "target" : "value"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "targetTokens" : [ "unit" ],
+          "target" : "unit"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year1"
+          },
+          "targetTokens" : [ "year1" ],
+          "target" : "year1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC1"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC1" ],
+          "target" : "industry_code_ANZSIC1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC1"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC1" ],
+          "target" : "industry_name_ANZSIC1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp1"
+          },
+          "targetTokens" : [ "rme_size_grp1" ],
+          "target" : "rme_size_grp1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable1"
+          },
+          "targetTokens" : [ "variable1" ],
+          "target" : "variable1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value1"
+          },
+          "targetTokens" : [ "value1" ],
+          "target" : "value1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit1"
+          },
+          "targetTokens" : [ "unit1" ],
+          "target" : "unit1"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year2"
+          },
+          "targetTokens" : [ "year2" ],
+          "target" : "year2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC2"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC2" ],
+          "target" : "industry_code_ANZSIC2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC2"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC2" ],
+          "target" : "industry_name_ANZSIC2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp2"
+          },
+          "targetTokens" : [ "rme_size_grp2" ],
+          "target" : "rme_size_grp2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable2"
+          },
+          "targetTokens" : [ "variable2" ],
+          "target" : "variable2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value2"
+          },
+          "targetTokens" : [ "value2" ],
+          "target" : "value2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit2"
+          },
+          "targetTokens" : [ "unit2" ],
+          "target" : "unit2"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year3"
+          },
+          "targetTokens" : [ "year3" ],
+          "target" : "year3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC3"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC3" ],
+          "target" : "industry_code_ANZSIC3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC3"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC3" ],
+          "target" : "industry_name_ANZSIC3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp3"
+          },
+          "targetTokens" : [ "rme_size_grp3" ],
+          "target" : "rme_size_grp3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable3"
+          },
+          "targetTokens" : [ "variable3" ],
+          "target" : "variable3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value3"
+          },
+          "targetTokens" : [ "value3" ],
+          "target" : "value3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit3"
+          },
+          "targetTokens" : [ "unit3" ],
+          "target" : "unit3"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "year4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year4"
+          },
+          "targetTokens" : [ "year4" ],
+          "target" : "year4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_code_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC4"
+          },
+          "targetTokens" : [ "industry_code_ANZSIC4" ],
+          "target" : "industry_code_ANZSIC4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "industry_name_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC4"
+          },
+          "targetTokens" : [ "industry_name_ANZSIC4" ],
+          "target" : "industry_name_ANZSIC4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "rme_size_grp4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp4"
+          },
+          "targetTokens" : [ "rme_size_grp4" ],
+          "target" : "rme_size_grp4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "variable4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable4"
+          },
+          "targetTokens" : [ "variable4" ],
+          "target" : "variable4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "value4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value4"
+          },
+          "targetTokens" : [ "value4" ],
+          "target" : "value4"
+        }, {
+          "exploded" : "",
+          "flattenedExpression" : "unit4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit4"
+          },
+          "targetTokens" : [ "unit4" ],
+          "target" : "unit4"
+        } ],
+        "columnsSelector" : [ "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##year", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_code_ANZSIC", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_name_ANZSIC", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##rme_size_grp", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##variable", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##value", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##unit", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##year1", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_code_ANZSIC1", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_name_ANZSIC1", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##rme_size_grp1", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##variable1", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##value1", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##unit1", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##year2", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_code_ANZSIC2", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_name_ANZSIC2", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##rme_size_grp2", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##variable2", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##value2", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##unit2", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##year3", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_code_ANZSIC3", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_name_ANZSIC3", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##rme_size_grp3", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##variable3", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##value3", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##unit3", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##year4", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_code_ANZSIC4", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##industry_name_ANZSIC4", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##rme_size_grp4", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##variable4", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##value4", "0EQGXXu0zxEO5ExEhVT8J$$bVESZa7N1Qil8IL3h3mdx##unit4" ],
+        "explodeColumns" : [ ],
+        "delimiter" : "-"
+      }
+    },
+    "ypsykR1VVBBK6cM1njIOb" : {
+      "id" : "ypsykR1VVBBK6cM1njIOb",
+      "component" : "SetOperation",
+      "metadata" : {
+        "label" : "SetOperation_1_1",
+        "slug" : "SetOperation_1_1",
+        "x" : -340,
+        "y" : 160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Oa4XohkKmXcyJOxpIjQJw",
+          "slug" : "in0"
+        }, {
+          "id" : "sQAGA2UT_MvTU7DaKfYq6",
+          "slug" : "in1"
+        } ],
+        "outputs" : [ {
+          "id" : "mpLmsuAGXb9HdZEvJnLl_",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "operationType" : "unionAll",
+        "allowMissingColumns" : false
+      }
+    },
+    "CUukqykMndOdcNgglPpxC" : {
+      "id" : "CUukqykMndOdcNgglPpxC",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Filter_1_1",
+        "slug" : "Filter_1_1",
+        "x" : -740,
+        "y" : 180,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "CIsbQVeSsSsyBOw5CEx9a",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "8F4X_nCyWMmCixNa9l8o1",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "condition" : {
+          "format" : "sql",
+          "expression" : "true"
+        }
+      }
+    },
+    "3hn5yXhxM1w3Z-aHcrr_I" : {
+      "id" : "3hn5yXhxM1w3Z-aHcrr_I",
+      "component" : "Limit",
+      "metadata" : {
+        "label" : "Limit_1",
+        "slug" : "Limit_1",
+        "x" : -220,
+        "y" : -60,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "PwyNt51PW0Yv3Gtlk3mFg",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "8rbF8_pYQHiieSOajoPaR",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "limit" : "10"
+      }
+    },
+    "V5MCv1n-YF2piZ96FumWt" : {
+      "id" : "V5MCv1n-YF2piZ96FumWt",
+      "component" : "SetOperation",
+      "metadata" : {
+        "label" : "SetOperation_1",
+        "slug" : "SetOperation_1",
+        "x" : -360,
+        "y" : -60,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "QtWbr1mzqMrjBXTH_Qy9U",
+          "slug" : "in0"
+        }, {
+          "id" : "UWf30ON1xkm2i3jTv1LPw",
+          "slug" : "in1"
+        } ],
+        "outputs" : [ {
+          "id" : "-wkgfaLS36LA8u7JDzmuF",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "operationType" : "unionAll",
+        "allowMissingColumns" : false
+      }
+    },
+    "GxRk6-fZjzMHq_NOx8CbG" : {
+      "id" : "GxRk6-fZjzMHq_NOx8CbG",
+      "component" : "Join",
+      "metadata" : {
+        "label" : "Join1",
+        "slug" : "Join1",
+        "x" : 480,
+        "y" : 80,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "lFp_shpaGteV_8KvMsaDm",
+          "slug" : "in0"
+        }, {
+          "id" : "cXU2ED7eD5fkG7-GRKatk",
+          "slug" : "in1"
+        } ],
+        "outputs" : [ {
+          "id" : "DcEtaGUqJGh5sMnkOPVfx",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "conditions" : [ {
+          "alias" : "in1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.industry_code_ANZSIC=in1.industry_code_ANZSIC"
+          },
+          "joinType" : "inner"
+        } ],
+        "expressions" : [ {
+          "target" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.year"
+          },
+          "description" : ""
+        }, {
+          "target" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "target" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in1.industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "target" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "target" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.variable"
+          },
+          "description" : ""
+        }, {
+          "target" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.value"
+          },
+          "description" : ""
+        }, {
+          "target" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "in0.unit"
+          },
+          "description" : ""
+        } ],
+        "hints" : [ {
+          "id" : "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_",
+          "alias" : "in0",
+          "hintType" : "none",
+          "propagateColumns" : false
+        }, {
+          "id" : "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc",
+          "alias" : "in1",
+          "hintType" : "none",
+          "propagateColumns" : false
+        } ],
+        "activeTab" : "advanced",
+        "columnsSelector" : [ "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##industry_code_ANZSIC", "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc##industry_code_ANZSIC", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##year", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##industry_code_ANZSIC", "cXU2ED7eD5fkG7-GRKatk$$EU8mhaE3VZE0TaPcrveyc##industry_name_ANZSIC", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##rme_size_grp", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##variable", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##value", "lFp_shpaGteV_8KvMsaDm$$88ls8Kx8Vn2gD3CEf4-T_##unit" ],
+        "whereClause" : {
+          "format" : "sql",
+          "expression" : "in0.year is not null and in1.year is not null"
+        },
+        "headAlias" : "in0"
+      }
+    },
+    "xkBslOAUAxXMViu7VLq6x" : {
+      "id" : "xkBslOAUAxXMViu7VLq6x",
+      "component" : "SQLStatement",
+      "metadata" : {
+        "label" : "SQLStatement1_1",
+        "slug" : "SQLStatement1_1",
+        "x" : 280,
+        "y" : 140,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "MjpmdaJGJLbIEWPungSFD",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "o3aYKhZpmHHrJ0DIDLhGo",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "fileTabs" : [ {
+          "path" : "out",
+          "id" : "o3aYKhZpmHHrJ0DIDLhGo$$A3WrB40ud0nDtXKPfVZiX",
+          "language" : "sql",
+          "content" : "select * from in0"
+        } ],
+        "inputPortNames" : [ "in0" ]
+      }
+    },
+    "plvDzxa88dFiLH0yaHW9l" : {
+      "id" : "plvDzxa88dFiLH0yaHW9l",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_1_1_1",
+        "slug" : "Reformat_1_1_1",
+        "x" : -880,
+        "y" : 180,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "T0CKkitwoYRHYeVhDh0lw",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "DQXUyN3PG3zJ1yehqhIwx",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ##year", "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ##industry_code_ANZSIC", "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ##industry_name_ANZSIC", "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ##rme_size_grp", "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ##variable", "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ##value", "T0CKkitwoYRHYeVhDh0lw$$8e_kLKoa2f9NWmF3XlPJJ##unit" ],
+        "expressions" : [ {
+          "_row_id" : "2127587683",
+          "target" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "224355419",
+          "target" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1192867604",
+          "target" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1883486386",
+          "target" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1546016850",
+          "target" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "201448967",
+          "target" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1565247870",
+          "target" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "888649975",
+          "target" : "year1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2018418546",
+          "target" : "industry_code_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "209426385",
+          "target" : "industry_name_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1009392047",
+          "target" : "rme_size_grp1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1242954945",
+          "target" : "variable1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "146419448",
+          "target" : "value1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "697794828",
+          "target" : "unit1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1594984742",
+          "target" : "year2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "248912597",
+          "target" : "industry_code_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1490882405",
+          "target" : "industry_name_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1741485135",
+          "target" : "rme_size_grp2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "754820796",
+          "target" : "variable2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "270853093",
+          "target" : "value2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "989551688",
+          "target" : "unit2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2091261008",
+          "target" : "year3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1746898736",
+          "target" : "industry_code_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1129930476",
+          "target" : "industry_name_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "695303174",
+          "target" : "rme_size_grp3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "461324091",
+          "target" : "variable3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1234278409",
+          "target" : "value3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "228877568",
+          "target" : "unit3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "938275507",
+          "target" : "year4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1056695068",
+          "target" : "industry_code_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1360019963",
+          "target" : "industry_name_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1462074448",
+          "target" : "rme_size_grp4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "395588463",
+          "target" : "variable4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1721502372",
+          "target" : "value4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1147165715",
+          "target" : "unit4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "ir3U8KsD-SSKoRIDczj3x" : {
+      "id" : "ir3U8KsD-SSKoRIDczj3x",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_1_1",
+        "slug" : "Reformat_1_1",
+        "x" : -1020,
+        "y" : 180,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "ai4Aj6OVcl8UAWQyAzCIm",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "fdJRgt832PrjUrd4itiHv",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL##year", "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL##industry_code_ANZSIC", "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL##industry_name_ANZSIC", "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL##rme_size_grp", "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL##variable", "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL##value", "ai4Aj6OVcl8UAWQyAzCIm$$E2H7Edd_4b3hirZT7mJXL##unit" ],
+        "expressions" : [ {
+          "_row_id" : "2127587683",
+          "target" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "224355419",
+          "target" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1192867604",
+          "target" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1883486386",
+          "target" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1546016850",
+          "target" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "201448967",
+          "target" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1565247870",
+          "target" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "888649975",
+          "target" : "year1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2018418546",
+          "target" : "industry_code_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "209426385",
+          "target" : "industry_name_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1009392047",
+          "target" : "rme_size_grp1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1242954945",
+          "target" : "variable1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "146419448",
+          "target" : "value1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "697794828",
+          "target" : "unit1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1594984742",
+          "target" : "year2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "248912597",
+          "target" : "industry_code_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1490882405",
+          "target" : "industry_name_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1741485135",
+          "target" : "rme_size_grp2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "754820796",
+          "target" : "variable2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "270853093",
+          "target" : "value2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "989551688",
+          "target" : "unit2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2091261008",
+          "target" : "year3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1746898736",
+          "target" : "industry_code_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1129930476",
+          "target" : "industry_name_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "695303174",
+          "target" : "rme_size_grp3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "461324091",
+          "target" : "variable3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1234278409",
+          "target" : "value3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "228877568",
+          "target" : "unit3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "938275507",
+          "target" : "year4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1056695068",
+          "target" : "industry_code_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1360019963",
+          "target" : "industry_name_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1462074448",
+          "target" : "rme_size_grp4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "395588463",
+          "target" : "variable4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1721502372",
+          "target" : "value4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1147165715",
+          "target" : "unit4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "NnAUu_m2EsaroM9_8W4NM" : {
+      "id" : "NnAUu_m2EsaroM9_8W4NM",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_1",
+        "slug" : "Reformat_1",
+        "x" : -1000,
+        "y" : -40,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "puTGrLswg47FFajjlVws3",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "9VQddv0p17U-tq6XMWC5G",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh##year", "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh##industry_code_ANZSIC", "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh##industry_name_ANZSIC", "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh##rme_size_grp", "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh##variable", "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh##value", "puTGrLswg47FFajjlVws3$$eDD5GnGsEIPkqCdZKSgYh##unit" ],
+        "expressions" : [ {
+          "_row_id" : "2127587683",
+          "target" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "224355419",
+          "target" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1192867604",
+          "target" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1883486386",
+          "target" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1546016850",
+          "target" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "201448967",
+          "target" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1565247870",
+          "target" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "888649975",
+          "target" : "year1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2018418546",
+          "target" : "industry_code_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "209426385",
+          "target" : "industry_name_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1009392047",
+          "target" : "rme_size_grp1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1242954945",
+          "target" : "variable1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "146419448",
+          "target" : "value1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "697794828",
+          "target" : "unit1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1594984742",
+          "target" : "year2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "248912597",
+          "target" : "industry_code_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1490882405",
+          "target" : "industry_name_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1741485135",
+          "target" : "rme_size_grp2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "754820796",
+          "target" : "variable2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "270853093",
+          "target" : "value2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "989551688",
+          "target" : "unit2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2091261008",
+          "target" : "year3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1746898736",
+          "target" : "industry_code_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1129930476",
+          "target" : "industry_name_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "695303174",
+          "target" : "rme_size_grp3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "461324091",
+          "target" : "variable3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1234278409",
+          "target" : "value3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "228877568",
+          "target" : "unit3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "938275507",
+          "target" : "year4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1056695068",
+          "target" : "industry_code_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1360019963",
+          "target" : "industry_name_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1462074448",
+          "target" : "rme_size_grp4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "395588463",
+          "target" : "variable4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1721502372",
+          "target" : "value4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1147165715",
+          "target" : "unit4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "MKWLx5PxgZ_kJbbJNsztM" : {
+      "id" : "MKWLx5PxgZ_kJbbJNsztM",
+      "component" : "OrderBy",
+      "metadata" : {
+        "label" : "OrderBy_1_1",
+        "slug" : "OrderBy_1_1",
+        "x" : -480,
+        "y" : 180,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "_V4lgaC3cpzsjwHFo2cNv",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "hVpWyieIXgxpZBCQk39D3",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##year", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_code_ANZSIC", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_name_ANZSIC", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##rme_size_grp", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##variable", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##value", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##unit", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##year1", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_code_ANZSIC1", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_name_ANZSIC1", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##rme_size_grp1", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##variable1", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##value1", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##unit1", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##year2", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_code_ANZSIC2", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_name_ANZSIC2", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##rme_size_grp2", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##variable2", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##value2", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##unit2", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##year3", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_code_ANZSIC3", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_name_ANZSIC3", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##rme_size_grp3", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##variable3", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##value3", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##unit3", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##year4", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_code_ANZSIC4", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##industry_name_ANZSIC4", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##rme_size_grp4", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##variable4", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##value4", "_V4lgaC3cpzsjwHFo2cNv$$WH5k6Z-seqvPqOgcRQiu2##unit4" ],
+        "orders" : [ {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "sortType" : "desc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit4"
+          },
+          "sortType" : "asc"
+        } ]
+      }
+    },
+    "cWjQ4Pz_TRw7l1icIfsSZ" : {
+      "id" : "cWjQ4Pz_TRw7l1icIfsSZ",
+      "component" : "Repartition",
+      "metadata" : {
+        "label" : "Repartition_1",
+        "slug" : "Repartition_1",
+        "x" : 80,
+        "y" : -80,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "YkSkjwChEKyeoa9fyYVL3",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "kK711dzWrkDbmxGDqtRTS",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "overwriteDefaultNPartitions" : false,
+        "hashExpressions" : [ ],
+        "columnsSelector" : [ ],
+        "repartitionType" : "coalesce",
+        "rangeExpressions" : [ ],
+        "nPartitions" : "10"
+      }
+    },
+    "K6ebly2yUln8acvHVsDJK" : {
+      "id" : "K6ebly2yUln8acvHVsDJK",
+      "component" : "SQLStatement",
+      "metadata" : {
+        "label" : "SQLStatement1",
+        "slug" : "SQLStatement1",
+        "x" : 240,
+        "y" : -80,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "gBMOsqb3aqKMXjuhagBOK",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "R8j1rWwxofe54ibzaliw9",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "fileTabs" : [ {
+          "path" : "out",
+          "id" : "R8j1rWwxofe54ibzaliw9$$NQJdgcpZpvstfBeSspU6V",
+          "language" : "sql",
+          "content" : "select * from in0"
+        } ],
+        "inputPortNames" : [ "in0" ]
+      }
+    },
+    "jg3npmrS_aD5Jn7WmbbLY" : {
+      "id" : "jg3npmrS_aD5Jn7WmbbLY",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_1_2",
+        "slug" : "Reformat_1_2",
+        "x" : -860,
+        "y" : -40,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "7Tnxix7-EORsHCDrfZ6rG",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "sv-q2HcYoN9D53dko5CO9",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP##year", "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP##industry_code_ANZSIC", "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP##industry_name_ANZSIC", "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP##rme_size_grp", "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP##variable", "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP##value", "7Tnxix7-EORsHCDrfZ6rG$$cyRSZF66_QlRGqYzepmDP##unit" ],
+        "expressions" : [ {
+          "_row_id" : "2127587683",
+          "target" : "year",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "224355419",
+          "target" : "industry_code_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1192867604",
+          "target" : "industry_name_ANZSIC",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1883486386",
+          "target" : "rme_size_grp",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1546016850",
+          "target" : "variable",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "201448967",
+          "target" : "value",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1565247870",
+          "target" : "unit",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "888649975",
+          "target" : "year1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2018418546",
+          "target" : "industry_code_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "209426385",
+          "target" : "industry_name_ANZSIC1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1009392047",
+          "target" : "rme_size_grp1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1242954945",
+          "target" : "variable1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "146419448",
+          "target" : "value1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "697794828",
+          "target" : "unit1",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1594984742",
+          "target" : "year2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "248912597",
+          "target" : "industry_code_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1490882405",
+          "target" : "industry_name_ANZSIC2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1741485135",
+          "target" : "rme_size_grp2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "754820796",
+          "target" : "variable2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "270853093",
+          "target" : "value2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "989551688",
+          "target" : "unit2",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "2091261008",
+          "target" : "year3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1746898736",
+          "target" : "industry_code_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1129930476",
+          "target" : "industry_name_ANZSIC3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "695303174",
+          "target" : "rme_size_grp3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "461324091",
+          "target" : "variable3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1234278409",
+          "target" : "value3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "228877568",
+          "target" : "unit3",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "938275507",
+          "target" : "year4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1056695068",
+          "target" : "industry_code_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1360019963",
+          "target" : "industry_name_ANZSIC4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1462074448",
+          "target" : "rme_size_grp4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "395588463",
+          "target" : "variable4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1721502372",
+          "target" : "value4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "description" : ""
+        }, {
+          "_row_id" : "1147165715",
+          "target" : "unit4",
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "description" : ""
+        } ]
+      }
+    },
+    "79yb8I2Wj4VL-4oWuIkLC" : {
+      "id" : "79yb8I2Wj4VL-4oWuIkLC",
+      "component" : "Limit",
+      "metadata" : {
+        "label" : "Limit_1_1",
+        "slug" : "Limit_1_1",
+        "x" : -200,
+        "y" : 160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "n6lrHbKozLHPtyl-g6KM6",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "D2ZX6zzNPUr8CqYXeotQC",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "limit" : "10"
+      }
+    },
+    "wH39n9REQXLTG8jWtYxNU" : {
+      "id" : "wH39n9REQXLTG8jWtYxNU",
+      "component" : "OrderBy",
+      "metadata" : {
+        "label" : "OrderBy_1_1_1",
+        "slug" : "OrderBy_1_1_1",
+        "x" : -620,
+        "y" : 180,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "EAlgMoLQHbsFsNzXCDgHM",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "C6mQZ6aYZbpH6CdI8o0Gr",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##year", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_code_ANZSIC", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_name_ANZSIC", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##rme_size_grp", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##variable", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##value", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##unit", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##year1", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_code_ANZSIC1", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_name_ANZSIC1", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##rme_size_grp1", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##variable1", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##value1", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##unit1", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##year2", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_code_ANZSIC2", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_name_ANZSIC2", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##rme_size_grp2", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##variable2", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##value2", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##unit2", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##year3", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_code_ANZSIC3", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_name_ANZSIC3", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##rme_size_grp3", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##variable3", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##value3", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##unit3", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##year4", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_code_ANZSIC4", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##industry_name_ANZSIC4", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##rme_size_grp4", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##variable4", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##value4", "EAlgMoLQHbsFsNzXCDgHM$$JHxmF_ukXcAF5edfY0dtL##unit4" ],
+        "orders" : [ {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "sortType" : "desc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit4"
+          },
+          "sortType" : "asc"
+        } ]
+      }
+    },
+    "0ixwA00iLVQakCi040ree" : {
+      "id" : "0ixwA00iLVQakCi040ree",
+      "component" : "Repartition",
+      "metadata" : {
+        "label" : "Repartition_1_1",
+        "slug" : "Repartition_1_1",
+        "x" : 100,
+        "y" : 160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "6eQKf6pHimDatoMDirUth",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "oLPaMYniBgn-WAqb0xd-Q",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "overwriteDefaultNPartitions" : false,
+        "hashExpressions" : [ ],
+        "columnsSelector" : [ ],
+        "repartitionType" : "coalesce",
+        "rangeExpressions" : [ ],
+        "nPartitions" : "10"
+      }
+    },
+    "8EFcUgjtcc6bymt8PAHn7" : {
+      "id" : "8EFcUgjtcc6bymt8PAHn7",
+      "component" : "OrderBy",
+      "metadata" : {
+        "label" : "OrderBy_1",
+        "slug" : "OrderBy_1",
+        "x" : -480,
+        "y" : -60,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "6cF3L4AFRao7Dy5ONkUpa",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "60T2DmuRekur-iaqoYZbr",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "columnsSelector" : [ "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##year", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_code_ANZSIC", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_name_ANZSIC", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##rme_size_grp", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##variable", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##value", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##unit", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##year1", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_code_ANZSIC1", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_name_ANZSIC1", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##rme_size_grp1", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##variable1", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##value1", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##unit1", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##year2", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_code_ANZSIC2", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_name_ANZSIC2", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##rme_size_grp2", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##variable2", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##value2", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##unit2", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##year3", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_code_ANZSIC3", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_name_ANZSIC3", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##rme_size_grp3", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##variable3", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##value3", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##unit3", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##year4", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_code_ANZSIC4", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##industry_name_ANZSIC4", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##rme_size_grp4", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##variable4", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##value4", "6cF3L4AFRao7Dy5ONkUpa$$ppfI3DvE6ZlvdoOFDYUgO##unit4" ],
+        "orders" : [ {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit1"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit2"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit3"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "year4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_code_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "industry_name_ANZSIC4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "rme_size_grp4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "variable4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "value4"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "unit4"
+          },
+          "sortType" : "asc"
+        } ]
+      }
+    }
+  }
+}

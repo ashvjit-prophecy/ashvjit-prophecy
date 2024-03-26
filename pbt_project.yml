@@ -97,7 +97,8 @@ pipelines:
       inputs:
       - datasets/livy-annual-enterprise
       outputs: []
-    subgraphs: []
+    subgraphs:
+    - subgraphs/21Gems1000LOC
     dependencies: {}
 datasets:
   datasets/scala-customers:
@@ -241,6 +242,14 @@ subgraphs:
     artefactID: ''
     mode: batch
     createdAt: '2024-03-22 12:27:37'
+  subgraphs/21Gems1000LOC:
+    name: 21Gems1000LOC
+    description: orgTest.21Gems1000LOC
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-26 10:31:50'
 sqlModels: {}
 sqlMacros: {}
 sqlSeeds: {}
