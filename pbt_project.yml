@@ -146,10 +146,24 @@ pipelines:
     datasets:
       inputs:
       - datasets/livy-annual-enterprise
+      - datasets/src_emr_s3_source
       outputs:
       - datasets/dest_livytest
     subgraphs:
     - subgraphs/subgraphWithConfigs
+    dependencies: {}
+  pipelines/TestPerf4:
+    name: TestPerf4
+    description: TestPerf4
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-26 16:25:18'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
     dependencies: {}
 datasets:
   datasets/scala-customers:

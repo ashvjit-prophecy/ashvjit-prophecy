@@ -9,7 +9,7 @@ import org.apache.spark.sql.types._
 import org.apache.spark.sql.expressions._
 import java.time._
 
-object annual_1 {
+object src_emr_s3_source {
 
   def apply(context: Context): DataFrame =
     context.spark.read
@@ -29,6 +29,6 @@ object annual_1 {
           )
         )
       )
-      .load("file:/storage/workflowdata/annual-enterprise")
+      .load("s3://qa-prophecy/livydata/annual-enterprise/")
 
 }
