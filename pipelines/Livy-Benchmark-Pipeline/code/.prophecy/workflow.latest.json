@@ -1,8 +1,7 @@
 {
   "metainfo" : {
     "codeGenConfiguration" : {
-      "editableConfig" : true,
-      "applicationName" : "Livy-Benchmark-Pipeline"
+      "editableConfig" : true
     },
     "id" : "1",
     "uri" : "pipelines/Livy-Benchmark-Pipeline",

@@ -69,6 +69,36 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/LivyPerfPipelineMain:
+    name: LivyPerfPipelineMain
+    description: ''
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-26 09:38:33'
+    datasets:
+      inputs:
+      - datasets/livy-annual-enterprise
+      outputs:
+      - datasets/dest_livytest
+    subgraphs:
+    - subgraphs/subgraphWithConfigs
+    dependencies: {}
+  pipelines/LivySmallPipeline:
+    name: LivySmallPipeline
+    description: LivySmallPipeline
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-26 10:14:54'
+    datasets:
+      inputs:
+      - datasets/livy-annual-enterprise
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets:
   datasets/scala-customers:
     name: scala-customers

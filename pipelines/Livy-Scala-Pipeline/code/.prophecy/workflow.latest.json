@@ -1,8 +1,7 @@
 {
   "metainfo" : {
     "codeGenConfiguration" : {
-      "editableConfig" : true,
-      "applicationName" : "Livy-Scala-Pipeline"
+      "editableConfig" : true
     },
     "id" : "1",
     "uri" : "pipelines/Livy-Scala-Pipeline",
@@ -3969,6 +3968,15 @@
                     "mappings" : [ ],
                     "tags" : [ ]
                   }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
                 } ]
               },
               "isStreaming" : false
@@ -4071,6 +4079,15 @@
                   "name" : "c_configs",
                   "type" : "string",
                   "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
                   "metadata" : {
                     "description" : "",
                     "mappings" : [ ],
@@ -4191,6 +4208,15 @@
                   "name" : "c_configs",
                   "type" : "string",
                   "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
                   "metadata" : {
                     "description" : "",
                     "mappings" : [ ],
@@ -4409,7 +4435,7 @@
             "autoUpdateOnRun" : false
           },
           "properties" : {
-            "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##year", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##variable", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##value", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##unit" ],
+            "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##year", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##variable", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##value", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##unit" ],
             "expressions" : [ {
               "target" : "year",
               "expression" : {
@@ -4464,6 +4490,13 @@
               "expression" : {
                 "format" : "sql",
                 "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+              },
+              "description" : ""
+            }, {
+              "target" : "c_lookup",
+              "expression" : {
+                "format" : "sql",
+                "expression" : "LookupTest1(variable, unit)['value']"
               },
               "description" : ""
             } ]
@@ -6775,6 +6808,15 @@
                     "mappings" : [ ],
                     "tags" : [ ]
                   }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
                 } ]
               },
               "isStreaming" : false
@@ -6908,6 +6950,15 @@
                   "name" : "c_configs",
                   "type" : "string",
                   "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
                   "metadata" : {
                     "description" : "",
                     "mappings" : [ ],
@@ -7122,7 +7173,7 @@
             "autoUpdateOnRun" : false
           },
           "properties" : {
-            "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##year", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##variable", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##value", "3sZnoMeN60m2Wvkgq5iqr$$eE_qbbXMhmhV60oy4_IxP##unit" ],
+            "columnsSelector" : [ "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##year", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_code_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##industry_name_ANZSIC", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##rme_size_grp", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##variable", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##value", "3sZnoMeN60m2Wvkgq5iqr$$CktzN9C6DL3Dg19y2ANlL##unit" ],
             "expressions" : [ {
               "target" : "year",
               "expression" : {
@@ -7177,6 +7228,13 @@
               "expression" : {
                 "format" : "sql",
                 "expression" : "concat('$c_int', '$c_string', '$c_sg_string', '$c_sg_array[0]', '$c_sg_record.csgr_boolean', '$c_sg_record.csgr_int')"
+              },
+              "description" : ""
+            }, {
+              "target" : "c_lookup",
+              "expression" : {
+                "format" : "sql",
+                "expression" : "LookupTest1(variable, unit)['value']"
               },
               "description" : ""
             } ]
@@ -7268,6 +7326,15 @@
                   "name" : "c_configs",
                   "type" : "string",
                   "nullable" : false,
+                  "metadata" : {
+                    "description" : "",
+                    "mappings" : [ ],
+                    "tags" : [ ]
+                  }
+                }, {
+                  "name" : "c_lookup",
+                  "type" : "string",
+                  "nullable" : true,
                   "metadata" : {
                     "description" : "",
                     "mappings" : [ ],
