@@ -100,6 +100,7 @@ pipelines:
     subgraphs:
     - subgraphs/21Gems1000LOC
     - subgraphs/sg10kLOC10Subgraphs
+    - subgraphs/sg100gems
     dependencies: {}
   pipelines/LivySmallAnother:
     name: LivySmallAnother
@@ -114,6 +115,22 @@ pipelines:
       - datasets/livy-annual-enterprise
       outputs: []
     subgraphs: []
+    dependencies: {}
+  pipelines/TestPerfPip1:
+    name: TestPerfPip1
+    description: ''
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-26 12:55:40'
+    datasets:
+      inputs:
+      - datasets/livy-annual-enterprise
+      outputs:
+      - datasets/dest_livytest
+    subgraphs:
+    - subgraphs/subgraphWithConfigs
     dependencies: {}
 datasets:
   datasets/scala-customers:

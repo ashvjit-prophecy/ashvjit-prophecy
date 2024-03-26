@@ -24,6 +24,18 @@ object Main {
       Subgraph_1.config.Context(context.spark, context.config.Subgraph_1),
       df_livy_annual_enterprise
     )
+    val (df_sg100gems_out0,
+         df_sg100gems_out1,
+         df_sg100gems_out2,
+         df_sg100gems_out3,
+         df_sg100gems_out4,
+         df_sg100gems_out5,
+         df_sg100gems_out6,
+         df_sg100gems_out7
+    ) = sg100gems.apply(
+      sg100gems.config.Context(context.spark, context.config.sg100gems),
+      df_livy_annual_enterprise
+    )
   }
 
   def main(args: Array[String]): Unit = {
