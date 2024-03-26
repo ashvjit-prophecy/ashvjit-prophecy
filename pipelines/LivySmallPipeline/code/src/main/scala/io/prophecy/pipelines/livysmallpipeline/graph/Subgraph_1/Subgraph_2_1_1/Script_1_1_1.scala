@@ -2,7 +2,6 @@ package io.prophecy.pipelines.livysmallpipeline.graph.Subgraph_1.Subgraph_2_1_1
 
 import io.prophecy.libs._
 import io.prophecy.pipelines.livysmallpipeline.graph.Subgraph_1.Subgraph_2_1_1.config.Context
-import io.prophecy.pipelines.livysmallpipeline.udfs.UDFs._
 import io.prophecy.pipelines.livysmallpipeline.udfs.PipelineInitCode._
 import org.apache.spark._
 import org.apache.spark.sql._

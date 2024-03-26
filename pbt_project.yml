@@ -99,6 +99,7 @@ pipelines:
       outputs: []
     subgraphs:
     - subgraphs/21Gems1000LOC
+    - subgraphs/sg10kLOC10Subgraphs
     dependencies: {}
   pipelines/LivySmallAnother:
     name: LivySmallAnother
@@ -280,6 +281,14 @@ subgraphs:
     artefactID: ''
     mode: batch
     createdAt: '2024-03-26 12:27:59'
+  subgraphs/sg10kLOC10Subgraphs:
+    name: sg10kLOC10Subgraphs
+    description: sg10kLOC10Subgraphs
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-26 12:28:46'
 sqlModels: {}
 sqlMacros: {}
 sqlSeeds: {}
