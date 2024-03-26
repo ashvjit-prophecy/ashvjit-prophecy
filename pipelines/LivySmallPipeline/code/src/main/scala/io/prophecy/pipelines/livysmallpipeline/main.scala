@@ -20,6 +20,10 @@ object Main {
       Subgraph_0.config.Context(context.spark, context.config.Subgraph_0),
       df_livy_annual_enterprise
     )
+    val df_Subgraph_1 = Subgraph_1.apply(
+      Subgraph_1.config.Context(context.spark, context.config.Subgraph_1),
+      df_livy_annual_enterprise
+    )
   }
 
   def main(args: Array[String]): Unit = {

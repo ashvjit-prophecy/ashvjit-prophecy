@@ -100,6 +100,21 @@ pipelines:
     subgraphs:
     - subgraphs/21Gems1000LOC
     dependencies: {}
+  pipelines/LivySmallAnother:
+    name: LivySmallAnother
+    description: LivySmallAnother
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-26 12:19:06'
+    datasets:
+      inputs:
+      - datasets/livy-annual-enterprise
+      outputs: []
+    subgraphs:
+    - subgraphs/sg100gems
+    dependencies: {}
 datasets:
   datasets/scala-customers:
     name: scala-customers
@@ -250,6 +265,14 @@ subgraphs:
     artefactID: ''
     mode: batch
     createdAt: '2024-03-26 10:31:50'
+  subgraphs/sg100gems:
+    name: sg100gems
+    description: sg100gems
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-26 12:25:40'
 sqlModels: {}
 sqlMacros: {}
 sqlSeeds: {}
