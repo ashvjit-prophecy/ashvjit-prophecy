@@ -54,18 +54,10 @@ object Main {
         .Context(context.spark, context.config.sg10InsideSG_1),
       df_sg10InsideSG
     )
-    val df_sgScriptWith5ScriptEachHaving1000LOC =
-      sgScriptWith5ScriptEachHaving1000LOC.apply(
-        sgScriptWith5ScriptEachHaving1000LOC.config.Context(
-          context.spark,
-          context.config.sgScriptWith5ScriptEachHaving1000LOC
-        ),
-        df_sg10InsideSG_1
-      )
     val df_sg10InsideSG_2 = sg10InsideSG_2.apply(
       sg10InsideSG_2.config
         .Context(context.spark, context.config.sg10InsideSG_2),
-      df_sgScriptWith5ScriptEachHaving1000LOC
+      df_sg10InsideSG_1
     )
     val df_sg10InsideSG_3 = sg10InsideSG_3.apply(
       sg10InsideSG_3.config
@@ -76,6 +68,11 @@ object Main {
       sg10InsideSG_4.config
         .Context(context.spark, context.config.sg10InsideSG_4),
       df_sg10InsideSG_3
+    )
+    val df_sg10InsideSG_5 = sg10InsideSG_5.apply(
+      sg10InsideSG_5.config
+        .Context(context.spark, context.config.sg10InsideSG_5),
+      df_sg10InsideSG_4
     )
     val df_Subgraph_2 = Subgraph_2.apply(
       Subgraph_2.config.Context(context.spark, context.config.Subgraph_2),
@@ -150,6 +147,21 @@ object Main {
         .Context(context.spark, context.config.sgwith2SG2gem_3),
       df_sgwith2SG2gem_2
     )
+    val df_sg10InsideSG_6 = sg10InsideSG_6.apply(
+      sg10InsideSG_6.config
+        .Context(context.spark, context.config.sg10InsideSG_6),
+      df_sg10InsideSG_5
+    )
+    val df_sg10InsideSG_7 = sg10InsideSG_7.apply(
+      sg10InsideSG_7.config
+        .Context(context.spark, context.config.sg10InsideSG_7),
+      df_sg10InsideSG_6
+    )
+    val df_sg10InsideSG_8 = sg10InsideSG_8.apply(
+      sg10InsideSG_8.config
+        .Context(context.spark, context.config.sg10InsideSG_8),
+      df_sg10InsideSG_7
+    )
     val df_sgwith2SG2gem_4 = sgwith2SG2gem_4.apply(
       sgwith2SG2gem_4.config
         .Context(context.spark, context.config.sgwith2SG2gem_4),
@@ -159,11 +171,6 @@ object Main {
       sgwith2SG2gem_5.config
         .Context(context.spark, context.config.sgwith2SG2gem_5),
       df_sgwith2SG2gem_4
-    )
-    val df_sg10InsideSG_5 = sg10InsideSG_5.apply(
-      sg10InsideSG_5.config
-        .Context(context.spark, context.config.sg10InsideSG_5),
-      df_sg10InsideSG_4
     )
     val df_sgwith2SG2gem_14 = sgwith2SG2gem_14.apply(
       sgwith2SG2gem_14.config
@@ -190,20 +197,10 @@ object Main {
         .Context(context.spark, context.config.sgwith2SG2gem_18),
       df_sgwith2SG2gem_17
     )
-    val df_sg10InsideSG_6 = sg10InsideSG_6.apply(
-      sg10InsideSG_6.config
-        .Context(context.spark, context.config.sg10InsideSG_6),
-      df_sg10InsideSG_5
-    )
     val df_sgwith2SG2gem_6 = sgwith2SG2gem_6.apply(
       sgwith2SG2gem_6.config
         .Context(context.spark, context.config.sgwith2SG2gem_6),
       df_sgwith2SG2gem_5
-    )
-    val df_sg10InsideSG_7 = sg10InsideSG_7.apply(
-      sg10InsideSG_7.config
-        .Context(context.spark, context.config.sg10InsideSG_7),
-      df_sg10InsideSG_6
     )
   }
 

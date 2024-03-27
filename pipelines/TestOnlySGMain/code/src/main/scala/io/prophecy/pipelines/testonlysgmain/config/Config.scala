@@ -27,9 +27,6 @@ import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG.config.{
 import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_1.config.{
   Config => sg10InsideSG_1_Config
 }
-import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC.config.{
-  Config => sgScriptWith5ScriptEachHaving1000LOC_Config
-}
 import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_2.config.{
   Config => sg10InsideSG_2_Config
 }
@@ -38,6 +35,9 @@ import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_3.config.{
 }
 import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_4.config.{
   Config => sg10InsideSG_4_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_5.config.{
+  Config => sg10InsideSG_5_Config
 }
 import io.prophecy.pipelines.testonlysgmain.graph.Subgraph_2.config.{
   Config => Subgraph_2_Config
@@ -90,14 +90,20 @@ import io.prophecy.pipelines.testonlysgmain.graph.Subgraph_11.config.{
 import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_3.config.{
   Config => sgwith2SG2gem_3_Config
 }
+import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_6.config.{
+  Config => sg10InsideSG_6_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_7.config.{
+  Config => sg10InsideSG_7_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_8.config.{
+  Config => sg10InsideSG_8_Config
+}
 import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_4.config.{
   Config => sgwith2SG2gem_4_Config
 }
 import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_5.config.{
   Config => sgwith2SG2gem_5_Config
-}
-import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_5.config.{
-  Config => sg10InsideSG_5_Config
 }
 import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_14.config.{
   Config => sgwith2SG2gem_14_Config
@@ -114,14 +120,8 @@ import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_17.config.{
 import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_18.config.{
   Config => sgwith2SG2gem_18_Config
 }
-import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_6.config.{
-  Config => sg10InsideSG_6_Config
-}
 import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_6.config.{
   Config => sgwith2SG2gem_6_Config
-}
-import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_7.config.{
-  Config => sg10InsideSG_7_Config
 }
 
 case class Config(
@@ -158,12 +158,11 @@ case class Config(
   var Subgraph_12:      Subgraph_12_Config = Subgraph_12_Config(),
   var sg10InsideSG:     sg10InsideSG_Config = sg10InsideSG_Config(),
   var sg10InsideSG_1:   sg10InsideSG_1_Config = sg10InsideSG_1_Config(),
-  var sgScriptWith5ScriptEachHaving1000LOC: sgScriptWith5ScriptEachHaving1000LOC_Config =
-    sgScriptWith5ScriptEachHaving1000LOC_Config(),
-  var sg10InsideSG_2: sg10InsideSG_2_Config = sg10InsideSG_2_Config(),
-  var sg10InsideSG_3: sg10InsideSG_3_Config = sg10InsideSG_3_Config(),
-  var sg10InsideSG_4: sg10InsideSG_4_Config = sg10InsideSG_4_Config(),
-  var sg10InsideSG_5: sg10InsideSG_5_Config = sg10InsideSG_5_Config(),
-  var sg10InsideSG_6: sg10InsideSG_6_Config = sg10InsideSG_6_Config(),
-  var sg10InsideSG_7: sg10InsideSG_7_Config = sg10InsideSG_7_Config()
+  var sg10InsideSG_2:   sg10InsideSG_2_Config = sg10InsideSG_2_Config(),
+  var sg10InsideSG_3:   sg10InsideSG_3_Config = sg10InsideSG_3_Config(),
+  var sg10InsideSG_4:   sg10InsideSG_4_Config = sg10InsideSG_4_Config(),
+  var sg10InsideSG_5:   sg10InsideSG_5_Config = sg10InsideSG_5_Config(),
+  var sg10InsideSG_6:   sg10InsideSG_6_Config = sg10InsideSG_6_Config(),
+  var sg10InsideSG_7:   sg10InsideSG_7_Config = sg10InsideSG_7_Config(),
+  var sg10InsideSG_8:   sg10InsideSG_8_Config = sg10InsideSG_8_Config()
 ) extends ConfigBase
