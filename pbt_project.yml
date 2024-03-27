@@ -145,7 +145,6 @@ pipelines:
     createdAt: '2024-03-26 14:41:03'
     datasets:
       inputs:
-      - datasets/livy-annual-enterprise
       - datasets/src_emr_s3_source
       outputs:
       - datasets/dest_livytest
@@ -165,9 +164,39 @@ pipelines:
       - datasets/src_emr_s3_source
       outputs: []
     subgraphs:
+    - subgraphs/sgScriptWith5ScriptEachHaving1000LOC
     - subgraphs/21Gems1000LOC
     - subgraphs/sg100gems
-    - subgraphs/sgScriptWith5ScriptEachHaving1000LOC
+    dependencies: {}
+  pipelines/TestPipMoreSubgraphs:
+    name: TestPipMoreSubgraphs
+    description: TestPipMoreSubgraphs
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-27 03:01:22'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/TestSubgraphPerf:
+    name: TestSubgraphPerf
+    description: ''
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-27 03:02:17'
+    datasets:
+      inputs:
+      - datasets/livy-annual-enterprise
+      - datasets/src_emr_s3_source
+      outputs:
+      - datasets/dest_livytest
+    subgraphs:
+    - subgraphs/subgraphWithConfigs
     dependencies: {}
 datasets:
   datasets/scala-customers:

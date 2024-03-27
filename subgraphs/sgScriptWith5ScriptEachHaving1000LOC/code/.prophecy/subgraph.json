@@ -382,7 +382,7 @@
         "x" : 260,
         "y" : -40,
         "phase" : 0,
-        "cache" : true,
+        "cache" : false,
         "detailedStats" : false,
         "isImported" : false
       },

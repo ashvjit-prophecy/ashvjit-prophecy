@@ -24,7 +24,7 @@ package object T21Gems1000LOC {
     val df_Reformat_1        = Reformat_1(context,        in0)
     val df_Reformat_1_2      = Reformat_1_2(context,      df_Reformat_1)
     val df_Filter_1          = Filter_1(context,          df_Reformat_1_2)
-    val df_Script_1          = Script_1(context,          df_Limit_1_1).cache()
+    val df_Script_1          = Script_1(context,          df_Limit_1_1)
     val df_OrderBy_1_2       = OrderBy_1_2(context,       df_Filter_1)
     val df_OrderBy_1         = OrderBy_1(context,         df_OrderBy_1_2)
     val df_SetOperation_1    = SetOperation_1(context,    df_OrderBy_1,     df_OrderBy_1)

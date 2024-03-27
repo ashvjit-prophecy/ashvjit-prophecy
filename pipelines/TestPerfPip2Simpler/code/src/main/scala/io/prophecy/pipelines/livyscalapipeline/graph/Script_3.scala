@@ -1062,9 +1062,9 @@ object Script_3 {
     } 
     
     
-    val a=10
-    val b=20
-    val c=a*b
+    var a=10
+    var b=20
+    var c=a*b
     a=1
     b=2
     c=a*b

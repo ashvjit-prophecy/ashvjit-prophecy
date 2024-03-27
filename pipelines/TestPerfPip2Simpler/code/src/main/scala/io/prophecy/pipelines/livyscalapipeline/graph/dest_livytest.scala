@@ -15,6 +15,6 @@ object dest_livytest {
     in.write
       .format("parquet")
       .mode("overwrite")
-      .save("file:/storage/out/livytest_outashkscluster")
+      .save("s3://qa-prophecy/tmp/test/destlivytest123/")
 
 }

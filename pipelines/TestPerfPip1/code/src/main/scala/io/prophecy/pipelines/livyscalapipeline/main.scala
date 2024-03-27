@@ -385,15 +385,7 @@ object Main {
         .Context(context.spark, context.config.Subgraph_2_1_1_1_2_1),
       df_Subgraph_2_1_1_2_1
     )
-    val (df_sg100gems_out0,
-         df_sg100gems_out1,
-         df_sg100gems_out2,
-         df_sg100gems_out3,
-         df_sg100gems_out4,
-         df_sg100gems_out5,
-         df_sg100gems_out6,
-         df_sg100gems_out7
-    ) = sg100gems.apply(
+    val df_sg100gems = sg100gems.apply(
       sg100gems.config.Context(context.spark, context.config.sg100gems),
       df_src_emr_s3_source_3
     )

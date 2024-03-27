@@ -16,6 +16,18 @@ object Main {
 
   def apply(context: Context): Unit = {
     val df_src_emr_s3_source = src_emr_s3_source(context)
+    val df_Reformat_1        = Reformat_1(context, df_src_emr_s3_source).cache()
+    val df_Reformat_4_1 = if (context.config.c_string == "asdasdasdasdads") {
+      val df_remove = remove(context, df_Reformat_1)
+      Reformat_4_1(context, df_remove)
+    } else
+      null
+    val df_skip =
+      if (context.config.c_string == "asdasdasdasdads")
+        skip(context, df_Reformat_1)
+      else df_Reformat_1
+    val df_Reformat_3    = Reformat_3(context,    df_skip)
+    val df_Deduplicate_1 = Deduplicate_1(context, df_Reformat_3)
   }
 
   def main(args: Array[String]): Unit = {

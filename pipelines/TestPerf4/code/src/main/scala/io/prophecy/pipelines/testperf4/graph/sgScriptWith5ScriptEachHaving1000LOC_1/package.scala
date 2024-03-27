@@ -18,7 +18,7 @@ package object sgScriptWith5ScriptEachHaving1000LOC_1 {
     val df_scala_code_snippets_1_1 =
       scala_code_snippets_1_1(context, df_scala_code_snippets_1)
     val df_scala_code_snippets_1_1_1 =
-      scala_code_snippets_1_1_1(context, df_scala_code_snippets_1_1).cache()
+      scala_code_snippets_1_1_1(context, df_scala_code_snippets_1_1)
     val df_scala_code_snippets_1_1_1_1 =
       scala_code_snippets_1_1_1_1(context, df_scala_code_snippets_1_1_1)
     df_scala_code_snippets_1_1_1_1

@@ -24,6 +24,9 @@ import io.prophecy.pipelines.livysmallpipeline.graph.T21Gems1000LOC.config.{
 import io.prophecy.pipelines.livysmallpipeline.graph.sgScriptWith5ScriptEachHaving1000LOC_1_1.config.{
   Config => sgScriptWith5ScriptEachHaving1000LOC_1_1_Config
 }
+import io.prophecy.pipelines.livysmallpipeline.graph.sg100gems_1.config.{
+  Config => sg100gems_1_Config
+}
 
 case class Config(
   var T21Gems1000LOC:  T21Gems1000LOC_Config = T21Gems1000LOC_Config(),
@@ -36,5 +39,6 @@ case class Config(
   var sgScriptWith5ScriptEachHaving1000LOC_2: sgScriptWith5ScriptEachHaving1000LOC_2_Config =
     sgScriptWith5ScriptEachHaving1000LOC_2_Config(),
   var sgScriptWith5ScriptEachHaving1000LOC_1_1: sgScriptWith5ScriptEachHaving1000LOC_1_1_Config =
-    sgScriptWith5ScriptEachHaving1000LOC_1_1_Config()
+    sgScriptWith5ScriptEachHaving1000LOC_1_1_Config(),
+  var sg100gems_1: sg100gems_1_Config = sg100gems_1_Config()
 ) extends ConfigBase

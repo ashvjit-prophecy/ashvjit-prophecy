@@ -37,15 +37,7 @@ object Main {
         ),
         df_sgScriptWith5ScriptEachHaving1000LOC
       )
-    val (df_sg100gems_out0,
-         df_sg100gems_out1,
-         df_sg100gems_out2,
-         df_sg100gems_out3,
-         df_sg100gems_out4,
-         df_sg100gems_out5,
-         df_sg100gems_out6,
-         df_sg100gems_out7
-    ) = sg100gems.apply(
+    val df_sg100gems = sg100gems.apply(
       sg100gems.config.Context(context.spark, context.config.sg100gems),
       df_src_emr_s3_source
     )
@@ -70,6 +62,10 @@ object Main {
         ),
         df_sgScriptWith5ScriptEachHaving1000LOC_2
       )
+    val df_sg100gems_1 = sg100gems_1.apply(
+      sg100gems_1.config.Context(context.spark, context.config.sg100gems_1),
+      df_src_emr_s3_source
+    )
   }
 
   def main(args: Array[String]): Unit = {
