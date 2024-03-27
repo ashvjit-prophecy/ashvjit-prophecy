@@ -197,6 +197,7 @@ pipelines:
       - datasets/dest_livytest
     subgraphs:
     - subgraphs/subgraphWithConfigs
+    - subgraphs/sg100gems
     dependencies: {}
 datasets:
   datasets/scala-customers:
