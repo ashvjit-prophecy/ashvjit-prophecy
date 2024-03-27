@@ -9,7 +9,13 @@
     "phase" : 0,
     "cache" : false,
     "detailedStats" : false,
-    "isImported" : false
+    "isImported" : false,
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      }
+    }
   },
   "ports" : {
     "inputs" : [ {
@@ -30,37 +36,37 @@
     "packageName" : "orgtest.sgScriptWith5ScriptEachHaving1000LOC"
   },
   "connections" : [ {
-    "id" : "_GS8JVI2UP5XW5d4qEUpN",
+    "id" : "ufJW6LLCd3gSIdtVDyPcG",
     "source" : "TvIomW-vaDllPmpO-pweF",
     "sourcePort" : "ZiPURFDp_dv_nBho9bQRD",
     "target" : "DulCJqofhzSnDlKukNFk5",
     "targetPort" : "ViZ3cRIYvT3SOM3vxpzYU"
   }, {
-    "id" : "5PWVjw1HajtqhwrWkGJAh",
+    "id" : "5FEdS2jafvjL4CZuo1i-w",
     "source" : "DulCJqofhzSnDlKukNFk5",
     "sourcePort" : "j39GCEb9btf7b3pQfvhni",
     "target" : "e7LcJ90qy_YlM5JuOCcUL",
     "targetPort" : "THD4L88nd4_sQqtgI8kaF"
   }, {
-    "id" : "egSBBQkHlzzmXLimc5tNP",
+    "id" : "w1raCSidiv2DKONNcNciE",
     "source" : "e7LcJ90qy_YlM5JuOCcUL",
     "sourcePort" : "N9PQ0a-DZ4J734HRGWkwp",
     "target" : "zlJBNoov4eW6Bi6uv64Aq",
     "targetPort" : "kENbmb2ccZe4D7NJ3829U"
   }, {
-    "id" : "NaSf6JdPKadY-t-o95UPS",
+    "id" : "oeVDxLsFgP0wSBzA4bsSC",
     "source" : "zlJBNoov4eW6Bi6uv64Aq",
     "sourcePort" : "KnSVBpuLO26dI5YnoF3Cr",
     "target" : "sjgitdn5ts1xpRG7HV9uG",
     "targetPort" : "DbHqZho2UwaJb4Ddv8u7B"
   }, {
-    "id" : "bmXSV_im_uHchBFp_5iev",
+    "id" : "wuLT8hwM52Wr6LZJUb02U",
     "source" : "BvAcs0lr470L8x3oMOdDL",
     "sourcePort" : "Wg3dO12uAdQOczNtwq-LI",
     "target" : "TvIomW-vaDllPmpO-pweF",
     "targetPort" : "tOiAZslcdKHfY0kywLak4"
   }, {
-    "id" : "t-ropCZM74_8tV9BwHmpA",
+    "id" : "hIZGBtld5GA-dt6S8x4cb",
     "source" : "sjgitdn5ts1xpRG7HV9uG",
     "sourcePort" : "c3eBcBow_PuIOKDs66rW7",
     "target" : "BvAcs0lr470L8x3oMOdDL",

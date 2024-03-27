@@ -214,7 +214,9 @@ pipelines:
       - datasets/src_emr_s3_source
       outputs: []
     subgraphs:
+    - subgraphs/sg10InsideSG
     - subgraphs/sgwith2SG2gem
+    - subgraphs/sgScriptWith5ScriptEachHaving1000LOC
     dependencies: {}
   pipelines/testdonotdelissue:
     name: testdonotdelissue
@@ -426,6 +428,14 @@ subgraphs:
     artefactID: ''
     mode: batch
     createdAt: '2024-03-27 03:41:05'
+  subgraphs/sg10InsideSG:
+    name: sg10InsideSG
+    description: sg10InsideSG
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-27 04:06:58'
 sqlModels: {}
 sqlMacros: {}
 sqlSeeds: {}
