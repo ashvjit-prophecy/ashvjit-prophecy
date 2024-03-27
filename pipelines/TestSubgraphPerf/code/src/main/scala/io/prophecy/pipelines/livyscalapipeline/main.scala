@@ -53,6 +53,14 @@ object Main {
         .Context(context.spark, context.config.Subgraph_2_1_1_2),
       df_Subgraph_15_1_2
     )
+    val df_sgScriptWith5ScriptEachHaving1000LOC =
+      sgScriptWith5ScriptEachHaving1000LOC.apply(
+        sgScriptWith5ScriptEachHaving1000LOC.config.Context(
+          context.spark,
+          context.config.sgScriptWith5ScriptEachHaving1000LOC
+        ),
+        df_annual_2
+      )
     val df_annual    = annual(context)
     val df_Filter_3  = Filter_3(context,  df_annual)
     val df_OrderBy_3 = OrderBy_3(context, df_Filter_3)
@@ -114,6 +122,26 @@ object Main {
     val df_Subgraph_15 = Subgraph_15.apply(
       Subgraph_15.config.Context(context.spark, context.config.Subgraph_15),
       df_Subgraph_14
+    )
+    val df_Subgraph_2_1_2_1_1_1 = Subgraph_2_1_2_1_1_1.apply(
+      Subgraph_2_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_2_1_2_1_1_1),
+      df_Limit_1_1
+    )
+    val df_Subgraph_12_1_2_1_1_1 = Subgraph_12_1_2_1_1_1.apply(
+      Subgraph_12_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_12_1_2_1_1_1),
+      df_Subgraph_2_1_2_1_1_1
+    )
+    val df_Subgraph_13_1_2_1_1_1 = Subgraph_13_1_2_1_1_1.apply(
+      Subgraph_13_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_13_1_2_1_1_1),
+      df_Subgraph_12_1_2_1_1_1
+    )
+    val df_Subgraph_14_1_2_1_1_1 = Subgraph_14_1_2_1_1_1.apply(
+      Subgraph_14_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_14_1_2_1_1_1),
+      df_Subgraph_13_1_2_1_1_1
     )
     val df_Subgraph_12_1_1_2 = Subgraph_12_1_1_2.apply(
       Subgraph_12_1_1_2.config
@@ -198,6 +226,36 @@ object Main {
     val (df_Subgraph_8_out, df_Subgraph_8_out10) = Subgraph_8.apply(
       Subgraph_8.config.Context(context.spark, context.config.Subgraph_8),
       df_Subgraph_7
+    )
+    val df_Subgraph_15_1_2_1_1_1 = Subgraph_15_1_2_1_1_1.apply(
+      Subgraph_15_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_15_1_2_1_1_1),
+      df_Subgraph_14_1_2_1_1_1
+    )
+    val df_Subgraph_2_1_1_2_1_1_1 = Subgraph_2_1_1_2_1_1_1.apply(
+      Subgraph_2_1_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_2_1_1_2_1_1_1),
+      df_Subgraph_15_1_2_1_1_1
+    )
+    val df_Subgraph_12_1_1_2_1_1_1 = Subgraph_12_1_1_2_1_1_1.apply(
+      Subgraph_12_1_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_12_1_1_2_1_1_1),
+      df_Subgraph_2_1_1_2_1_1_1
+    )
+    val df_Subgraph_13_1_1_2_1_1_1 = Subgraph_13_1_1_2_1_1_1.apply(
+      Subgraph_13_1_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_13_1_1_2_1_1_1),
+      df_Subgraph_12_1_1_2_1_1_1
+    )
+    val df_Subgraph_14_1_1_2_1_1_1 = Subgraph_14_1_1_2_1_1_1.apply(
+      Subgraph_14_1_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_14_1_1_2_1_1_1),
+      df_Subgraph_13_1_1_2_1_1_1
+    )
+    val df_Subgraph_15_1_1_2_1_1_1 = Subgraph_15_1_1_2_1_1_1.apply(
+      Subgraph_15_1_1_2_1_1_1.config
+        .Context(context.spark, context.config.Subgraph_15_1_1_2_1_1_1),
+      df_Subgraph_14_1_1_2_1_1_1
     )
     val df_Subgraph_12_1_1 = Subgraph_12_1_1.apply(
       Subgraph_12_1_1.config
@@ -298,6 +356,11 @@ object Main {
         .Context(context.spark, context.config.Subgraph_14_1_1_2),
       df_Subgraph_13_1_1_2
     )
+    val df_sg5kLocScript5_1 = sg5kLocScript5_1.apply(
+      sg5kLocScript5_1.config
+        .Context(context.spark, context.config.sg5kLocScript5_1),
+      df_sgScriptWith5ScriptEachHaving1000LOC
+    )
     val df_Subgraph_14_1_1_1 = Subgraph_14_1_1_1.apply(
       Subgraph_14_1_1_1.config
         .Context(context.spark, context.config.Subgraph_14_1_1_1),
@@ -308,6 +371,10 @@ object Main {
       Subgraph_15_1_1_2.config
         .Context(context.spark, context.config.Subgraph_15_1_1_2),
       df_Subgraph_14_1_1_2
+    )
+    val df_Subgraph_16 = Subgraph_16.apply(
+      Subgraph_16.config.Context(context.spark, context.config.Subgraph_16),
+      df_sg100gems
     )
     val df_Subgraph_9 = Subgraph_9.apply(
       Subgraph_9.config.Context(context.spark, context.config.Subgraph_9),

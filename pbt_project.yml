@@ -50,6 +50,7 @@ pipelines:
     datasets:
       inputs:
       - datasets/livy-annual-enterprise
+      - datasets/src_emr_s3_source
       outputs:
       - datasets/dest_livytest
     subgraphs:
@@ -196,8 +197,39 @@ pipelines:
       outputs:
       - datasets/dest_livytest
     subgraphs:
-    - subgraphs/subgraphWithConfigs
     - subgraphs/sg100gems
+    - subgraphs/subgraphWithConfigs
+    - subgraphs/sgScriptWith5ScriptEachHaving1000LOC
+    dependencies: {}
+  pipelines/TestOnlySGMain:
+    name: TestOnlySGMain
+    description: TestOnlySGMain
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-27 03:34:08'
+    datasets:
+      inputs:
+      - datasets/src_emr_s3_source
+      outputs: []
+    subgraphs:
+    - subgraphs/sgwith2SG2gem
+    dependencies: {}
+  pipelines/testdonotdelissue:
+    name: testdonotdelissue
+    description: TestOnlySGMain
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-27 03:43:23'
+    datasets:
+      inputs:
+      - datasets/src_emr_s3_source
+      outputs: []
+    subgraphs:
+    - subgraphs/sgwith2SG2gem
     dependencies: {}
 datasets:
   datasets/scala-customers:
@@ -386,6 +418,14 @@ subgraphs:
     artefactID: ''
     mode: batch
     createdAt: '2024-03-26 12:28:46'
+  subgraphs/sgwith2SG2gem:
+    name: sgwith2SG2gem
+    description: sgwith2SG2gem
+    author: ashvjit@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2024-03-27 03:41:05'
 sqlModels: {}
 sqlMacros: {}
 sqlSeeds: {}

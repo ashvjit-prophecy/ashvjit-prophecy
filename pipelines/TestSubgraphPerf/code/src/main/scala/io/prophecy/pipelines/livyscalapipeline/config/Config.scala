@@ -24,6 +24,9 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_15_1_2.config.{
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_1_2.config.{
   Config => Subgraph_2_1_1_2_Config
 }
+import io.prophecy.pipelines.livyscalapipeline.graph.sgScriptWith5ScriptEachHaving1000LOC.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_Config
+}
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_5.config.{
   Config => Subgraph_5_Config
 }
@@ -65,6 +68,18 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_14.config.{
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_15.config.{
   Config => Subgraph_15_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_2_1_1_1.config.{
+  Config => Subgraph_2_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_12_1_2_1_1_1.config.{
+  Config => Subgraph_12_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_13_1_2_1_1_1.config.{
+  Config => Subgraph_13_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_14_1_2_1_1_1.config.{
+  Config => Subgraph_14_1_2_1_1_1_Config
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_12_1_1_2.config.{
   Config => Subgraph_12_1_1_2_Config
@@ -116,6 +131,24 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_7.config.{
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_8.config.{
   Config => Subgraph_8_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_15_1_2_1_1_1.config.{
+  Config => Subgraph_15_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_2_1_1_2_1_1_1.config.{
+  Config => Subgraph_2_1_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_12_1_1_2_1_1_1.config.{
+  Config => Subgraph_12_1_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_13_1_1_2_1_1_1.config.{
+  Config => Subgraph_13_1_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_14_1_1_2_1_1_1.config.{
+  Config => Subgraph_14_1_1_2_1_1_1_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_15_1_1_2_1_1_1.config.{
+  Config => Subgraph_15_1_1_2_1_1_1_Config
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_12_1_1.config.{
   Config => Subgraph_12_1_1_Config
@@ -177,11 +210,17 @@ import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_11.config.{
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_14_1_1_2.config.{
   Config => Subgraph_14_1_1_2_Config
 }
+import io.prophecy.pipelines.livyscalapipeline.graph.sg5kLocScript5_1.config.{
+  Config => sg5kLocScript5_1_Config
+}
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_14_1_1_1.config.{
   Config => Subgraph_14_1_1_1_Config
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_15_1_1_2.config.{
   Config => Subgraph_15_1_1_2_Config
+}
+import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_16.config.{
+  Config => Subgraph_16_Config
 }
 import io.prophecy.pipelines.livyscalapipeline.graph.Subgraph_9.config.{
   Config => Subgraph_9_Config
@@ -272,7 +311,29 @@ case class Config(
     Subgraph_13_1_1_2_1_1_Config(),
   var sg10kLOC10Subgraphs_1: Sg10kLOC10Subgraphs_1 = Sg10kLOC10Subgraphs_1(),
   var sg100gems:             sg100gems_Config = sg100gems_Config(),
-  var sg10kLOC10Subgraphs:   Sg10kLOC10Subgraphs = Sg10kLOC10Subgraphs()
+  var sg10kLOC10Subgraphs:   Sg10kLOC10Subgraphs = Sg10kLOC10Subgraphs(),
+  var Subgraph_14_1_2_1_1_1: Subgraph_14_1_2_1_1_1_Config =
+    Subgraph_14_1_2_1_1_1_Config(),
+  var Subgraph_15_1_1_2_1_1_1: Subgraph_15_1_1_2_1_1_1_Config =
+    Subgraph_15_1_1_2_1_1_1_Config(),
+  var Subgraph_15_1_2_1_1_1: Subgraph_15_1_2_1_1_1_Config =
+    Subgraph_15_1_2_1_1_1_Config(),
+  var Subgraph_12_1_2_1_1_1: Subgraph_12_1_2_1_1_1_Config =
+    Subgraph_12_1_2_1_1_1_Config(),
+  var Subgraph_12_1_1_2_1_1_1: Subgraph_12_1_1_2_1_1_1_Config =
+    Subgraph_12_1_1_2_1_1_1_Config(),
+  var Subgraph_2_1_1_2_1_1_1: Subgraph_2_1_1_2_1_1_1_Config =
+    Subgraph_2_1_1_2_1_1_1_Config(),
+  var Subgraph_13_1_1_2_1_1_1: Subgraph_13_1_1_2_1_1_1_Config =
+    Subgraph_13_1_1_2_1_1_1_Config(),
+  var Subgraph_2_1_2_1_1_1: Subgraph_2_1_2_1_1_1_Config =
+    Subgraph_2_1_2_1_1_1_Config(),
+  var Subgraph_14_1_1_2_1_1_1: Subgraph_14_1_1_2_1_1_1_Config =
+    Subgraph_14_1_1_2_1_1_1_Config(),
+  var Subgraph_13_1_2_1_1_1: Subgraph_13_1_2_1_1_1_Config =
+    Subgraph_13_1_2_1_1_1_Config(),
+  var sg5kLocScript5: Sg5kLocScript5 = Sg5kLocScript5(),
+  var Subgraph_16:    Subgraph_16_Config = Subgraph_16_Config()
 ) extends ConfigBase
 
 object C_array {
