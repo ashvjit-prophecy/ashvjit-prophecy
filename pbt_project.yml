@@ -234,6 +234,21 @@ pipelines:
     subgraphs:
     - subgraphs/sgwith2SG2gem
     dependencies: {}
+  pipelines/TestPerfLargeTotalNodes:
+    name: TestPerfLargeTotalNodes
+    description: TestPerfLargeTotalNodes
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-27 04:42:02'
+    datasets:
+      inputs:
+      - datasets/src_emr_s3_source
+      outputs: []
+    subgraphs:
+    - subgraphs/sg100gems
+    dependencies: {}
 datasets:
   datasets/scala-customers:
     name: scala-customers

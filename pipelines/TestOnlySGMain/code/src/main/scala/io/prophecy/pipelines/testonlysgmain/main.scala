@@ -54,30 +54,6 @@ object Main {
         .Context(context.spark, context.config.sg10InsideSG_1),
       df_sg10InsideSG
     )
-    val df_sgScriptWith5ScriptEachHaving1000LOC_1 =
-      sgScriptWith5ScriptEachHaving1000LOC_1.apply(
-        sgScriptWith5ScriptEachHaving1000LOC_1.config.Context(
-          context.spark,
-          context.config.sgScriptWith5ScriptEachHaving1000LOC_1
-        ),
-        df_sg10InsideSG_1
-      )
-    val df_sgScriptWith5ScriptEachHaving1000LOC_2 =
-      sgScriptWith5ScriptEachHaving1000LOC_2.apply(
-        sgScriptWith5ScriptEachHaving1000LOC_2.config.Context(
-          context.spark,
-          context.config.sgScriptWith5ScriptEachHaving1000LOC_2
-        ),
-        df_sgScriptWith5ScriptEachHaving1000LOC_1
-      )
-    val df_sgScriptWith5ScriptEachHaving1000LOC_1_1 =
-      sgScriptWith5ScriptEachHaving1000LOC_1_1.apply(
-        sgScriptWith5ScriptEachHaving1000LOC_1_1.config.Context(
-          context.spark,
-          context.config.sgScriptWith5ScriptEachHaving1000LOC_1_1
-        ),
-        df_sgScriptWith5ScriptEachHaving1000LOC_2
-      )
     val df_sgScriptWith5ScriptEachHaving1000LOC =
       sgScriptWith5ScriptEachHaving1000LOC.apply(
         sgScriptWith5ScriptEachHaving1000LOC.config.Context(
@@ -109,30 +85,6 @@ object Main {
       Subgraph_3.config.Context(context.spark, context.config.Subgraph_3),
       df_Subgraph_2
     )
-    val df_sgScriptWith5ScriptEachHaving1000LOC_2_1 =
-      sgScriptWith5ScriptEachHaving1000LOC_2_1.apply(
-        sgScriptWith5ScriptEachHaving1000LOC_2_1.config.Context(
-          context.spark,
-          context.config.sgScriptWith5ScriptEachHaving1000LOC_2_1
-        ),
-        df_sgScriptWith5ScriptEachHaving1000LOC_1_1
-      )
-    val df_sgScriptWith5ScriptEachHaving1000LOC_2_1_1 =
-      sgScriptWith5ScriptEachHaving1000LOC_2_1_1.apply(
-        sgScriptWith5ScriptEachHaving1000LOC_2_1_1.config.Context(
-          context.spark,
-          context.config.sgScriptWith5ScriptEachHaving1000LOC_2_1_1
-        ),
-        df_sgScriptWith5ScriptEachHaving1000LOC_2_1
-      )
-    val df_sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1 =
-      sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1.apply(
-        sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1.config.Context(
-          context.spark,
-          context.config.sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1
-        ),
-        df_sgScriptWith5ScriptEachHaving1000LOC_2_1_1
-      )
     val df_sgwith2SG2gem_8 = sgwith2SG2gem_8.apply(
       sgwith2SG2gem_8.config
         .Context(context.spark, context.config.sgwith2SG2gem_8),
@@ -238,10 +190,20 @@ object Main {
         .Context(context.spark, context.config.sgwith2SG2gem_18),
       df_sgwith2SG2gem_17
     )
+    val df_sg10InsideSG_6 = sg10InsideSG_6.apply(
+      sg10InsideSG_6.config
+        .Context(context.spark, context.config.sg10InsideSG_6),
+      df_sg10InsideSG_5
+    )
     val df_sgwith2SG2gem_6 = sgwith2SG2gem_6.apply(
       sgwith2SG2gem_6.config
         .Context(context.spark, context.config.sgwith2SG2gem_6),
       df_sgwith2SG2gem_5
+    )
+    val df_sg10InsideSG_7 = sg10InsideSG_7.apply(
+      sg10InsideSG_7.config
+        .Context(context.spark, context.config.sg10InsideSG_7),
+      df_sg10InsideSG_6
     )
   }
 
