@@ -201,6 +201,33 @@
         "expressions" : [ ]
       }
     },
+    "gveQvpX9qmyFWeWOj0WpB$$5wa4ZLBqlziOgeGBK3dQ-" : {
+      "id" : "gveQvpX9qmyFWeWOj0WpB$$5wa4ZLBqlziOgeGBK3dQ-",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "qa_table",
+        "slug" : "qa_table",
+        "x" : -2020,
+        "y" : -460,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "_aI2yEb7bSkb8uZo4PJiL$$eBdWWxhgnyIwoOfxXIKAm",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : {
+        "datasetId" : "datasets/qa_prophecy_interims"
+      }
+    },
     "gPr68ux62ACzk3TdJ2QqR$$JqTzsg9OH78E3F1r9tKTV" : {
       "id" : "gPr68ux62ACzk3TdJ2QqR$$JqTzsg9OH78E3F1r9tKTV",
       "component" : "Reformat",

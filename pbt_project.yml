@@ -114,6 +114,7 @@ pipelines:
     createdAt: '2024-03-26 12:19:06'
     datasets:
       inputs:
+      - datasets/qa_prophecy_interims
       - datasets/src_emr_s3_source
       outputs: []
     subgraphs: []
@@ -325,6 +326,19 @@ datasets:
         description: ''
         author: ashvjit@prophecy.io
         createdAt: '2024-03-26 15:59:50'
+  datasets/qa_prophecy_interims:
+    name: qa_prophecy_interims
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2024-03-27 04:28:34'
+    mode: batch
+    physicalDatasets:
+      emr_livy_perf:
+        fabricId: 47
+        datasetType: Database
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2024-03-27 04:28:34'
 templates: {}
 jobs: {}
 gemContainer:

@@ -13,7 +13,1348 @@
     "configuration" : {
       "common" : {
         "type" : "record",
-        "fields" : [ ]
+        "fields" : [ {
+          "name" : "Subgraph_1",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_2",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_3",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_4",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_5",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_1",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_2",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_3",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_4",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_5",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_6",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_7",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_8",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_6",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_7",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_8",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_9",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_10",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_11",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_9",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_10",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_11",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_12",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_13",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_14",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_15",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_16",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_17",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgwith2SG2gem_18",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_2",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_2_1",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "Subgraph_12",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_13",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_14",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_15",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_16",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_17",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_18",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_19",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_20",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_21",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_22",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sg10InsideSG",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_13",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_14",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_15",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_16",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_17",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_18",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_19",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_20",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_21",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_22",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sg10InsideSG_1",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_13",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_14",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_15",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_16",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_17",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_18",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_19",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_20",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_21",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_22",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgScriptWith5ScriptEachHaving1000LOC",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sg10InsideSG_2",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_13",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_14",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_15",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_16",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_17",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_18",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_19",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_20",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_21",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_22",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sg10InsideSG_3",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_13",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_14",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_15",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_16",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_17",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_18",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_19",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_20",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_21",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_22",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sg10InsideSG_4",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_13",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_14",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_15",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_16",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_17",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_18",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_19",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_20",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_21",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_22",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sg10InsideSG_5",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ {
+              "name" : "Subgraph_13",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_14",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_15",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_16",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_17",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_18",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_19",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_20",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_21",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            }, {
+              "name" : "Subgraph_22",
+              "kind" : {
+                "type" : "record",
+                "fields" : [ ]
+              },
+              "optional" : false,
+              "isWorkflowNodeConfiguration" : true,
+              "isReferenced" : false
+            } ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        }, {
+          "name" : "sgScriptWith5ScriptEachHaving1000LOC_1",
+          "kind" : {
+            "type" : "record",
+            "fields" : [ ]
+          },
+          "optional" : false,
+          "isWorkflowNodeConfiguration" : true,
+          "isReferenced" : false
+        } ]
       }
     }
   },
@@ -36,37 +1377,37 @@
     "packageName" : "orgtest.sgScriptWith5ScriptEachHaving1000LOC"
   },
   "connections" : [ {
-    "id" : "ufJW6LLCd3gSIdtVDyPcG",
+    "id" : "nV3Dx9H4cWGMjUb1WOeDL",
     "source" : "TvIomW-vaDllPmpO-pweF",
     "sourcePort" : "ZiPURFDp_dv_nBho9bQRD",
     "target" : "DulCJqofhzSnDlKukNFk5",
     "targetPort" : "ViZ3cRIYvT3SOM3vxpzYU"
   }, {
-    "id" : "5FEdS2jafvjL4CZuo1i-w",
+    "id" : "3r9ihK1OKUG28nE6nEn-k",
     "source" : "DulCJqofhzSnDlKukNFk5",
     "sourcePort" : "j39GCEb9btf7b3pQfvhni",
     "target" : "e7LcJ90qy_YlM5JuOCcUL",
     "targetPort" : "THD4L88nd4_sQqtgI8kaF"
   }, {
-    "id" : "w1raCSidiv2DKONNcNciE",
+    "id" : "oytxorMPPk0ASVoNxtJly",
     "source" : "e7LcJ90qy_YlM5JuOCcUL",
     "sourcePort" : "N9PQ0a-DZ4J734HRGWkwp",
     "target" : "zlJBNoov4eW6Bi6uv64Aq",
     "targetPort" : "kENbmb2ccZe4D7NJ3829U"
   }, {
-    "id" : "oeVDxLsFgP0wSBzA4bsSC",
+    "id" : "zAYH7zOuxhfvQHWKGB44q",
     "source" : "zlJBNoov4eW6Bi6uv64Aq",
     "sourcePort" : "KnSVBpuLO26dI5YnoF3Cr",
     "target" : "sjgitdn5ts1xpRG7HV9uG",
     "targetPort" : "DbHqZho2UwaJb4Ddv8u7B"
   }, {
-    "id" : "wuLT8hwM52Wr6LZJUb02U",
+    "id" : "YEi-2gdXNRiR9BjSZP8oJ",
     "source" : "BvAcs0lr470L8x3oMOdDL",
     "sourcePort" : "Wg3dO12uAdQOczNtwq-LI",
     "target" : "TvIomW-vaDllPmpO-pweF",
     "targetPort" : "tOiAZslcdKHfY0kywLak4"
   }, {
-    "id" : "hIZGBtld5GA-dt6S8x4cb",
+    "id" : "h9Edpxx9ZqaNGxm3slPm9",
     "source" : "sjgitdn5ts1xpRG7HV9uG",
     "sourcePort" : "c3eBcBow_PuIOKDs66rW7",
     "target" : "BvAcs0lr470L8x3oMOdDL",
@@ -79,8 +1420,8 @@
       "metadata" : {
         "label" : "scala_code_snippets_1_1",
         "slug" : "scala_code_snippets_1_1",
-        "x" : 120,
-        "y" : -20,
+        "x" : 422.16105098017965,
+        "y" : 218.52457266292242,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -179,8 +1520,8 @@
       "metadata" : {
         "label" : "scala_code_snippets_1_1_1_1",
         "slug" : "scala_code_snippets_1_1_1_1",
-        "x" : 440,
-        "y" : -40,
+        "x" : 742.1610509801797,
+        "y" : 198.52457266292242,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -279,8 +1620,8 @@
       "metadata" : {
         "label" : "scala_code_snippets_1",
         "slug" : "scala_code_snippets_1",
-        "x" : -40,
-        "y" : -40,
+        "x" : 262.16105098017965,
+        "y" : 198.52457266292242,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -379,8 +1720,8 @@
       "metadata" : {
         "label" : "scala_code_snippets_1_1_1",
         "slug" : "scala_code_snippets_1_1_1",
-        "x" : 260,
-        "y" : -40,
+        "x" : 562.1610509801797,
+        "y" : 198.52457266292242,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -479,8 +1820,8 @@
       "metadata" : {
         "label" : "scala_code_snippets",
         "slug" : "scala_code_snippets",
-        "x" : -180,
-        "y" : -40,
+        "x" : 122.16105098017965,
+        "y" : 198.52457266292242,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,

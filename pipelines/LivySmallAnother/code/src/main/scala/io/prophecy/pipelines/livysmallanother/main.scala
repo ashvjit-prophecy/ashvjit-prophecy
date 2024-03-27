@@ -22,6 +22,7 @@ object Main {
       Reformat_4_1(context, df_remove)
     } else
       null
+    val df_qa_table = qa_table(context)
     val df_skip =
       if (context.config.c_string == "asdasdasdasdads")
         skip(context, df_Reformat_1)

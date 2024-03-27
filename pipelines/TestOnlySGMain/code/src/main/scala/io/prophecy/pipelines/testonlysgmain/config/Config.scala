@@ -27,6 +27,15 @@ import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG.config.{
 import io.prophecy.pipelines.testonlysgmain.graph.sg10InsideSG_1.config.{
   Config => sg10InsideSG_1_Config
 }
+import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC_1.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_1_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC_2.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_2_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC_1_1.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_1_1_Config
+}
 import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC.config.{
   Config => sgScriptWith5ScriptEachHaving1000LOC_Config
 }
@@ -44,6 +53,15 @@ import io.prophecy.pipelines.testonlysgmain.graph.Subgraph_2.config.{
 }
 import io.prophecy.pipelines.testonlysgmain.graph.Subgraph_3.config.{
   Config => Subgraph_3_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC_2_1.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_2_1_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC_2_1_1.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_2_1_1_Config
+}
+import io.prophecy.pipelines.testonlysgmain.graph.sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1.config.{
+  Config => sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1_Config
 }
 import io.prophecy.pipelines.testonlysgmain.graph.sgwith2SG2gem_8.config.{
   Config => sgwith2SG2gem_8_Config
@@ -157,5 +175,9 @@ case class Config(
   var sg10InsideSG_2: sg10InsideSG_2_Config = sg10InsideSG_2_Config(),
   var sg10InsideSG_3: sg10InsideSG_3_Config = sg10InsideSG_3_Config(),
   var sg10InsideSG_4: sg10InsideSG_4_Config = sg10InsideSG_4_Config(),
-  var sg10InsideSG_5: sg10InsideSG_5_Config = sg10InsideSG_5_Config()
+  var sg10InsideSG_5: sg10InsideSG_5_Config = sg10InsideSG_5_Config(),
+  var sgScriptWith5ScriptEachHaving1000LOC_1: sgScriptWith5ScriptEachHaving1000LOC_1_Config =
+    sgScriptWith5ScriptEachHaving1000LOC_1_Config(),
+  var sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1: sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1_Config =
+    sgScriptWith5ScriptEachHaving1000LOC_2_1_1_1_Config()
 ) extends ConfigBase
