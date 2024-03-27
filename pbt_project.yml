@@ -263,6 +263,20 @@ pipelines:
     subgraphs:
     - subgraphs/sg10InsideSG
     dependencies: {}
+  pipelines/TestBasicPipelineJob:
+    name: TestBasicPipelineJob
+    description: TestBasicPipelineJob
+    author: ashvjit@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-03-27 06:34:01'
+    datasets:
+      inputs:
+      - datasets/emr_hdfs_target
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets:
   datasets/scala-customers:
     name: scala-customers
@@ -368,8 +382,45 @@ datasets:
         description: ''
         author: ashvjit@prophecy.io
         createdAt: '2024-03-27 04:28:34'
+  datasets/emr_hdfs_target:
+    name: emr_hdfs_target
+    description: ''
+    author: ashvjit@prophecy.io
+    createdAt: '2024-03-27 06:54:31'
+    mode: batch
+    physicalDatasets:
+      emr_livy_perf:
+        fabricId: 47
+        datasetType: File
+        description: ''
+        author: ashvjit@prophecy.io
+        createdAt: '2024-03-27 06:54:31'
 templates: {}
-jobs: {}
+jobs:
+  jobs/TestJob:
+    name: TestJob
+    description: ''
+    fabricUID: 33
+    scheduler:
+      MWAA: {}
+    cloudProvider: null
+    jobSize: null
+    scheduleCron: 0 0 1 1 *
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines:
+    - pipelines/TestBasicPipelineJob
+    jobClusterMode:
+      clusterMode:
+        Multi: {}
+      clusterId: null
+    enabled: false
+    createdAt: '2024-03-27 05:44:41'
+    author: ashvjit@prophecy.io
 gemContainer:
   languageVersion: 2.12.15
   gemLibsVersion: 1.0.4

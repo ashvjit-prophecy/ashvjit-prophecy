@@ -1,0 +1,112 @@
+{
+  "metainfo" : {
+    "type" : "OpenSource",
+    "fabricId" : "33",
+    "jobId" : "jobs/TestJob",
+    "name" : "TestJob",
+    "dagName" : "ashk3s_ashvjit_HelloWorld_Scala_TestJob",
+    "schedule" : "0 0 1 1 *",
+    "enabled" : false,
+    "alerting" : {
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "ignore_first_depends_on_past" : true,
+      "do_xcom_push" : true
+    },
+    "availableFabrics" : [ {
+      "id" : "17",
+      "name" : "mwaa"
+    }, {
+      "id" : "33",
+      "name" : "airflow-open-source",
+      "artifactsLocation" : "/mnt/airflow/artifacts"
+    }, {
+      "id" : "36",
+      "name" : "cloud-composer"
+    }, {
+      "id" : "44",
+      "name" : "mwaa-cross-account"
+    }, {
+      "id" : "46",
+      "name" : "airflow-prophecy-managed",
+      "trialStartDate" : 1710440423912
+    } ],
+    "catchup" : true,
+    "tags" : [ ],
+    "scheduleTimeZone" : "UTC",
+    "dagParams" : {
+      "instances" : {
+        "default" : { }
+      },
+      "params" : { },
+      "selected" : "default"
+    },
+    "airflowFunctions" : [ ],
+    "dynamicPipelineStatus" : {
+      "databricks" : false,
+      "dataproc" : false,
+      "emr" : false
+    }
+  },
+  "processes" : {
+    "LsdxBGjGP_AxPKLCDjj1x$$HjiSk9VMUQDEBLOWRwfcp" : {
+      "id" : "LsdxBGjGP_AxPKLCDjj1x$$HjiSk9VMUQDEBLOWRwfcp",
+      "component" : "OnPremPipeline",
+      "metadata" : {
+        "label" : "OnPremPipeline_0",
+        "slug" : "OnPremPipeline_0",
+        "x" : -420,
+        "y" : -240
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "wvZ4-8Uw6rtfDp6EGyqjW$$NrHkOdENGNkjYpkRykGpZ",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "yfkyOYPD-ptJOpupyzZqc$$FhPLZn_j3xyPJ1h-TX2vg",
+          "slug" : ""
+        } ]
+      },
+      "settings" : { },
+      "properties" : {
+        "jobName" : "ProphecyTestrun",
+        "keytab" : null,
+        "application" : null,
+        "jars" : null,
+        "executorMemory" : null,
+        "deployMode" : "cluster",
+        "proxyUser" : null,
+        "actionOnFailure" : "CONTINUE",
+        "files" : null,
+        "conf" : null,
+        "pyFiles" : null,
+        "clusterSize" : "47/medium",
+        "executorCores" : null,
+        "principal" : null,
+        "driverMemory" : null,
+        "configurations" : {
+          "schema" : [ ],
+          "instances" : {
+            "HelloWorld_Scala" : [ "default" ]
+          },
+          "overrides" : { },
+          "selectedInstance" : "default"
+        },
+        "numExecutors" : null,
+        "taskId" : null,
+        "packages" : null,
+        "javaClass" : null,
+        "pipelineId" : "pipelines/TestBasicPipelineJob"
+      },
+      "connections" : [ ],
+      "processes" : { }
+    }
+  },
+  "connections" : [ ]
+}
